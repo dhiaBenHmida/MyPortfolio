@@ -1,4 +1,4 @@
-# Mohamed Dhia BEN HMIDA - Portfolio
+# MDBH Portfolio
 
 A modern, bilingual (English/French) portfolio application built with React, TypeScript, React Three Fiber, and Material-UI.
 
