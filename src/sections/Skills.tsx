@@ -54,15 +54,15 @@ export default function Skills() {
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-8 sm:mb-12 md:mb-16"
         >
-          <Typography variant="h2" className="text-4xl md:text-5xl font-bold text-secondary mb-4">
+          <Typography variant="h2" className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary mb-4">
             {t('skills.title')}
           </Typography>
-          <div className="w-24 h-1 bg-primary mx-auto" />
+          <div className="w-20 sm:w-24 h-1 bg-primary mx-auto" />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {categoryKeys.map((categoryKey, index) => {
             const category = categories[categoryKey];
             return (
@@ -92,7 +92,7 @@ export default function Skills() {
                       clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)',
                       background: 'rgba(255, 255, 255, 0.95)',
                       backdropFilter: 'blur(10px)',
-                      padding: '2rem',
+                      padding: '1.5rem',
                       minHeight: '100%',
                     }}
                   >
@@ -105,7 +105,8 @@ export default function Skills() {
                       mb: 2,
                       pb: 1,
                       borderBottom: '3px solid #fbbf24',
-                      textAlign: 'center'
+                      textAlign: 'center',
+                      fontSize: { xs: '1rem', sm: '1.1rem', md: '1.25rem' }
                       }}
                     >
                       {category.title}

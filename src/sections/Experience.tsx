@@ -23,7 +23,7 @@ export default function Experience() {
   const jobs = t('experience.jobs', { returnObjects: true }) as Job[];
 
   return (
-    <section id="experience" className="section-padding bg-gradient-to-b from-white via-gray-50 to-white relative overflow-hidden">
+    <section id="experience" className="section-padding bg-gradient-to-b from-white via-gray-50 to-white relative overflow-hidden min-h-screen">
       {/* 3D Background */}
       <div className="absolute inset-0 z-0 opacity-15">
         <Canvas camera={{ position: [0, 0, 12] }}>
@@ -38,23 +38,23 @@ export default function Experience() {
 
       {/* Diagonal accent */}
       <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-br from-amber-500/5 to-transparent transform -skew-x-12 z-0" />
-      <div className="container-custom" ref={ref}>
+      <div className="container-custom overflow-visible" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-8 sm:mb-12 md:mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary mb-4">
             {t('experience.title')}
           </h2>
-          <div className="w-24 h-1 bg-primary mx-auto" />
+          <div className="w-20 sm:w-24 h-1 bg-primary mx-auto" />
         </motion.div>
 
-        <div className="relative">
+        <div className="relative overflow-visible">
           {/* Timeline line with gradient */}
           <div 
-            className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 transform md:-translate-x-1/2"
+            className="absolute left-6 sm:left-8 md:left-1/2 top-0 bottom-0 w-0.5 transform md:-translate-x-1/2 hidden sm:block"
             style={{
               background: 'linear-gradient(180deg, rgba(251, 191, 36, 0.3), rgba(245, 158, 11, 0.5), rgba(251, 191, 36, 0.3))'
             }}
@@ -66,13 +66,13 @@ export default function Experience() {
               initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: index * 0.2 }}
-              className={`relative mb-12 md:mb-16 flex flex-col md:flex-row items-start ${
+              className={`relative mb-8 sm:mb-12 md:mb-16 flex flex-col md:flex-row items-start ${
                 index % 2 === 0 ? 'md:flex-row-reverse' : ''
               }`}
             >
               {/* Timeline dot with glow */}
               <motion.div 
-                className="absolute left-8 md:left-1/2 w-4 h-4 rounded-full transform md:-translate-x-1/2 mt-2 z-10 ring-4 ring-white"
+                className="absolute left-6 sm:left-8 md:left-1/2 w-3 h-3 sm:w-4 sm:h-4 rounded-full transform md:-translate-x-1/2 mt-2 z-10 ring-2 sm:ring-4 ring-white hidden sm:block"
                 style={{ 
                   background: 'linear-gradient(135deg, #fbbf24, #f59e0b)',
                   boxShadow: '0 0 20px rgba(251, 191, 36, 0.6)'
@@ -93,7 +93,7 @@ export default function Experience() {
               />
 
               {/* Content card */}
-              <div className={`w-full md:w-5/12 ml-16 md:ml-0 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
+              <div className={`w-full md:w-5/12 sm:ml-16 md:ml-0 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
                 <motion.div
                   whileHover={{ 
                     scale: 1.03, 
@@ -101,7 +101,7 @@ export default function Experience() {
                     y: -10,
                     boxShadow: '0 20px 40px rgba(251, 191, 36, 0.3)' 
                   }}
-                  className="p-6 rounded-2xl"
+                  className="p-4 sm:p-6 rounded-2xl"
                   style={{
                     background: 'rgba(255, 255, 255, 0.7)',
                     backdropFilter: 'blur(20px)',
@@ -117,17 +117,17 @@ export default function Experience() {
                     </span>
                   )}
 
-                  <h3 className="text-xl md:text-2xl font-bold mb-2" style={{ color: '#f59e0b' }}>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2" style={{ color: '#f59e0b' }}>
                     {job.position}
                   </h3>
-                  <p className="font-semibold mb-1" style={{ color: '#fbbf24' }}>{job.company}</p>
-                  <p className="text-gray-600 text-sm mb-4">
+                  <p className="text-sm sm:text-base font-semibold mb-1" style={{ color: '#fbbf24' }}>{job.company}</p>
+                  <p className="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4">
                     {job.period} • {job.location}
                   </p>
 
-                  <ul className="space-y-2">
+                  <ul className="space-y-1.5 sm:space-y-2">
                     {job.highlights.map((highlight, idx) => (
-                      <li key={idx} className="flex items-start text-gray-700 text-sm">
+                      <li key={idx} className="flex items-start text-gray-700 text-xs sm:text-sm">
                         <span className="mr-2 mt-1 flex-shrink-0" style={{ color: '#fbbf24' }}>▪</span>
                         <span>{highlight}</span>
                       </li>

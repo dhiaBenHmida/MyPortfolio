@@ -25,7 +25,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="relative h-screen overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-800">
+    <section id="hero" className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-800 py-20 sm:py-0">
       {/* 3D Background with Floating Shapes - Different color scheme */}
       <div className="absolute inset-0 z-0">
         <Canvas>
@@ -53,20 +53,20 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-orange-500/5 z-0" />
 
       {/* Asymmetric Content Layout */}
-      <div className="relative z-10 h-full flex items-center">
-        <div className="container-custom px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative z-10 min-h-screen flex items-center py-8 sm:py-12">
+        <div className="container-custom w-full my-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             {/* Left Side - Profile Image with Glassmorphic Card */}
             <motion.div
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, type: "spring" }}
-              className="relative"
+              className="relative order-2 lg:order-1"
             >
               <motion.div
                 whileHover={{ scale: 1.02, y: -5 }}
                 transition={{ duration: 0.3 }}
-                className="relative p-8 rounded-3xl"
+                className="relative p-4 sm:p-6 md:p-8 rounded-3xl"
                 style={{
                   background: 'rgba(255, 255, 255, 0.05)',
                   backdropFilter: 'blur(20px)',
@@ -77,7 +77,7 @@ export default function Hero() {
                 <img
                   src="/profile_picture.jpg"
                   alt="Mohamed Dhia BEN HMIDA"
-                  className="relative w-full max-w-md mx-auto rounded-2xl object-cover"
+                  className="relative w-full max-w-sm mx-auto rounded-2xl object-cover"
                 />
               </motion.div>
             </motion.div>
@@ -87,7 +87,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, type: "spring" }}
-              className="text-left p-8 rounded-3xl"
+              className="text-left p-4 sm:p-6 md:p-8 rounded-3xl order-1 lg:order-2"
               style={{
                 background: 'rgba(255, 255, 255, 0.08)',
                 backdropFilter: 'blur(20px)',
@@ -99,7 +99,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.8 }}
-                className="text-xl md:text-2xl font-semibold mb-4 text-amber-300"
+                className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4 text-amber-300"
               >
                 {t('hero.greeting')}
               </motion.p>
@@ -108,7 +108,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
-                className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight"
               >
                 {t('hero.name').split(' ').map((word, index) => (
                   <motion.span
@@ -116,7 +116,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 + index * 0.1 }}
-                    className="inline-block mr-4"
+                    className="inline-block mr-2 sm:mr-4"
                   >
                     {word}
                   </motion.span>
@@ -127,7 +127,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.8 }}
-                className="text-2xl md:text-3xl font-semibold mb-6 h-12 flex items-center"
+                className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-4 sm:mb-6 min-h-[3rem] sm:min-h-[3.5rem] flex items-center"
               >
                 <motion.span
                   key={specialtyIndex}
@@ -135,7 +135,7 @@ export default function Hero() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.5 }}
-                  className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-300 to-yellow-300"
+                  className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-300 to-yellow-300 leading-tight"
                   style={{
                     textShadow: '0 0 20px rgba(251, 191, 36, 0.3)',
                   }}
@@ -148,7 +148,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.9, duration: 0.8 }}
-                className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl leading-relaxed"
+                className="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl leading-relaxed"
               >
                 {t('hero.summary')}
               </motion.p>
@@ -160,7 +160,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(251, 191, 36, 0.4)" }}
                 whileTap={{ scale: 0.95 }}
                 onClick={scrollToNextSection}
-                className="inline-flex items-center space-x-2 px-8 py-4 rounded-full font-semibold shadow-lg relative overflow-hidden group"
+                className="inline-flex items-center space-x-2 px-6 py-3 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base font-semibold shadow-lg relative overflow-hidden group"
                 style={{
                   background: 'rgba(251, 191, 36, 0.2)',
                   backdropFilter: 'blur(10px)',

@@ -49,11 +49,11 @@ export default function Header() {
         borderBottom: isScrolled ? '1px solid rgba(255, 255, 255, 0.1)' : 'none',
       }}
     >
-      <div className="container-custom flex items-center justify-between px-6">
+      <div className="container-custom flex items-center justify-between px-4 sm:px-6">
         {/* Logo */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="text-2xl font-bold text-amber-300 cursor-pointer"
+          className="text-xl sm:text-2xl font-bold text-amber-300 cursor-pointer"
           onClick={() => scrollToSection('hero')}
         >
           MDBH

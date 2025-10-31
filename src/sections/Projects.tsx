@@ -59,15 +59,15 @@ export default function Projects() {
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-8 sm:mb-12 md:mb-16"
         >
-          <Typography variant="h2" className="text-4xl md:text-5xl font-bold text-secondary mb-4">
+          <Typography variant="h2" className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary mb-4">
             {t('projects.title')}
           </Typography>
-          <div className="w-24 h-1 bg-primary mx-auto" />
+          <div className="w-20 sm:w-24 h-1 bg-primary mx-auto" />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
@@ -99,11 +99,11 @@ export default function Projects() {
                 }}
               >
                 <CardContent sx={{ flexGrow: 1 }}>
-                  <Typography variant="h5" component="h3" sx={{ color: '#f59e0b', fontWeight: 'bold', mb: 2 }}>
+                  <Typography variant="h5" component="h3" sx={{ color: '#f59e0b', fontWeight: 'bold', mb: 2, fontSize: { xs: '1.1rem', sm: '1.25rem', md: '1.5rem' } }}>
                     {project.name}
                   </Typography>
 
-                  <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
+                  <Typography variant="body1" color="text.secondary" sx={{ mb: 2, fontSize: { xs: '0.875rem', sm: '0.9375rem', md: '1rem' } }}>
                     {project.description}
                   </Typography>
 

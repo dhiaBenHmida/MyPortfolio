@@ -160,18 +160,18 @@ export default function Contact() {
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-8 sm:mb-12 md:mb-16"
         >
-            <Typography variant="h2" className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#fbbf24' }}>
+            <Typography variant="h2" className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4" style={{ color: '#fbbf24' }}>
               {t('contact.title')}
             </Typography>
-            <Typography variant="h6" className="text-amber-200 max-w-2xl mx-auto">
+            <Typography variant="h6" className="text-amber-200 max-w-2xl mx-auto text-base sm:text-lg md:text-xl px-4">
               {t('contact.subtitle')}
             </Typography>
-            <div className="w-24 h-1 mx-auto mt-4" style={{ background: 'linear-gradient(90deg, #fbbf24, #f59e0b)' }} />
+            <div className="w-20 sm:w-24 h-1 mx-auto mt-4" style={{ background: 'linear-gradient(90deg, #fbbf24, #f59e0b)' }} />
         </motion.div>
 
-        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 4 }}>
+        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', lg: '1fr 1fr' }, gap: { xs: 3, sm: 4 } }}>
           {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -181,7 +181,7 @@ export default function Contact() {
               <Paper
                 elevation={5}
                 sx={{
-                  p: 4,
+                  p: { xs: 2, sm: 3, md: 4 },
                   borderRadius: 3,
                   background: 'rgba(255, 255, 255, 0.08)',
                   backdropFilter: 'blur(20px)',
@@ -306,14 +306,14 @@ export default function Contact() {
                     <Paper
                       elevation={3}
                       sx={{
-                        p: 3,
+                        p: { xs: 2, sm: 2.5, md: 3 },
                         borderRadius: 2,
                         background: 'rgba(255, 255, 255, 0.08)',
                         backdropFilter: 'blur(20px)',
                         border: '1px solid rgba(251, 191, 36, 0.2)',
                         display: 'flex',
                         alignItems: 'center',
-                        gap: 2,
+                        gap: { xs: 1.5, sm: 2 },
                         cursor: info.link ? 'pointer' : 'default',
                         transition: 'all 0.3s ease',
                         '&:hover': {
@@ -327,6 +327,8 @@ export default function Contact() {
                         sx={{
                           background: 'linear-gradient(135deg, #fbbf24, #f59e0b)',
                           color: 'white',
+                          width: { xs: 40, sm: 48 },
+                          height: { xs: 40, sm: 48 },
                           '&:hover': { 
                             background: 'linear-gradient(135deg, #f59e0b, #fb923c)',
                           },
@@ -335,10 +337,10 @@ export default function Contact() {
                         {info.icon}
                       </IconButton>
                       <Box>
-                        <Typography variant="caption" sx={{ color: '#fbbf24' }}>
+                        <Typography variant="caption" sx={{ color: '#fbbf24', fontSize: { xs: '0.7rem', sm: '0.75rem' } }}>
                           {info.label}
                         </Typography>
-                        <Typography variant="body1" fontWeight={600} sx={{ color: 'white' }}>
+                        <Typography variant="body1" fontWeight={600} sx={{ color: 'white', fontSize: { xs: '0.875rem', sm: '0.9375rem', md: '1rem' } }}>
                           {info.value}
                         </Typography>
                       </Box>
