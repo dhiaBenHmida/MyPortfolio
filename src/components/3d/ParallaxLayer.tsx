@@ -13,7 +13,7 @@ export default function ParallaxLayer({ children, speed = 1, zOffset = 0 }: Para
   const groupRef = useRef<THREE.Group>(null);
   const scroll = useScroll();
 
-  useFrame((state) => {
+  useFrame(() => {
     if (!groupRef.current) return;
 
     const scrollOffset = scroll.offset;
