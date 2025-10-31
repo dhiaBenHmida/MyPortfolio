@@ -1,0 +1,278 @@
+{
+    "nav":  {
+                "home":  "Accueil",
+                "experience":  "Expérience",
+                "projects":  "Projets",
+                "skills":  "Compétences",
+                "contact":  "Contact"
+            },
+    "hero":  {
+                 "greeting":  "Bonjour, je suis",
+                 "name":  "Mohamed Dhia BEN HMIDA",
+                 "title":  "Ingénieur en Développement Logiciel",
+                 "specialties":  [
+                                     "Spécialiste Java \u0026 Oracle PL/SQL",
+                                     "Développeur Full-Stack",
+                                     "Architecte de Systèmes Financiers",
+                                     "Passionné d\u0027IA \u0026 ML"
+                                 ],
+                 "cta":  "Défiler pour explorer",
+                 "summary":  "Ingénieur logiciel avec 7 ans d\u0027expérience dans la conception de systèmes critiques pour le secteur financier. Spécialisé en Java/Spring Boot et Oracle SQL/PL-SQL, avec maîtrise de Python/FastAPI et React."
+             },
+    "experience":  {
+                       "title":  "Expérience Professionnelle",
+                       "current":  "Actuel",
+                       "jobs":  [
+                                    {
+                                        "id":  "bfi",
+                                        "position":  "Développeur Java et Oracle PL/SQL",
+                                        "company":  "BFI Groupe",
+                                        "period":  "Juillet 2023 – Présent",
+                                        "location":  "Tunisie",
+                                        "highlights":  [
+                                                           "Participation à la conception et au développement de solutions logicielles robustes pour des institutions financières, en alignement avec les normes et spécifications de l\u0027industrie",
+                                                           "Centralisateur comptable pour la BIAT: intégration et synchronisation avec les systèmes d\u0027information de la banque via le centralisateur comptable; orchestration des flux comptables et transactionnels; contrôles d\u0027intégrité et de traçabilité; optimisation des performances",
+                                                           "Application réglementaire pour les banques de la région UEMOA: conception et intégration d\u0027une solution de reporting prudentiel conforme aux exigences BCEAO/UEMOA",
+                                                           "Collaboration avec des équipes inter-fonctionnelles pour analyser les exigences, architecturer des solutions évolutives et résoudre des problèmes techniques complexes tout au long du cycle de vie du développement",
+                                                           "Implémentation et optimisation de bases de données Oracle haute performance, en se concentrant sur l\u0027intégrité des données et la sécurité pour supporter les transactions critiques",
+                                                           "Développement de fonctionnalités sur mesure, y compris des rapports, des flux de travail automatisés et des contrôles d\u0027accès utilisateur adaptés aux besoins uniques de chaque client",
+                                                           "Rédaction de documentation technique complète, y compris des diagrammes d\u0027architecture, des références d\u0027API et des manuels d\u0027utilisation"
+                                                       ]
+                                    },
+                                    {
+                                        "id":  "segula",
+                                        "position":  "Ingénieur Développeur",
+                                        "company":  "SEGULA Technologies pour Groupe Stellantis",
+                                        "period":  "Octobre 2018 – Juin 2023",
+                                        "location":  "France",
+                                        "highlights":  [
+                                                           "Pilotage de l\u0027analyse et de la spécification détaillée des exigences clients afin d\u0027assurer la livraison de solutions à fort impact",
+                                                           "Architecture et développement de logiciels internes avancés pour la calibration objective de convertisseurs de couple à transmission automatique, en exploitant la dynamique véhicule avec Excel VBA comme socle",
+                                                           "Conception et implémentation d\u0027un outil de benchmarking complet générant automatiquement des rapports détaillés selon des critères complexes définis par le client",
+                                                           "Ingénierie d\u0027une plateforme robuste Excel/Access pour la navigation, la visualisation et la mise à jour des données, avec import/export XML externe et synchronisation fluide via requêtes SQL optimisées; migration ultérieure vers PostgreSQL tout en assurant la rétrocompatibilité"
+                                                       ]
+                                    }
+                                ]
+                   },
+    "projects":  {
+                     "title":  "Projets Personnels",
+                     "viewGithub":  "Voir sur GitHub",
+                     "items":  [
+                                   {
+                                       "id":  "dermadetectai",
+                                       "name":  "DermaDetectAI",
+                                       "description":  "Un outil de diagnostic IA sophistiqué et multi-étapes pour l\u0027analyse des affections cutanées. Utilise un Vision Transformer (ViT) pour l\u0027extraction de caractéristiques et un classificateur MLP personnalisé pour des prédictions précises. Construit avec un backend Python FastAPI et un frontend React TypeScript, avec une IA conversationnelle MedGemma en temps réel pour un diagnostic interactif.",
+                                       "features":  [
+                                                        "Pipeline IA Multi-Étapes : Vision Transformer (ViT) + Classificateur MLP pour une détection précise des affections cutanées",
+                                                        "Diagnostic par IA Conversationnelle : Analyse interactive alimentée par MedGemma avec réponses contextuelles",
+                                                        "Contrôle d\u0027Accès Basé sur les Rôles : Système RBAC complet avec rôles Admin, Médecin et Super Admin",
+                                                        "Inférence Accélérée par GPU en Temps Réel : Optimisé pour des prédictions rapides avec support CUDA",
+                                                        "Tableaux de Bord Complets : Gestion des patients, suivi des sessions et analyses",
+                                                        "Support PWA : Application web progressive installable avec capacités hors ligne",
+                                                        "Dépôt d\u0027Entraînement Séparé : Pipelines d\u0027entraînement IA/ML dédiés avec Git LFS pour la gestion des modèles"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "TypeScript",
+                                                            "Python",
+                                                            "FastAPI",
+                                                            "PostgreSQL",
+                                                            "PyTorch",
+                                                            "TensorFlow",
+                                                            "Hugging Face Transformers",
+                                                            "Material-UI",
+                                                            "Docker"
+                                                        ],
+                                       "github":  "https://github.com/MohamedDhiaBenHmida/DermaDetectAI",
+                                       "githubTraining":  "https://github.com/MohamedDhiaBenHmida/DermaDetectAI-Training"
+                                   },
+                                   {
+                                       "id":  "introcad",
+                                       "name":  "Plateforme CAO Basée sur Navigateur (Nom Confidentiel)",
+                                       "description":  "Une application CAO (Conception Assistée par Ordinateur) full-stack sophistiquée construite entièrement pour le web. Dispose d\u0027un système complet d\u0027esquisse 2D avec 7 outils professionnels, d\u0027opérations de modélisation 3D et de capacités de conception paramétrique alimentées par le moteur WASM OpenCASCADE.js. Comprend un module IA innovant pour la conception générative pilotée par langage naturel, permettant aux utilisateurs de décrire la géométrie souhaitée et de la générer automatiquement. Architecture de niveau entreprise avec modélisation basée sur les fonctionnalités, résolution de contraintes en temps réel et support de formats de fichiers standards de l\u0027industrie.",
+                                       "features":  [
+                                                        "Système d\u0027Esquisse 2D Professionnel : 7 outils CAO (Ligne, Cercle, Rectangle, Arc, Spline, Point, Sélection) avec résolution de contraintes en temps réel et accrochage avancé (grille, extrémités, milieux, intersections, centres)",
+                                                        "Opérations de Modélisation 3D : Extrusion, révolution, congé, chanfrein et opérations booléennes (union, soustraction, intersection) alimentées par le noyau WASM OpenCASCADE.js",
+                                                        "Conception Paramétrique : Modélisation basée sur les fonctionnalités avec historique d\u0027édition complet, gestion des dépendances et organisation hiérarchique des assemblages",
+                                                        "Interopérabilité des Fichiers : Import/Export des formats CAO standards STEP, IGES, STL et OBJ avec pipeline de traitement de fichiers robuste",
+                                                        "Collaboration en Temps Réel : Suivi de progression basé sur WebSocket pour les opérations CAO longues avec visualisation de la file d\u0027attente des tâches",
+                                                        "Visualisation Avancée : Plans de coupe, système de découpage, contrôles d\u0027animation et gestion de caméra pour révision de conceptions complexes",
+                                                        "Conception Générative Alimentée par IA : Module de traitement du langage naturel qui interprète les demandes des utilisateurs et génère automatiquement de la géométrie 3D à la volée, comblant le fossé entre l\u0027intention de conception et la modélisation CAO",
+                                                        "Gestion d\u0027État Entreprise : Architecture Redux Toolkit avec 19+ slices spécialisés pour une application CAO évolutive",
+                                                        "IMPORTANT : Projet propriétaire en développement actif. Dépôt de code privé en raison de considérations de propriété intellectuelle. Démonstrations en direct et discussions techniques détaillées disponibles sur demande pour les demandes sérieuses."
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "TypeScript",
+                                                            "Three.js",
+                                                            "React Three Fiber",
+                                                            "Redux Toolkit",
+                                                            "Material-UI",
+                                                            "Vite",
+                                                            "Node.js",
+                                                            "Express",
+                                                            "OpenCASCADE.js",
+                                                            "WebAssembly (WASM)",
+                                                            "PostgreSQL",
+                                                            "WebSocket",
+                                                            "Traitement du Langage Naturel (NLP)",
+                                                            "Conception Générative Alimentée par IA"
+                                                        ],
+                                       "github":  null
+                                   },
+                                   {
+                                       "id":  "ai-framework",
+                                       "name":  "Framework Centralisé de Modèles IA",
+                                       "description":  "Architecture: React (UI), API FastAPI/Spring Boot, registre de modèles avec interface d\u0027inférence unifiée (adapters), PostgreSQL, Docker",
+                                       "features":  [
+                                                        "Changement transparent de modèles",
+                                                        "Swap dans les workflows/pipelines sans modification du code consommateur",
+                                                        "Capacités de versioning et rollback",
+                                                        "A/B testing et audit des changements"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "FastAPI",
+                                                            "Spring Boot",
+                                                            "PostgreSQL",
+                                                            "Docker"
+                                                        ],
+                                       "github":  "https://github.com/username/ai-framework"
+                                   }
+                               ]
+                 },
+    "skills":  {
+                   "title":  "Compétences \u0026 Expertise",
+                   "categories":  {
+                                      "programming":  {
+                                                          "title":  "Programmation",
+                                                          "items":  [
+                                                                        "Python",
+                                                                        "JavaScript",
+                                                                        "TypeScript",
+                                                                        "PL/SQL",
+                                                                        "Java",
+                                                                        "VBA"
+                                                                    ]
+                                                      },
+                                      "web":  {
+                                                  "title":  "Développement Web",
+                                                  "items":  [
+                                                                "React",
+                                                                "FastAPI",
+                                                                "Express (Node.js)",
+                                                                "Spring Boot",
+                                                                "HTML",
+                                                                "Bootstrap",
+                                                                "Material UI"
+                                                            ]
+                                              },
+                                      "state":  {
+                                                    "title":  "Gestion d\u0027État",
+                                                    "items":  [
+                                                                  "Redux Toolkit"
+                                                              ]
+                                                },
+                                      "databases":  {
+                                                        "title":  "Bases de Données",
+                                                        "items":  [
+                                                                      "PostgreSQL",
+                                                                      "MongoDB Atlas",
+                                                                      "MySQL",
+                                                                      "Oracle SQL",
+                                                                      "Mongoose",
+                                                                      "IndexedDB",
+                                                                      "LocalStorage"
+                                                                  ]
+                                                    },
+                                      "ml":  {
+                                                 "title":  "Machine Learning \u0026 IA",
+                                                 "items":  [
+                                                               "PyTorch",
+                                                               "TensorFlow",
+                                                               "scikit-learn",
+                                                               "Hugging Face Transformers",
+                                                               "Vision Transformers (ViT)",
+                                                               "LLMs"
+                                                           ]
+                                             },
+                                      "graphics":  {
+                                                       "title":  "Graphisme 3D \u0026 CAO",
+                                                       "items":  [
+                                                                     "Three.js",
+                                                                     "React Three Fiber",
+                                                                     "OpenCASCADE.js",
+                                                                     "WebAssembly (WASM)",
+                                                                     "Modélisation Paramétrique",
+                                                                     "Formats CAO (STEP, IGES, STL, OBJ)"
+                                                                 ]
+                                                   },
+                                      "methodologies":  {
+                                                            "title":  "Méthodologies",
+                                                            "items":  [
+                                                                          "Agile Scrum"
+                                                                      ]
+                                                        },
+                                      "tools":  {
+                                                    "title":  "CI/CD \u0026 Outils",
+                                                    "items":  [
+                                                                  "Git",
+                                                                  "Docker",
+                                                                  "Vite",
+                                                                  "WebSocket"
+                                                              ]
+                                                }
+                                  }
+               },
+    "contact":  {
+                    "title":  "Contactez-moi",
+                    "subtitle":  "Je suis toujours ouvert à discuter de nouveaux projets, d\u0027idées créatives ou d\u0027opportunités de faire partie de votre vision.",
+                    "form":  {
+                                 "name":  "Nom",
+                                 "email":  "Email",
+                                 "message":  "Message",
+                                 "send":  "Envoyer le message",
+                                 "sending":  "Envoi...",
+                                 "success":  "Message envoyé avec succès!",
+                                 "error":  "Échec de l\u0027envoi du message. Veuillez réessayer."
+                             },
+                    "info":  {
+                                 "email":  "m.dhia.bh@gmail.com",
+                                 "phone":  "+(216) 27 225 432",
+                                 "location":  "Tunis, Tunisie",
+                                 "linkedin":  "Profil LinkedIn"
+                             }
+                },
+    "footer":  {
+                   "rights":  "Tous droits réservés",
+                   "madeWith":  "Fait avec",
+                   "and":  "et"
+               },
+    "education":  {
+                      "title":  "Éducation",
+                      "items":  [
+                                    {
+                                        "degree":  "Diplôme national d\u0027ingénieur",
+                                        "institution":  "École Nationale Supérieure d\u0027Ingénieurs de Tunis (ENSIT)",
+                                        "period":  "Septembre 2015 – Juin 2018"
+                                    },
+                                    {
+                                        "degree":  "Classes préparatoires aux études d\u0027ingénieurs (filière MP)",
+                                        "institution":  "Institut préparatoire aux études d\u0027ingénieurs d\u0027El Manar (IPEIEM)",
+                                        "period":  "2013 – 2015"
+                                    },
+                                    {
+                                        "degree":  "Baccalauréat tunisien — spécialité Mathématiques",
+                                        "period":  "2013"
+                                    }
+                                ]
+                  },
+    "languages":  {
+                      "title":  "Langues",
+                      "items":  {
+                                    "arabic":  "Arabe (Langue maternelle)",
+                                    "french":  "Français (Courant)",
+                                    "english":  "Anglais (Courant)"
+                                }
+                  }
+}

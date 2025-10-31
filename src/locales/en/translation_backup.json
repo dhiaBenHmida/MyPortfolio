@@ -1,0 +1,223 @@
+﻿{
+    "nav":  {
+                "home":  "Home",
+                "experience":  "Experience",
+                "projects":  "Projects",
+                "skills":  "Skills",
+                "contact":  "Contact"
+            },
+    "hero":  {
+                 "greeting":  "Hi, I\u0027m",
+                 "name":  "Mohamed Dhia BEN HMIDA",
+                 "title":  "Software Development Engineer",
+                 "specialties":  [
+                                     "Java \u0026 Oracle PL/SQL Specialist",
+                                     "Full-Stack Developer",
+                                     "Financial Systems Architect",
+                                     "AI \u0026 ML Enthusiast"
+                                 ],
+                 "cta":  "Scroll to explore",
+                 "summary":  "Software engineer with 7 years of experience designing mission-critical systems for the financial sector. Specialized in Java/Spring Boot and Oracle SQL/PL-SQL, with expertise in Python/FastAPI and React."
+             },
+    "experience":  {
+                       "title":  "Professional Experience",
+                       "current":  "Current",
+                       "jobs":  [
+                                    {
+                                        "id":  "bfi",
+                                        "position":  "Java and Oracle PL/SQL Developer",
+                                        "company":  "BFI Groupe",
+                                        "period":  "July 2023 â€“ Present",
+                                        "location":  "Tunisia",
+                                        "highlights":  [
+                                                           "Participation in the design and development of robust software solutions for financial institutions, in alignment with industry standards and specifications",
+                                                           "Accounting centralizer for BIAT: integration and synchronization with the bank\u0027s information systems via the accounting centralizer; orchestration of accounting and transactional flows; integrity and traceability controls; performance optimization",
+                                                           "Regulatory application for banks in the UEMOA region: design and integration of a prudential reporting solution compliant with BCEAO/UEMOA requirements",
+                                                           "Collaboration with cross-functional teams to analyze requirements, architect scalable solutions, and resolve complex technical issues throughout the development lifecycle",
+                                                           "Implementation and optimization of high-performance Oracle databases, focusing on data integrity and security to support critical transactions",
+                                                           "Development of custom features, including reports, automated workflows, and user access controls tailored to each client\u0027s unique needs",
+                                                           "Writing comprehensive technical documentation, including architecture diagrams, API references, and user manuals"
+                                                       ]
+                                    },
+                                    {
+                                        "id":  "segula",
+                                        "position":  "Software Development Engineer",
+                                        "company":  "SEGULA Technologies for Groupe Stellantis",
+                                        "period":  "October 2018 â€“ June 2023",
+                                        "location":  "France",
+                                        "highlights":  [
+                                                           "Led the analysis and detailed specification of client requirements to ensure delivery of high-impact solutions",
+                                                           "Architected and developed advanced internal software for objective calibration of torque converters for automatic transmission, leveraging vehicle dynamics with Excel VBA as the foundation",
+                                                           "Designed and implemented a comprehensive benchmarking tool automatically generating detailed reports according to complex client-defined criteria",
+                                                           "Engineered a robust Excel/Access platform for data navigation, visualization, and updating, with external XML import/export and seamless synchronization via optimized SQL queries; later migrated to PostgreSQL while ensuring backward compatibility"
+                                                       ]
+                                    }
+                                ]
+                   },
+    "projects":  {
+                     "title":  "Personal Projects",
+                     "viewGithub":  "View on GitHub",
+                     "items":  [
+                                   {
+                                       "id":  "skinai",
+                                       "name":  "SkinAI",
+                                       "description":  "Development of a full-stack AI-based skin analysis application, using React (frontend), Python FastAPI and Spring Boot (backend), and PostgreSQL",
+                                       "features":  [
+                                                        "Implementation of secure user authentication",
+                                                        "Analysis history tracking",
+                                                        "AI image analysis using custom machine learning models"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "Python FastAPI",
+                                                            "Spring Boot",
+                                                            "PostgreSQL",
+                                                            "Machine Learning"
+                                                        ],
+                                       "github":  "https://github.com/username/skinai"
+                                   },
+                                   {
+                                       "id":  "ai-framework",
+                                       "name":  "Centralized AI Model Framework",
+                                       "description":  "Architecture: React (UI), FastAPI/Spring Boot API, model registry with unified inference interface (adapters), PostgreSQL, Docker",
+                                       "features":  [
+                                                        "Transparent model switching",
+                                                        "Swap in workflows/pipelines without modifying consumer code",
+                                                        "Versioning and rollback capabilities",
+                                                        "A/B testing and change auditing"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "FastAPI",
+                                                            "Spring Boot",
+                                                            "PostgreSQL",
+                                                            "Docker"
+                                                        ],
+                                       "github":  "https://github.com/username/ai-framework"
+                                   }
+                               ]
+                 },
+    "skills":  {
+                   "title":  "Skills \u0026 Expertise",
+                   "categories":  {
+                                      "programming":  {
+                                                          "title":  "Programming",
+                                                          "items":  [
+                                                                        "Python",
+                                                                        "JavaScript",
+                                                                        "TypeScript",
+                                                                        "PL/SQL",
+                                                                        "Java",
+                                                                        "VBA"
+                                                                    ]
+                                                      },
+                                      "web":  {
+                                                  "title":  "Web Development",
+                                                  "items":  [
+                                                                "React",
+                                                                "Express (Node.js)",
+                                                                "Spring Boot",
+                                                                "HTML",
+                                                                "Bootstrap",
+                                                                "Material UI"
+                                                            ]
+                                              },
+                                      "state":  {
+                                                    "title":  "State Management",
+                                                    "items":  [
+                                                                  "Redux"
+                                                              ]
+                                                },
+                                      "databases":  {
+                                                        "title":  "Databases",
+                                                        "items":  [
+                                                                      "PostgreSQL",
+                                                                      "MongoDB Atlas",
+                                                                      "MySQL",
+                                                                      "Oracle SQL",
+                                                                      "Mongoose",
+                                                                      "IndexedDB",
+                                                                      "LocalStorage"
+                                                                  ]
+                                                    },
+                                      "ml":  {
+                                                 "title":  "Machine Learning",
+                                                 "items":  [
+                                                               "scikit-learn",
+                                                               "TensorFlow"
+                                                           ]
+                                             },
+                                      "graphics":  {
+                                                       "title":  "3D Graphics",
+                                                       "items":  [
+                                                                     "Three.js",
+                                                                     "React Three Fiber"
+                                                                 ]
+                                                   },
+                                      "methodologies":  {
+                                                            "title":  "Methodologies",
+                                                            "items":  [
+                                                                          "Agile Scrum"
+                                                                      ]
+                                                        },
+                                      "tools":  {
+                                                    "title":  "CI/CD \u0026 Tools",
+                                                    "items":  [
+                                                                  "Git",
+                                                                  "Docker"
+                                                              ]
+                                                }
+                                  }
+               },
+    "contact":  {
+                    "title":  "Get In Touch",
+                    "subtitle":  "I\u0027m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+                    "form":  {
+                                 "name":  "Name",
+                                 "email":  "Email",
+                                 "message":  "Message",
+                                 "send":  "Send Message",
+                                 "sending":  "Sending...",
+                                 "success":  "Message sent successfully!",
+                                 "error":  "Failed to send message. Please try again."
+                             },
+                    "info":  {
+                                 "email":  "m.dhia.bh@gmail.com",
+                                 "phone":  "+(216) 27 225 432",
+                                 "location":  "Tunis, Tunisia",
+                                 "linkedin":  "LinkedIn Profile"
+                             }
+                },
+    "footer":  {
+                   "rights":  "All rights reserved",
+                   "madeWith":  "Made with",
+                   "and":  "and"
+               },
+    "education":  {
+                      "title":  "Education",
+                      "items":  [
+                                    {
+                                        "degree":  "National Engineering Degree",
+                                        "institution":  "Ã‰cole Nationale SupÃ©rieure d\u0027IngÃ©nieurs de Tunis (ENSIT)",
+                                        "period":  "September 2015 â€“ June 2018"
+                                    },
+                                    {
+                                        "degree":  "Preparatory Classes for Engineering Studies (MP track)",
+                                        "institution":  "Institut prÃ©paratoire aux Ã©tudes d\u0027ingÃ©nieurs d\u0027El Manar (IPEIEM)",
+                                        "period":  "2013 â€“ 2015"
+                                    },
+                                    {
+                                        "degree":  "Tunisian Baccalaureate â€” Mathematics Specialty",
+                                        "period":  "2013"
+                                    }
+                                ]
+                  },
+    "languages":  {
+                      "title":  "Languages",
+                      "items":  {
+                                    "arabic":  "Arabic (Native)",
+                                    "french":  "French (Fluent)",
+                                    "english":  "English (Fluent)"
+                                }
+                  }
+}

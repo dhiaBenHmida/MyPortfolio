@@ -1,0 +1,279 @@
+{
+    "nav":  {
+                "home":  "Home",
+                "experience":  "Experience",
+                "projects":  "Projects",
+                "skills":  "Skills",
+                "contact":  "Contact"
+            },
+    "hero":  {
+                 "greeting":  "Hi, I\u0027m",
+                 "name":  "Mohamed Dhia BEN HMIDA",
+                 "title":  "Software Development Engineer",
+                 "specialties":  [
+                                     "Java \u0026 Oracle PL/SQL Specialist",
+                                     "Full-Stack Developer",
+                                     "Financial Systems Architect",
+                                     "AI \u0026 ML Enthusiast"
+                                 ],
+                 "cta":  "Scroll to explore",
+                 "summary":  "Software engineer with 7 years of experience designing mission-critical systems for the financial sector. Specialized in Java/Spring Boot and Oracle SQL/PL-SQL, with expertise in Python/FastAPI and React."
+             },
+    "experience":  {
+                       "title":  "Professional Experience",
+                       "current":  "Current",
+                       "jobs":  [
+                                    {
+                                        "id":  "bfi",
+                                        "position":  "Java and Oracle PL/SQL Developer",
+                                        "company":  "BFI Groupe",
+                                        "period":  "July 2023 – Present",
+                                        "location":  "Tunisia",
+                                        "highlights":  [
+                                                           "Participation in the design and development of robust software solutions for financial institutions, in alignment with industry standards and specifications",
+                                                           "Accounting centralizer for BIAT: integration and synchronization with the bank\u0027s information systems via the accounting centralizer; orchestration of accounting and transactional flows; integrity and traceability controls; performance optimization",
+                                                           "Regulatory application for banks in the UEMOA region: design and integration of a prudential reporting solution compliant with BCEAO/UEMOA requirements",
+                                                           "Collaboration with cross-functional teams to analyze requirements, architect scalable solutions, and resolve complex technical issues throughout the development lifecycle",
+                                                           "Implementation and optimization of high-performance Oracle databases, focusing on data integrity and security to support critical transactions",
+                                                           "Development of custom features, including reports, automated workflows, and user access controls tailored to each client\u0027s unique needs",
+                                                           "Writing comprehensive technical documentation, including architecture diagrams, API references, and user manuals"
+                                                       ]
+                                    },
+                                    {
+                                        "id":  "segula",
+                                        "position":  "Software Development Engineer",
+                                        "company":  "SEGULA Technologies for Groupe Stellantis",
+                                        "period":  "October 2018 – June 2023",
+                                        "location":  "France",
+                                        "highlights":  [
+                                                           "Led the analysis and detailed specification of client requirements to ensure delivery of high-impact solutions",
+                                                           "Architected and developed advanced internal software for objective calibration of torque converters for automatic transmission, leveraging vehicle dynamics with Excel VBA as the foundation",
+                                                           "Designed and implemented a comprehensive benchmarking tool automatically generating detailed reports according to complex client-defined criteria",
+                                                           "Engineered a robust Excel/Access platform for data navigation, visualization, and updating, with external XML import/export and seamless synchronization via optimized SQL queries; later migrated to PostgreSQL while ensuring backward compatibility"
+                                                       ]
+                                    }
+                                ]
+                   },
+    "projects":  {
+                     "title":  "Personal Projects",
+                     "viewGithub":  "View on GitHub",
+                     "items":  [
+                                   {
+                                       "id":  "dermadetectai",
+                                       "name":  "DermaDetectAI",
+                                       "description":  "A sophisticated, multi-stage AI diagnostic tool for skin condition analysis. Features a Vision Transformer (ViT) for feature extraction and custom-trained MLP classifier for accurate predictions. Built with Python FastAPI backend and React TypeScript frontend, featuring real-time MedGemma-based conversational AI for interactive diagnosis.",
+                                       "features":  [
+                                                        "Multi-Stage AI Pipeline: Vision Transformer (ViT) + MLP Classifier for accurate skin condition detection",
+                                                        "Conversational AI Diagnosis: MedGemma-powered interactive analysis with context-aware responses",
+                                                        "Role-Based Access Control: Comprehensive RBAC system with Admin, Doctor, and Super Admin roles",
+                                                        "Real-time GPU-Accelerated Inference: Optimized for fast predictions with CUDA support",
+                                                        "Comprehensive Dashboards: Patient management, session tracking, and analytics",
+                                                        "PWA Support: Installable progressive web application with offline capabilities",
+                                                        "Separate Training Repository: Dedicated AI/ML training pipelines with Git LFS for model management"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "TypeScript",
+                                                            "Python",
+                                                            "FastAPI",
+                                                            "PostgreSQL",
+                                                            "PyTorch",
+                                                            "TensorFlow",
+                                                            "Hugging Face Transformers",
+                                                            "Material-UI",
+                                                            "Docker",
+                                                            "Three.js"
+                                                        ],
+                                       "github":  "https://github.com/MohamedDhiaBenHmida/DermaDetectAI",
+                                       "githubTraining":  "https://github.com/MohamedDhiaBenHmida/DermaDetectAI-Training"
+                                   },
+                                   {
+                                       "id":  "introcad",
+                                       "name":  "Browser-Based CAD Platform (Name Undisclosed)",
+                                       "description":  "A sophisticated, full-stack CAD (Computer-Aided Design) application built entirely for the web. Features a complete 2D sketching system with 7 professional tools, 3D modeling operations, and parametric design capabilities powered by OpenCASCADE.js WASM engine. Includes an innovative AI module for natural language-driven generative design, allowing users to describe desired geometry and have it automatically generated. Enterprise-grade architecture with feature-based modeling, real-time constraint solving, and industry-standard file format support.",
+                                       "features":  [
+                                                        "Professional 2D Sketching System: 7 CAD tools (Line, Circle, Rectangle, Arc, Spline, Point, Select) with real-time constraint solving and advanced snapping (grid, endpoints, midpoints, intersections, centers)",
+                                                        "3D Modeling Operations: Extrude, revolve, fillet, chamfer, and boolean operations (union, subtract, intersect) powered by OpenCASCADE.js WASM kernel",
+                                                        "Parametric Design: Feature-based modeling with full edit history, dependency management, and hierarchical assembly organization",
+                                                        "File Interoperability: Import/Export STEP, IGES, STL, and OBJ industry-standard CAD formats with robust file processing pipeline",
+                                                        "Real-time Collaboration: WebSocket-based progress tracking for long-running CAD operations with job queue visualization",
+                                                        "Advanced Visualization: Section planes, clipping system, animation controls, and camera management for complex design review",
+                                                        "AI-Powered Generative Design: Natural language processing module that interprets user requests and automatically generates 3D geometry on-the-fly, bridging the gap between design intent and CAD modeling",
+                                                        "Enterprise State Management: Redux Toolkit architecture with 19+ specialized slices for scalable CAD application state",
+                                                        "IMPORTANT: Proprietary project under active development. Code repository is private due to intellectual property considerations. Live demonstrations and detailed technical discussions available upon request for serious inquiries."
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "TypeScript",
+                                                            "Three.js",
+                                                            "React Three Fiber",
+                                                            "Redux Toolkit",
+                                                            "Material-UI",
+                                                            "Vite",
+                                                            "Node.js",
+                                                            "Express",
+                                                            "OpenCASCADE.js",
+                                                            "WebAssembly (WASM)",
+                                                            "PostgreSQL",
+                                                            "WebSocket",
+                                                            "Natural Language Processing (NLP)",
+                                                            "AI-Powered Generative Design"
+                                                        ],
+                                       "github":  null
+                                   },
+                                   {
+                                       "id":  "ai-framework",
+                                       "name":  "Centralized AI Model Framework",
+                                       "description":  "Architecture: React (UI), FastAPI/Spring Boot API, model registry with unified inference interface (adapters), PostgreSQL, Docker",
+                                       "features":  [
+                                                        "Transparent model switching",
+                                                        "Swap in workflows/pipelines without modifying consumer code",
+                                                        "Versioning and rollback capabilities",
+                                                        "A/B testing and change auditing"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "FastAPI",
+                                                            "Spring Boot",
+                                                            "PostgreSQL",
+                                                            "Docker"
+                                                        ],
+                                       "github":  "https://github.com/username/ai-framework"
+                                   }
+                               ]
+                 },
+    "skills":  {
+                   "title":  "Skills \u0026 Expertise",
+                   "categories":  {
+                                      "programming":  {
+                                                          "title":  "Programming",
+                                                          "items":  [
+                                                                        "Python",
+                                                                        "JavaScript",
+                                                                        "TypeScript",
+                                                                        "PL/SQL",
+                                                                        "Java",
+                                                                        "VBA"
+                                                                    ]
+                                                      },
+                                      "web":  {
+                                                  "title":  "Web Development",
+                                                  "items":  [
+                                                                "React",
+                                                                "FastAPI",
+                                                                "Express (Node.js)",
+                                                                "Spring Boot",
+                                                                "HTML",
+                                                                "Bootstrap",
+                                                                "Material UI"
+                                                            ]
+                                              },
+                                      "state":  {
+                                                    "title":  "State Management",
+                                                    "items":  [
+                                                                  "Redux Toolkit"
+                                                              ]
+                                                },
+                                      "databases":  {
+                                                        "title":  "Databases",
+                                                        "items":  [
+                                                                      "PostgreSQL",
+                                                                      "MongoDB Atlas",
+                                                                      "MySQL",
+                                                                      "Oracle SQL",
+                                                                      "Mongoose",
+                                                                      "IndexedDB",
+                                                                      "LocalStorage"
+                                                                  ]
+                                                    },
+                                      "ml":  {
+                                                 "title":  "Machine Learning \u0026 AI",
+                                                 "items":  [
+                                                               "PyTorch",
+                                                               "TensorFlow",
+                                                               "scikit-learn",
+                                                               "Hugging Face Transformers",
+                                                               "Vision Transformers (ViT)",
+                                                               "LLMs (MedGemma)"
+                                                           ]
+                                             },
+                                      "graphics":  {
+                                                       "title":  "3D Graphics \u0026 CAD",
+                                                       "items":  [
+                                                                     "Three.js",
+                                                                     "React Three Fiber",
+                                                                     "OpenCASCADE.js",
+                                                                     "WebAssembly (WASM)",
+                                                                     "Parametric Modeling",
+                                                                     "CAD File Formats (STEP, IGES, STL, OBJ)"
+                                                                 ]
+                                                   },
+                                      "methodologies":  {
+                                                            "title":  "Methodologies",
+                                                            "items":  [
+                                                                          "Agile Scrum"
+                                                                      ]
+                                                        },
+                                      "tools":  {
+                                                    "title":  "CI/CD \u0026 Tools",
+                                                    "items":  [
+                                                                  "Git",
+                                                                  "Docker",
+                                                                  "Vite",
+                                                                  "WebSocket"
+                                                              ]
+                                                }
+                                  }
+               },
+    "contact":  {
+                    "title":  "Get In Touch",
+                    "subtitle":  "I\u0027m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+                    "form":  {
+                                 "name":  "Name",
+                                 "email":  "Email",
+                                 "message":  "Message",
+                                 "send":  "Send Message",
+                                 "sending":  "Sending...",
+                                 "success":  "Message sent successfully!",
+                                 "error":  "Failed to send message. Please try again."
+                             },
+                    "info":  {
+                                 "email":  "m.dhia.bh@gmail.com",
+                                 "phone":  "+(216) 27 225 432",
+                                 "location":  "Tunis, Tunisia",
+                                 "linkedin":  "LinkedIn Profile"
+                             }
+                },
+    "footer":  {
+                   "rights":  "All rights reserved",
+                   "madeWith":  "Made with",
+                   "and":  "and"
+               },
+    "education":  {
+                      "title":  "Education",
+                      "items":  [
+                                    {
+                                        "degree":  "National Engineering Degree",
+                                        "institution":  "École Nationale Supérieure d\u0027Ingénieurs de Tunis (ENSIT)",
+                                        "period":  "September 2015 – June 2018"
+                                    },
+                                    {
+                                        "degree":  "Preparatory Classes for Engineering Studies (MP track)",
+                                        "institution":  "Institut préparatoire aux études d\u0027ingénieurs d\u0027El Manar (IPEIEM)",
+                                        "period":  "2013 – 2015"
+                                    },
+                                    {
+                                        "degree":  "Tunisian Baccalaureate — Mathematics Specialty",
+                                        "period":  "2013"
+                                    }
+                                ]
+                  },
+    "languages":  {
+                      "title":  "Languages",
+                      "items":  {
+                                    "arabic":  "Arabic (Native)",
+                                    "french":  "French (Fluent)",
+                                    "english":  "English (Fluent)"
+                                }
+                  }
+}
