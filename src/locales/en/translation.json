@@ -125,6 +125,37 @@
                                        "github":  "https://github.com/dhiaBenHmida/CADSHIP"
                                    },
                                    {
+                                       "id":  "skinsmart",
+                                       "name":  "SkinSmart - Intelligent Skincare Recommendation System",
+                                       "description":  "An interactive web application that provides personalized skincare product recommendations through an intelligent survey system. Features real-time skin analysis using webcam capture, dynamic question flow based on user responses, and integrated e-commerce functionality. Built with React, TypeScript, and PHP backend with MySQL database.",
+                                       "features":  [
+                                                        "Interactive Survey System: Dynamic question flow with conditional branching based on user responses, progress tracking with stepper UI, and question history navigation",
+                                                        "Real-Time Skin Analysis: Webcam integration for facial image capture, client-side face detection using TensorFlow.js, and automated skin condition assessment",
+                                                        "Intelligent Recommendation Engine: Personalized product recommendations based on survey responses and skin analysis, diagnosis mapping system linking skin conditions to appropriate products",
+                                                        "E-Commerce Integration: Shopping cart functionality with order management, product catalog with categories and pricing, order confirmation with email notifications via PHPMailer",
+                                                        "Admin Dashboard: Product management (CRUD operations), diagnosis and question management, order tracking and analytics, A/B testing framework for optimization",
+                                                        "Analytics & Tracking: User behavior heatmap visualization, conversion funnel analysis, A/B testing service for feature optimization, comprehensive analytics dashboard",
+                                                        "Database Architecture: MySQL backend with normalized schema, support for products, diagnoses, orders, questions, and recommendations, RESTful PHP API with proper error handling",
+                                                        "User Experience: Material-UI components with responsive design, loading states and error boundaries, progressive image loading for performance, export and share functionality for results",
+                                                        "Authentication & Security: Protected admin routes with JWT authentication, CORS configuration for API security, input validation and sanitization"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "TypeScript",
+                                                            "Material-UI",
+                                                            "TensorFlow.js",
+                                                            "PHP",
+                                                            "MySQL",
+                                                            "PHPMailer",
+                                                            "Vite",
+                                                            "React Router",
+                                                            "Context API",
+                                                            "html2canvas",
+                                                            "jsPDF"
+                                                        ],
+                                       "github":  "https://github.com/dhiaBenHmida/SkinSmart"
+                                   },
+                                   {
                                        "id":  "visionforge",
                                        "name":  "VisionForge AI - Centralized Computer Vision Framework",
                                        "description":  "An extensible computer vision training and deployment platform with real-time quality validation. Framework-first architecture designed for any CV classification task, demonstrated through a dermatological analysis application. Features complete MLOps workflow from dataset management to model deployment with multi-model ensemble capabilities.",
