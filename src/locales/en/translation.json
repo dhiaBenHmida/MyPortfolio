@@ -134,7 +134,7 @@
                                                         "Modular Architecture: Hybrid Spring Boot + Python FastAPI microservices, easily adaptable to different domains (medical, industrial, retail)",
                                                         "IEEE Standards Compliance: Adherence to IEEE 2801-2020 (Biometric Data Quality), IEEE 7010-2020 (Autonomous Systems), IEEE 2410-2019 (Biometric Protocol)",
                                                         "Reference Implementation: Dermatological analysis application showcasing framework capabilities with three specialized models achieving 88-92% accuracy",
-                                                        "IMPORTANT: Proprietary framework under active development. Code repository is private. Live demonstrations and technical discussions available upon request."
+                                                        "NOTE: Open-source framework available on GitHub. Demonstrates extensible architecture for computer vision applications across multiple domains."
                                                     ],
                                        "technologies":  [
                                                             "React",
@@ -160,7 +160,7 @@
                                                             "WebRTC",
                                                             "Docker"
                                                         ],
-                                       "github":  null
+                                       "github":  "https://github.com/dhiaBenHmida/VisionForge-AI"
                                    }
                                ]
                  },
