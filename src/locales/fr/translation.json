@@ -239,6 +239,7 @@
                                                                         "TypeScript",
                                                                         "PL/SQL",
                                                                         "Java",
+                                                                        "PHP",
                                                                         "VBA"
                                                                     ]
                                                       },
@@ -264,11 +265,13 @@
                                                         "title":  "Bases de Données",
                                                         "items":  [
                                                                       "PostgreSQL",
-                                                                      "MongoDB Atlas",
+                                                                      "MongoDB",
                                                                       "MySQL",
                                                                       "Oracle SQL",
                                                                       "JPA/Hibernate",
                                                                       "Mongoose",
+                                                                      "GridFS",
+                                                                      "Redis",
                                                                       "IndexedDB",
                                                                       "LocalStorage"
                                                                   ]
@@ -316,7 +319,11 @@
                                                                   "Vite",
                                                                   "WebSocket",
                                                                   "WebRTC",
-                                                                  "JWT Authentication"
+                                                                  "JWT Authentication",
+                                                                  "Passport.js",
+                                                                  "PHPMailer",
+                                                                  "Multer",
+                                                                  "Winston"
                                                               ]
                                                 }
                                   }
