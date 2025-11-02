@@ -122,23 +122,45 @@
                                        "github":  null
                                    },
                                    {
-                                       "id":  "ai-framework",
-                                       "name":  "Centralized AI Model Framework",
-                                       "description":  "Architecture: React (UI), FastAPI/Spring Boot API, model registry with unified inference interface (adapters), PostgreSQL, Docker",
+                                       "id":  "visionforge",
+                                       "name":  "VisionForge AI - Centralized Computer Vision Framework",
+                                       "description":  "An extensible computer vision training and deployment platform with real-time quality validation. Framework-first architecture designed for any CV classification task, demonstrated through a dermatological analysis application. Features complete MLOps workflow from dataset management to model deployment with multi-model ensemble capabilities.",
                                        "features":  [
-                                                        "Transparent model switching",
-                                                        "Swap in workflows/pipelines without modifying consumer code",
-                                                        "Versioning and rollback capabilities",
-                                                        "A/B testing and change auditing"
+                                                        "Multi-Model Training Pipeline: Support for EfficientNet, ConvNext, and Vision Transformers with configurable hyperparameters (epochs, batch size, learning rate, optimizer)",
+                                                        "Real-Time Quality Validation: MediaPipe-powered face detection with 468 3D landmarks, live feedback for lighting, blur, pose, distance, and stability",
+                                                        "Complete MLOps Platform: Custom dataset upload and management, real-time training metrics tracking, model versioning and deployment system",
+                                                        "Admin Dashboard: Comprehensive control panel for model management, training job monitoring, and dataset organization",
+                                                        "Region-Based Analysis: Multi-region segmentation (forehead, cheeks, nose, chin, eye areas) with heatmap generation",
+                                                        "Modular Architecture: Hybrid Spring Boot + Python FastAPI microservices, easily adaptable to different domains (medical, industrial, retail)",
+                                                        "IEEE Standards Compliance: Adherence to IEEE 2801-2020 (Biometric Data Quality), IEEE 7010-2020 (Autonomous Systems), IEEE 2410-2019 (Biometric Protocol)",
+                                                        "Reference Implementation: Dermatological analysis application showcasing framework capabilities with three specialized models achieving 88-92% accuracy",
+                                                        "IMPORTANT: Proprietary framework under active development. Code repository is private. Live demonstrations and technical discussions available upon request."
                                                     ],
                                        "technologies":  [
                                                             "React",
-                                                            "FastAPI",
+                                                            "TypeScript",
                                                             "Spring Boot",
-                                                            "PostgreSQL",
+                                                            "Python",
+                                                            "FastAPI",
+                                                            "PyTorch",
+                                                            "Vision Transformers (ViT)",
+                                                            "EfficientNet",
+                                                            "ConvNext",
+                                                            "MediaPipe",
+                                                            "OpenCV",
+                                                            "Hugging Face Transformers",
+                                                            "TIMM",
+                                                            "Albumentations",
+                                                            "Material-UI",
+                                                            "Redux Toolkit",
+                                                            "Oracle Database",
+                                                            "JPA/Hibernate",
+                                                            "JWT Authentication",
+                                                            "TensorBoard",
+                                                            "WebRTC",
                                                             "Docker"
                                                         ],
-                                       "github":  "https://github.com/username/ai-framework"
+                                       "github":  null
                                    }
                                ]
                  },
@@ -181,6 +203,7 @@
                                                                       "MongoDB Atlas",
                                                                       "MySQL",
                                                                       "Oracle SQL",
+                                                                      "JPA/Hibernate",
                                                                       "Mongoose",
                                                                       "IndexedDB",
                                                                       "LocalStorage"
@@ -194,7 +217,14 @@
                                                                "scikit-learn",
                                                                "Hugging Face Transformers",
                                                                "Vision Transformers (ViT)",
-                                                               "LLMs (MedGemma)"
+                                                               "EfficientNet",
+                                                               "ConvNext",
+                                                               "TIMM",
+                                                               "LLMs (MedGemma)",
+                                                               "MediaPipe",
+                                                               "OpenCV",
+                                                               "Albumentations",
+                                                               "TensorBoard"
                                                            ]
                                              },
                                       "graphics":  {
@@ -220,7 +250,9 @@
                                                                   "Git",
                                                                   "Docker",
                                                                   "Vite",
-                                                                  "WebSocket"
+                                                                  "WebSocket",
+                                                                  "WebRTC",
+                                                                  "JWT Authentication"
                                                               ]
                                                 }
                                   }

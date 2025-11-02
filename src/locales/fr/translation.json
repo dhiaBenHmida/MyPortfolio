@@ -121,23 +121,45 @@
                                        "github":  null
                                    },
                                    {
-                                       "id":  "ai-framework",
-                                       "name":  "Framework Centralisé de Modèles IA",
-                                       "description":  "Architecture: React (UI), API FastAPI/Spring Boot, registre de modèles avec interface d\u0027inférence unifiée (adapters), PostgreSQL, Docker",
+                                       "id":  "visionforge",
+                                       "name":  "VisionForge AI - Framework Centralisé de Vision par Ordinateur",
+                                       "description":  "Une plateforme extensible d'entraînement et de déploiement de vision par ordinateur avec validation de qualité en temps réel. Architecture axée sur le framework conçue pour toute tâche de classification CV, démontrée à travers une application d'analyse dermatologique. Comprend un workflow MLOps complet de la gestion des datasets au déploiement de modèles avec capacités d'ensemble multi-modèles.",
                                        "features":  [
-                                                        "Changement transparent de modèles",
-                                                        "Swap dans les workflows/pipelines sans modification du code consommateur",
-                                                        "Capacités de versioning et rollback",
-                                                        "A/B testing et audit des changements"
+                                                        "Pipeline d'Entraînement Multi-Modèles : Support pour EfficientNet, ConvNext et Vision Transformers avec hyperparamètres configurables (époques, taille de batch, taux d'apprentissage, optimiseur)",
+                                                        "Validation de Qualité en Temps Réel : Détection faciale alimentée par MediaPipe avec 468 points de repère 3D, retour en direct pour l'éclairage, le flou, la pose, la distance et la stabilité",
+                                                        "Plateforme MLOps Complète : Téléchargement et gestion de datasets personnalisés, suivi des métriques d'entraînement en temps réel, système de versioning et déploiement de modèles",
+                                                        "Tableau de Bord Admin : Panneau de contrôle complet pour la gestion des modèles, le suivi des tâches d'entraînement et l'organisation des datasets",
+                                                        "Analyse par Régions : Segmentation multi-régions (front, joues, nez, menton, zones oculaires) avec génération de cartes thermiques",
+                                                        "Architecture Modulaire : Microservices hybrides Spring Boot + Python FastAPI, facilement adaptables à différents domaines (médical, industriel, retail)",
+                                                        "Conformité aux Normes IEEE : Respect de IEEE 2801-2020 (Qualité des Données Biométriques), IEEE 7010-2020 (Systèmes Autonomes), IEEE 2410-2019 (Protocole Biométrique)",
+                                                        "Implémentation de Référence : Application d'analyse dermatologique démontrant les capacités du framework avec trois modèles spécialisés atteignant 88-92% de précision",
+                                                        "IMPORTANT : Framework propriétaire en développement actif. Dépôt de code privé. Démonstrations en direct et discussions techniques disponibles sur demande."
                                                     ],
                                        "technologies":  [
                                                             "React",
-                                                            "FastAPI",
+                                                            "TypeScript",
                                                             "Spring Boot",
-                                                            "PostgreSQL",
+                                                            "Python",
+                                                            "FastAPI",
+                                                            "PyTorch",
+                                                            "Vision Transformers (ViT)",
+                                                            "EfficientNet",
+                                                            "ConvNext",
+                                                            "MediaPipe",
+                                                            "OpenCV",
+                                                            "Hugging Face Transformers",
+                                                            "TIMM",
+                                                            "Albumentations",
+                                                            "Material-UI",
+                                                            "Redux Toolkit",
+                                                            "Oracle Database",
+                                                            "JPA/Hibernate",
+                                                            "JWT Authentication",
+                                                            "TensorBoard",
+                                                            "WebRTC",
                                                             "Docker"
                                                         ],
-                                       "github":  "https://github.com/username/ai-framework"
+                                       "github":  null
                                    }
                                ]
                  },
@@ -180,6 +202,7 @@
                                                                       "MongoDB Atlas",
                                                                       "MySQL",
                                                                       "Oracle SQL",
+                                                                      "JPA/Hibernate",
                                                                       "Mongoose",
                                                                       "IndexedDB",
                                                                       "LocalStorage"
@@ -193,7 +216,14 @@
                                                                "scikit-learn",
                                                                "Hugging Face Transformers",
                                                                "Vision Transformers (ViT)",
-                                                               "LLMs"
+                                                               "EfficientNet",
+                                                               "ConvNext",
+                                                               "TIMM",
+                                                               "LLMs (MedGemma)",
+                                                               "MediaPipe",
+                                                               "OpenCV",
+                                                               "Albumentations",
+                                                               "TensorBoard"
                                                            ]
                                              },
                                       "graphics":  {
@@ -219,7 +249,9 @@
                                                                   "Git",
                                                                   "Docker",
                                                                   "Vite",
-                                                                  "WebSocket"
+                                                                  "WebSocket",
+                                                                  "WebRTC",
+                                                                  "JWT Authentication"
                                                               ]
                                                 }
                                   }
