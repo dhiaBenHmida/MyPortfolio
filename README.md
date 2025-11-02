@@ -4,16 +4,16 @@ A modern, bilingual (English/French) portfolio application built with React, Typ
 
 ## Features
 
-- 🎨 **Modern UI** with Material-UI components
-- 🌐 **Bilingual** support (English/French) with i18next
-- 🎭 **3D Effects** using React Three Fiber
+- **Modern UI** with Material-UI components
+- **Bilingual** support (English/French) with i18next
+- **3D Effects** using React Three Fiber
   - Particle field animations
   - Fluid background simulations
   - Interactive scene transitions
-- ✨ **Smooth Animations** with Framer Motion
-- 📱 **Fully Responsive** design
-- 🎯 **Single-page** scroll navigation
-- 🔄 **Dynamic content** from translation files
+- **Smooth Animations** with Framer Motion
+- **Fully Responsive** design
+- **Single-page** scroll navigation
+- **Dynamic content** from translation files
 
 ## Tech Stack
 
@@ -145,7 +145,7 @@ npm run preview
 
 The portfolio supports English and French. The language preference is saved in `localStorage` and persists across sessions.
 
-Toggle languages using the language switcher in the header (🇬🇧 EN / 🇫🇷 FR).
+Toggle languages using the language switcher in the header (EN / FR).
 
 ## Performance
 
