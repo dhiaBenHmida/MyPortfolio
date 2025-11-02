@@ -161,6 +161,37 @@
                                                             "Docker"
                                                         ],
                                        "github":  "https://github.com/dhiaBenHmida/VisionForge-AI"
+                                   },
+                                   {
+                                       "id":  "portfolio",
+                                       "name":  "MDBH Portfolio",
+                                       "description":  "A modern, bilingual (English/French) portfolio application showcasing professional experience and technical projects. Built with cutting-edge web technologies featuring 3D graphics, smooth animations, and responsive design. Demonstrates full-stack development capabilities with emphasis on user experience and visual appeal.",
+                                       "features":  [
+                                                        "Bilingual Support: Seamless English/French language switching with i18next, persisted across sessions",
+                                                        "3D Visual Effects: Interactive 3D elements using React Three Fiber with floating geometric shapes, morphing animations, and mouse-following spheres",
+                                                        "Glassmorphism Design: Modern UI with frosted glass effects, curved dividers, and gradient accents throughout",
+                                                        "Smooth Animations: Framer Motion powered transitions, scroll-triggered animations, and micro-interactions",
+                                                        "Asymmetric Hero Layout: Unique landing section with 3D profile presentation and rotating specialty text",
+                                                        "Interactive Timeline: Professional experience displayed with 3D hover effects and glassmorphic cards",
+                                                        "Hexagonal Skill Cards: Innovative skill presentation with custom SVG shapes and hover animations",
+                                                        "Working Contact Form: EmailJS integration for direct email communication without backend",
+                                                        "Fully Responsive: Mobile-first design with optimized layouts for all screen sizes",
+                                                        "Performance Optimized: Code splitting, lazy loading, and efficient rendering for fast load times"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "TypeScript",
+                                                            "Vite",
+                                                            "Tailwind CSS",
+                                                            "Material-UI",
+                                                            "React Three Fiber",
+                                                            "Three.js",
+                                                            "Framer Motion",
+                                                            "i18next",
+                                                            "EmailJS",
+                                                            "Netlify"
+                                                        ],
+                                       "github":  "https://github.com/dhiaBenHmida/MyPortfolio"
                                    }
                                ]
                  },

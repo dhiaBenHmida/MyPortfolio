@@ -160,6 +160,37 @@
                                                             "Docker"
                                                         ],
                                        "github":  "https://github.com/dhiaBenHmida/VisionForge-AI"
+                                   },
+                                   {
+                                       "id":  "portfolio",
+                                       "name":  "Portfolio MDBH",
+                                       "description":  "Une application de portfolio moderne et bilingue (anglais/français) présentant l'expérience professionnelle et les projets techniques. Construite avec des technologies web de pointe incluant des graphismes 3D, des animations fluides et un design responsive. Démontre des capacités de développement full-stack avec emphase sur l'expérience utilisateur et l'attrait visuel.",
+                                       "features":  [
+                                                        "Support Bilingue : Changement de langue anglais/français transparent avec i18next, persisté entre les sessions",
+                                                        "Effets Visuels 3D : Éléments 3D interactifs utilisant React Three Fiber avec formes géométriques flottantes, animations morphing et sphères suivant la souris",
+                                                        "Design Glassmorphisme : Interface moderne avec effets de verre givré, séparateurs courbés et accents dégradés",
+                                                        "Animations Fluides : Transitions alimentées par Framer Motion, animations déclenchées au scroll et micro-interactions",
+                                                        "Layout Héro Asymétrique : Section d'accueil unique avec présentation de profil 3D et texte de spécialité rotatif",
+                                                        "Timeline Interactive : Expérience professionnelle affichée avec effets de survol 3D et cartes glassmorphiques",
+                                                        "Cartes de Compétences Hexagonales : Présentation innovante des compétences avec formes SVG personnalisées et animations de survol",
+                                                        "Formulaire de Contact Fonctionnel : Intégration EmailJS pour communication email directe sans backend",
+                                                        "Entièrement Responsive : Design mobile-first avec layouts optimisés pour toutes les tailles d'écran",
+                                                        "Optimisé pour la Performance : Code splitting, lazy loading et rendu efficace pour des temps de chargement rapides"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "TypeScript",
+                                                            "Vite",
+                                                            "Tailwind CSS",
+                                                            "Material-UI",
+                                                            "React Three Fiber",
+                                                            "Three.js",
+                                                            "Framer Motion",
+                                                            "i18next",
+                                                            "EmailJS",
+                                                            "Netlify"
+                                                        ],
+                                       "github":  "https://github.com/dhiaBenHmida/MyPortfolio"
                                    }
                                ]
                  },
