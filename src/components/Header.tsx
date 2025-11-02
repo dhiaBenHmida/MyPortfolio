@@ -53,10 +53,15 @@ export default function Header() {
         {/* Logo */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="text-xl sm:text-2xl font-bold text-amber-300 cursor-pointer"
+          className="cursor-pointer"
           onClick={() => scrollToSection('hero')}
         >
-          MDBH
+          <div className="text-xl sm:text-2xl font-bold text-amber-300">
+            MDBH
+          </div>
+          <div className="text-xs sm:text-sm text-amber-200/80 font-light tracking-wide">
+            Mohamed Dhia BEN HMIDA
+          </div>
         </motion.div>
 
         {/* Desktop Navigation */}
