@@ -87,38 +87,41 @@
                                        "githubTraining":  "https://github.com/MohamedDhiaBenHmida/DermaDetectAI-Training"
                                    },
                                    {
-                                       "id":  "introcad",
-                                       "name":  "Plateforme CAO Basée sur Navigateur (Nom Confidentiel)",
-                                       "description":  "Une application CAO (Conception Assistée par Ordinateur) full-stack sophistiquée construite entièrement pour le web. Dispose d\u0027un système complet d\u0027esquisse 2D avec 7 outils professionnels, d\u0027opérations de modélisation 3D et de capacités de conception paramétrique alimentées par le moteur WASM OpenCASCADE.js. Comprend un module IA innovant pour la conception générative pilotée par langage naturel, permettant aux utilisateurs de décrire la géométrie souhaitée et de la générer automatiquement. Architecture de niveau entreprise avec modélisation basée sur les fonctionnalités, résolution de contraintes en temps réel et support de formats de fichiers standards de l\u0027industrie.",
+                                       "id":  "cadship",
+                                       "name":  "CADSHIP - Plateforme Marketplace de Modèles 3D",
+                                       "description":  "Une plateforme marketplace full-stack complète pour partager, acheter et vendre des modèles CAO 3D. Dispose d\u0027une visualisation 3D avancée avec support de multiples formats CAO, capacités de collaboration en temps réel et un système e-commerce complet. Construite avec des technologies web modernes incluant React Three Fiber pour un rendu 3D haute performance et OpenCASCADE.js WASM pour le traitement de fichiers CAO.",
                                        "features":  [
-                                                        "Système d\u0027Esquisse 2D Professionnel : 7 outils CAO (Ligne, Cercle, Rectangle, Arc, Spline, Point, Sélection) avec résolution de contraintes en temps réel et accrochage avancé (grille, extrémités, milieux, intersections, centres)",
-                                                        "Opérations de Modélisation 3D : Extrusion, révolution, congé, chanfrein et opérations booléennes (union, soustraction, intersection) alimentées par le noyau WASM OpenCASCADE.js",
-                                                        "Conception Paramétrique : Modélisation basée sur les fonctionnalités avec historique d\u0027édition complet, gestion des dépendances et organisation hiérarchique des assemblages",
-                                                        "Interopérabilité des Fichiers : Import/Export des formats CAO standards STEP, IGES, STL et OBJ avec pipeline de traitement de fichiers robuste",
-                                                        "Collaboration en Temps Réel : Suivi de progression basé sur WebSocket pour les opérations CAO longues avec visualisation de la file d\u0027attente des tâches",
-                                                        "Visualisation Avancée : Plans de coupe, système de découpage, contrôles d\u0027animation et gestion de caméra pour révision de conceptions complexes",
-                                                        "Conception Générative Alimentée par IA : Module de traitement du langage naturel qui interprète les demandes des utilisateurs et génère automatiquement de la géométrie 3D à la volée, comblant le fossé entre l\u0027intention de conception et la modélisation CAO",
-                                                        "Gestion d\u0027État Entreprise : Architecture Redux Toolkit avec 19+ slices spécialisés pour une application CAO évolutive",
-                                                        "IMPORTANT : Projet propriétaire en développement actif. Dépôt de code privé en raison de considérations de propriété intellectuelle. Démonstrations en direct et discussions techniques détaillées disponibles sur demande pour les demandes sérieuses."
+                                                        "Visualisation 3D Avancée : UnifiedModelViewer avec Three.js supportant les formats STEP, STL, OBJ, FBX, GLTF et GLB avec rendu temps réel, contrôles caméra et mode plein écran",
+                                                        "Fonctionnalités Marketplace : Système e-commerce complet avec upload/téléchargement de modèles, options de tarification et licence, historique d\u0027achats et tableaux de bord vendeur",
+                                                        "Collaboration Temps Réel : Partage de modèles basé sur WebRTC, mises à jour en direct via Socket.io, gestion d\u0027espaces de travail et fonctionnalités de collaboration en équipe",
+                                                        "Gestion Utilisateurs : Authentification JWT avec Passport.js, intégration OAuth pour connexion sociale, profils utilisateurs avec avatars et vérification email",
+                                                        "Visualiseur Modèle Interactif : Panneau de contrôles caméra, vues standards (avant, arrière, haut, bas, gauche, droite), navigation hiérarchie modèle et capture d\u0027écran",
+                                                        "Gestion de Contenu : Versioning et historique des modèles, système de catégories et tags, recherche et découverte, système de notes et avis",
+                                                        "Tableau de Bord Analytique : Suivi activité utilisateurs, statistiques téléchargements et vues, métriques performance vendeurs et outils modération contenu",
+                                                        "Traitement Fichiers : Intégration OpenCASCADE.js WASM pour conversion formats CAO, GridFS pour stockage fichiers volumineux et génération miniatures",
+                                                        "Optimisation Performance : Cache Redis pour améliorer temps de réponse, limitation débit pour protection API et middleware compression"
                                                     ],
                                        "technologies":  [
                                                             "React",
-                                                            "TypeScript",
+                                                            "Material-UI",
                                                             "Three.js",
                                                             "React Three Fiber",
-                                                            "Redux Toolkit",
-                                                            "Material-UI",
-                                                            "Vite",
                                                             "Node.js",
                                                             "Express",
+                                                            "MongoDB",
+                                                            "Mongoose",
+                                                            "Socket.io",
+                                                            "WebRTC",
                                                             "OpenCASCADE.js",
                                                             "WebAssembly (WASM)",
-                                                            "PostgreSQL",
-                                                            "WebSocket",
-                                                            "Traitement du Langage Naturel (NLP)",
-                                                            "Conception Générative Alimentée par IA"
+                                                            "JWT",
+                                                            "Passport.js",
+                                                            "Redis",
+                                                            "GridFS",
+                                                            "Multer",
+                                                            "Winston"
                                                         ],
-                                       "github":  null
+                                       "github":  "https://github.com/dhiaBenHmida/CADSHIP"
                                    },
                                    {
                                        "id":  "visionforge",

@@ -88,38 +88,41 @@
                                        "githubTraining":  "https://github.com/MohamedDhiaBenHmida/DermaDetectAI-Training"
                                    },
                                    {
-                                       "id":  "introcad",
-                                       "name":  "Browser-Based CAD Platform (Name Undisclosed)",
-                                       "description":  "A sophisticated, full-stack CAD (Computer-Aided Design) application built entirely for the web. Features a complete 2D sketching system with 7 professional tools, 3D modeling operations, and parametric design capabilities powered by OpenCASCADE.js WASM engine. Includes an innovative AI module for natural language-driven generative design, allowing users to describe desired geometry and have it automatically generated. Enterprise-grade architecture with feature-based modeling, real-time constraint solving, and industry-standard file format support.",
+                                       "id":  "cadship",
+                                       "name":  "CADSHIP - 3D Model Marketplace Platform",
+                                       "description":  "A comprehensive full-stack marketplace platform for sharing, buying, and selling 3D CAD models. Features advanced 3D visualization with support for multiple CAD formats, real-time collaboration capabilities, and a complete e-commerce system. Built with modern web technologies including React Three Fiber for high-performance 3D rendering and OpenCASCADE.js WASM for CAD file processing.",
                                        "features":  [
-                                                        "Professional 2D Sketching System: 7 CAD tools (Line, Circle, Rectangle, Arc, Spline, Point, Select) with real-time constraint solving and advanced snapping (grid, endpoints, midpoints, intersections, centers)",
-                                                        "3D Modeling Operations: Extrude, revolve, fillet, chamfer, and boolean operations (union, subtract, intersect) powered by OpenCASCADE.js WASM kernel",
-                                                        "Parametric Design: Feature-based modeling with full edit history, dependency management, and hierarchical assembly organization",
-                                                        "File Interoperability: Import/Export STEP, IGES, STL, and OBJ industry-standard CAD formats with robust file processing pipeline",
-                                                        "Real-time Collaboration: WebSocket-based progress tracking for long-running CAD operations with job queue visualization",
-                                                        "Advanced Visualization: Section planes, clipping system, animation controls, and camera management for complex design review",
-                                                        "AI-Powered Generative Design: Natural language processing module that interprets user requests and automatically generates 3D geometry on-the-fly, bridging the gap between design intent and CAD modeling",
-                                                        "Enterprise State Management: Redux Toolkit architecture with 19+ specialized slices for scalable CAD application state",
-                                                        "IMPORTANT: Proprietary project under active development. Code repository is private due to intellectual property considerations. Live demonstrations and detailed technical discussions available upon request for serious inquiries."
+                                                        "Advanced 3D Visualization: UnifiedModelViewer with Three.js supporting STEP, STL, OBJ, FBX, GLTF, and GLB formats with real-time rendering, camera controls, and fullscreen mode",
+                                                        "Marketplace Features: Complete e-commerce system with model upload/download, pricing and licensing options, purchase history, and seller dashboards",
+                                                        "Real-Time Collaboration: WebRTC-based model sharing, Socket.io for live updates, workspace management, and team collaboration features",
+                                                        "User Management: JWT authentication with Passport.js, OAuth social login integration, user profiles with avatars, and email verification",
+                                                        "Interactive Model Viewer: Camera controls panel, standard views (front, back, top, bottom, left, right), model hierarchy navigation, and screenshot capabilities",
+                                                        "Content Management: Model versioning and history, categories and tagging system, search and discovery, ratings and reviews system",
+                                                        "Analytics Dashboard: User activity tracking, download and view statistics, seller performance metrics, and content moderation tools",
+                                                        "File Processing: OpenCASCADE.js WASM integration for CAD format conversion, GridFS for large file storage, and thumbnail generation",
+                                                        "Performance Optimization: Redis caching for improved response times, rate limiting for API protection, and compression middleware"
                                                     ],
                                        "technologies":  [
                                                             "React",
-                                                            "TypeScript",
+                                                            "Material-UI",
                                                             "Three.js",
                                                             "React Three Fiber",
-                                                            "Redux Toolkit",
-                                                            "Material-UI",
-                                                            "Vite",
                                                             "Node.js",
                                                             "Express",
+                                                            "MongoDB",
+                                                            "Mongoose",
+                                                            "Socket.io",
+                                                            "WebRTC",
                                                             "OpenCASCADE.js",
                                                             "WebAssembly (WASM)",
-                                                            "PostgreSQL",
-                                                            "WebSocket",
-                                                            "Natural Language Processing (NLP)",
-                                                            "AI-Powered Generative Design"
+                                                            "JWT",
+                                                            "Passport.js",
+                                                            "Redis",
+                                                            "GridFS",
+                                                            "Multer",
+                                                            "Winston"
                                                         ],
-                                       "github":  null
+                                       "github":  "https://github.com/dhiaBenHmida/CADSHIP"
                                    },
                                    {
                                        "id":  "visionforge",
