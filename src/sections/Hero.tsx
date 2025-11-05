@@ -194,9 +194,8 @@ export default function Hero() {
                   transition={{ delay: 1.2, duration: 0.8 }}
                   whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(59, 130, 246, 0.4)" }}
                   whileTap={{ scale: 0.95 }}
-                  href="/CV_Modern_Layout_en.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/CV - Mohamed Dhia BEN HMIDA_EN.pdf"
+                  download="CV - Mohamed Dhia BEN HMIDA_EN.pdf"
                   className="inline-flex items-center justify-center space-x-1.5 px-4 py-2.5 rounded-full text-sm font-semibold shadow-lg relative overflow-hidden group"
                   style={{
                     background: 'rgba(59, 130, 246, 0.2)',
@@ -207,7 +206,7 @@ export default function Hero() {
                 >
                   <span className="relative z-10">CV (EN)</span>
                   <svg className="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                   <div 
                     className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -223,9 +222,8 @@ export default function Hero() {
                   transition={{ delay: 1.3, duration: 0.8 }}
                   whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(59, 130, 246, 0.4)" }}
                   whileTap={{ scale: 0.95 }}
-                  href="/CV_Modern_Layout.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/CV - Mohamed Dhia BEN HMIDA_FR.pdf"
+                  download="CV - Mohamed Dhia BEN HMIDA_FR.pdf"
                   className="inline-flex items-center justify-center space-x-1.5 px-4 py-2.5 rounded-full text-sm font-semibold shadow-lg relative overflow-hidden group"
                   style={{
                     background: 'rgba(59, 130, 246, 0.2)',
@@ -236,7 +234,7 @@ export default function Hero() {
                 >
                   <span className="relative z-10">CV (FR)</span>
                   <svg className="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                   <div 
                     className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
