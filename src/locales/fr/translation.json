@@ -30,9 +30,9 @@
                                         "period":  "Juillet 2023 – Présent",
                                         "location":  "Tunisie",
                                         "highlights":  [
-                                                           "Participation à la conception et au développement de solutions logicielles robustes pour des institutions financières, en alignement avec les normes et spécifications de l\u0027industrie",
-                                                           "Centralisateur comptable pour la BIAT: intégration et synchronisation avec les systèmes d\u0027information de la banque via le centralisateur comptable; orchestration des flux comptables et transactionnels; contrôles d\u0027intégrité et de traçabilité; optimisation des performances",
-                                                           "Application réglementaire pour les banques de la région UEMOA: conception et intégration d\u0027une solution de reporting prudentiel conforme aux exigences BCEAO/UEMOA",
+                                                           "Conception et développement de solutions logicielles robustes pour des institutions financières, en alignement avec les normes et spécifications de l\u0027industrie",
+                                                           "Centralisateur comptable pour la BIAT: intégration et synchronisation avec les systèmes d\u0027information de la banque (core banking et autres flux) via le centralisateur comptable; orchestration des flux comptables et transactionnels; contrôles d\u0027intégrité et de traçabilité; optimisation des performances (latence, volumétrie)",
+                                                           "Application réglementaire pour les banques de la région UEMOA: conception et intégration d\u0027une solution de reporting prudentiel conforme aux exigences BCEAO/UEMOA (collecte, normalisation, contrôles, génération et transmission des états)",
                                                            "Collaboration avec des équipes inter-fonctionnelles pour analyser les exigences, architecturer des solutions évolutives et résoudre des problèmes techniques complexes tout au long du cycle de vie du développement",
                                                            "Implémentation et optimisation de bases de données Oracle haute performance, en se concentrant sur l\u0027intégrité des données et la sécurité pour supporter les transactions critiques",
                                                            "Développement de fonctionnalités sur mesure, y compris des rapports, des flux de travail automatisés et des contrôles d\u0027accès utilisateur adaptés aux besoins uniques de chaque client",
@@ -277,7 +277,7 @@
                                                                   ]
                                                     },
                                       "ml":  {
-                                                 "title":  "Machine Learning \u0026 IA",
+                                                 "title":  "Machine Learning & IA",
                                                  "items":  [
                                                                "PyTorch",
                                                                "TensorFlow",
@@ -287,10 +287,9 @@
                                                                "EfficientNet",
                                                                "ConvNext",
                                                                "TIMM",
-                                                               "LLMs (MedGemma)",
+                                                               "LLMs",
                                                                "MediaPipe",
                                                                "OpenCV",
-                                                               "Albumentations",
                                                                "TensorBoard"
                                                            ]
                                              },
@@ -319,11 +318,7 @@
                                                                   "Vite",
                                                                   "WebSocket",
                                                                   "WebRTC",
-                                                                  "JWT Authentication",
-                                                                  "Passport.js",
-                                                                  "PHPMailer",
-                                                                  "Multer",
-                                                                  "Winston"
+                                                                  "JWT Authentication"
                                                               ]
                                                 }
                                   }

@@ -191,10 +191,10 @@ export default function Contact() {
               >
                 <form ref={formRef} onSubmit={handleSubmit}>
                   <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
-                    <TextField
-                      fullWidth
-                      label={t('contact.form.name')}
-                      name="name"
+                  <TextField
+                    fullWidth
+                    label={t('contact.form.name')}
+                    name="name"
                     value={formData.name}
                     onChange={handleChange}
                     error={!!errors.name}
@@ -202,9 +202,13 @@ export default function Contact() {
                     variant="outlined"
                     sx={{
                       '& .MuiOutlinedInput-root': {
-                        '&:hover fieldset': { borderColor: '#3498db' },
-                        '&.Mui-focused fieldset': { borderColor: '#3498db' },
+                        backgroundColor: 'white',
+                        '& fieldset': { borderColor: 'rgba(251, 191, 36, 0.3)' },
+                        '&:hover fieldset': { borderColor: '#fbbf24' },
+                        '&.Mui-focused fieldset': { borderColor: '#fbbf24' },
                       },
+                      '& .MuiInputLabel-root': { color: '#fbbf24' },
+                      '& .MuiInputLabel-root.Mui-focused': { color: '#fbbf24' },
                     }}
                   />
 
@@ -217,18 +221,18 @@ export default function Contact() {
                     onChange={handleChange}
                     error={!!errors.email}
                     helperText={errors.email}
-                      variant="outlined"
-                      sx={{
-                        '& .MuiOutlinedInput-root': {
-                          color: 'white',
-                          '& fieldset': { borderColor: 'rgba(251, 191, 36, 0.3)' },
-                          '&:hover fieldset': { borderColor: '#fbbf24' },
-                          '&.Mui-focused fieldset': { borderColor: '#fbbf24' },
-                        },
-                        '& .MuiInputLabel-root': { color: '#fbbf24' },
-                        '& .MuiInputLabel-root.Mui-focused': { color: '#fbbf24' },
-                      }}
-                    />
+                    variant="outlined"
+                    sx={{
+                      '& .MuiOutlinedInput-root': {
+                        backgroundColor: 'white',
+                        '& fieldset': { borderColor: 'rgba(251, 191, 36, 0.3)' },
+                        '&:hover fieldset': { borderColor: '#fbbf24' },
+                        '&.Mui-focused fieldset': { borderColor: '#fbbf24' },
+                      },
+                      '& .MuiInputLabel-root': { color: '#fbbf24' },
+                      '& .MuiInputLabel-root.Mui-focused': { color: '#fbbf24' },
+                    }}
+                  />
 
                   <TextField
                     fullWidth
@@ -243,7 +247,7 @@ export default function Contact() {
                     rows={6}
                     sx={{
                       '& .MuiOutlinedInput-root': {
-                        color: 'white',
+                        backgroundColor: 'white',
                         '& fieldset': { borderColor: 'rgba(251, 191, 36, 0.3)' },
                         '&:hover fieldset': { borderColor: '#fbbf24' },
                         '&.Mui-focused fieldset': { borderColor: '#fbbf24' },

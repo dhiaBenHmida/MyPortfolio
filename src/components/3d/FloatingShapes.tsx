@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { MeshDistortMaterial, Float } from '@react-three/drei';
 import * as THREE from 'three';
+import { useIsMobile } from '../../hooks/useIsMobile';
 
 interface Shape {
   position: [number, number, number];
@@ -13,8 +14,9 @@ interface Shape {
 
 export default function FloatingShapes() {
   const groupRef = useRef<THREE.Group>(null);
+  const isMobile = useIsMobile();
 
-  const shapes: Shape[] = [
+  const allShapes: Shape[] = [
     { position: [-8, 4, -5], geometry: 'dodecahedron', color: '#fbbf24', scale: 1.5, speed: 0.5 },
     { position: [8, -3, -8], geometry: 'octahedron', color: '#f59e0b', scale: 1.2, speed: 0.7 },
     { position: [-5, -5, -3], geometry: 'torus', color: '#fb923c', scale: 1, speed: 0.6 },
@@ -23,6 +25,8 @@ export default function FloatingShapes() {
     { position: [-10, 0, -7], geometry: 'octahedron', color: '#fb923c', scale: 1.1, speed: 0.9 },
     { position: [10, 8, -4], geometry: 'dodecahedron', color: '#fbbf24', scale: 1.4, speed: 0.55 },
   ];
+
+  const shapes = isMobile ? allShapes.slice(0, 3) : allShapes;
 
   useFrame((state) => {
     if (groupRef.current) {

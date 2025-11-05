@@ -30,13 +30,13 @@
                                         "period":  "July 2023 – Present",
                                         "location":  "Tunisia",
                                         "highlights":  [
-                                                           "Participation in the design and development of robust software solutions for financial institutions, in alignment with industry standards and specifications",
-                                                           "Accounting centralizer for BIAT: integration and synchronization with the bank\u0027s information systems via the accounting centralizer; orchestration of accounting and transactional flows; integrity and traceability controls; performance optimization",
-                                                           "Regulatory application for banks in the UEMOA region: design and integration of a prudential reporting solution compliant with BCEAO/UEMOA requirements",
-                                                           "Collaboration with cross-functional teams to analyze requirements, architect scalable solutions, and resolve complex technical issues throughout the development lifecycle",
-                                                           "Implementation and optimization of high-performance Oracle databases, focusing on data integrity and security to support critical transactions",
-                                                           "Development of custom features, including reports, automated workflows, and user access controls tailored to each client\u0027s unique needs",
-                                                           "Writing comprehensive technical documentation, including architecture diagrams, API references, and user manuals"
+                                                           "Designed and developed robust software solutions for financial institutions, aligning with industry standards and specifications",
+                                                           "Accounting centralizer for BIAT: integration and synchronization with the bank\u0027s information systems (core banking and other flows) via the accounting centralizer; orchestration of accounting and transactional flows; integrity and traceability controls; performance optimization (latency, volume)",
+                                                           "Regulatory application for banks in the UEMOA region: design and integration of a prudential reporting solution compliant with BCEAO/UEMOA requirements (collection, normalization, controls, generation, and transmission of reports)",
+                                                           "Collaborated with cross-functional teams to analyze requirements, architect scalable solutions, and solve complex technical problems throughout the development lifecycle",
+                                                           "Implemented and optimized high-performance Oracle databases, focusing on data integrity and security to support critical transactions",
+                                                           "Developed custom features, including reports, automated workflows, and user access controls tailored to each client\u0027s unique needs",
+                                                           "Wrote comprehensive technical documentation, including architecture diagrams, API references, and user manuals"
                                                        ]
                                     },
                                     {
@@ -111,16 +111,11 @@
                                                             "Express",
                                                             "MongoDB",
                                                             "Mongoose",
-                                                            "Socket.io",
-                                                            "WebRTC",
                                                             "OpenCASCADE.js",
                                                             "WebAssembly (WASM)",
                                                             "JWT",
                                                             "Passport.js",
-                                                            "Redis",
-                                                            "GridFS",
-                                                            "Multer",
-                                                            "Winston"
+                                                            "Redis"
                                                         ],
                                        "github":  "https://github.com/dhiaBenHmida/CADSHIP"
                                    },
@@ -184,7 +179,6 @@
                                                             "OpenCV",
                                                             "Hugging Face Transformers",
                                                             "TIMM",
-                                                            "Albumentations",
                                                             "Material-UI",
                                                             "Redux Toolkit",
                                                             "Oracle Database",
@@ -278,7 +272,7 @@
                                                                   ]
                                                     },
                                       "ml":  {
-                                                 "title":  "Machine Learning \u0026 AI",
+                                                 "title":  "Machine Learning & AI",
                                                  "items":  [
                                                                "PyTorch",
                                                                "TensorFlow",
@@ -288,10 +282,9 @@
                                                                "EfficientNet",
                                                                "ConvNext",
                                                                "TIMM",
-                                                               "LLMs (MedGemma)",
+                                                               "LLMs",
                                                                "MediaPipe",
                                                                "OpenCV",
-                                                               "Albumentations",
                                                                "TensorBoard"
                                                            ]
                                              },
@@ -320,12 +313,7 @@
                                                                   "Vite",
                                                                   "WebSocket",
                                                                   "WebRTC",
-                                                                  "JWT Authentication",
-                                                                  "Passport.js",
-                                                                  "PHPMailer",
-                                                                  "Multer",
-                                                                  "Winston"
-                                                              ]
+                                                                  "JWT Authentication"                                                              ]
                                                 }
                                   }
                },

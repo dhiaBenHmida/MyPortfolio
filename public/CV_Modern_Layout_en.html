@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Mohamed Dhia BEN HMIDA</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-radius: 8px;
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+        }
+        .left-column {
+            width: 35%;
+            padding-right: 30px;
+            border-right: 1px solid #e9ecef;
+        }
+        .right-column {
+            width: 65%;
+        }
+        .profile-pic-container {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .profile-pic {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #e9ecef;
+        }
+        h1 {
+            font-size: 2.2em;
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .job-title {
+            font-size: 1.3em;
+            color: #34495e;
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        h2 {
+            font-size: 1.4em;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            text-transform: none;
+            letter-spacing: 1px;
+        }
+        h3 {
+            font-size: 1.2em;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: '▪';
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-size: 1.2em;
+        }
+        .contact-info p, .languages p, .education p {
+            margin: 5px 0;
+        }
+        .skills ul {
+            padding-left: 0;
+        }
+        .skills li {
+            padding-left: 0;
+            margin-bottom: 12px;
+        }
+        .skills li::before {
+            content: '';
+        }
+        .skills strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #34495e;
+        }
+        .job, .project {
+            margin-bottom: 25px;
+        }
+        .employer, .project-title {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .date {
+            display: block;
+            font-weight: bold;
+            color: #3498db;
+            text-align: right;
+            margin-top: 4px;
+        }
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .container {
+                box-shadow: none;
+            }
+            .page-break {
+                display: block;
+                height: 0;
+                break-before: page;
+                page-break-before: always;
+            }
+            .page-break-before {
+                break-before: page;
+                page-break-before: always;
+            }
+            .job { break-inside: auto; page-break-inside: auto; }
+            .project, .training { break-inside: avoid; page-break-inside: avoid; }
+            .skills li:nth-child(2) { break-before: page; page-break-before: always; }
+        }
+        .right-column .section-content:first-of-type h2 {
+            margin-top: 64px;
+        }
+        .left-column .contact-info h2 {
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-column">
+        <div class="profile-pic-container">
+            <img src="profile_picture.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        
+        <div class="section-content contact-info">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> m.dhia.b.h@gmail.com</p>
+            <p><strong>Phone:</strong> +(216) 27 225 432</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/mohamed-dhia-ben-hmida-11b018135</p>
+            <p><strong>Portfolio:</strong> <a href="https://mdbh.netlify.app" target="_blank">mdbh.netlify.app</a></p>
+            <p><strong>Address:</strong> Tunis, Tunisia</p>
+        </div>
+        
+        <div class="section-content">
+            <h2>Summary</h2>
+            <p>Software engineer with 7 years of experience in designing critical systems for the financial sector. Specialized in Java/Spring Boot and Oracle SQL/PL-SQL (packages, jobs, materialized views, partitioning, indexing, execution plan tuning), with proficiency in Python/FastAPI and React. Accustomed to high-volume environments with strict compliance requirements, focusing on performance, data quality, security (RBAC, encryption in transit/at rest), and observability.</p>
+            <p>Focused on regulatory and accounting solutions for financial institutions: data collection and normalization architecture, integrity and traceability controls, batch automation and ETL pipelines, prudential reporting generation, and industrialization via CI/CD and containerization. Proven experience in performance optimization (latency, volume), data governance, and deploying auditable deliverables.</p>
+        </div>
+
+        <div class="section-content skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong> Python, JavaScript, TypeScript, PL/SQL, Java, PHP, VBA</li>
+                <li><strong>Web Development:</strong> React, FastAPI, Express (Node.js), Spring Boot, HTML, Bootstrap, Material UI</li>
+                <li><strong>State Management:</strong> Redux Toolkit</li>
+                <li><strong>Databases:</strong> PostgreSQL, MongoDB, MySQL, Oracle SQL, JPA/Hibernate, Mongoose, Redis, IndexedDB, LocalStorage</li>
+                <li><strong>Machine Learning & AI:</strong> PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, Vision Transformers (ViT), EfficientNet, ConvNext, TIMM, LLMs, MediaPipe, OpenCV, TensorBoard</li>
+                <li><strong>3D Graphics & CAD:</strong> Three.js, React Three Fiber, OpenCASCADE.js, WebAssembly (WASM), Parametric Modeling, CAD File Formats (STEP, IGES, STL, OBJ)</li>
+                <li><strong>Methodologies:</strong> Agile Scrum</li>
+                <li><strong>CI/CD & Tools:</strong> Git, Docker, Vite, WebSocket, WebRTC, JWT Authentication</li>
+            </ul>
+        </div>
+
+        <div class="section-content languages">
+            <h2>Languages</h2>
+            <p><strong>Arabic:</strong> Native</p>
+            <p><strong>French:</strong> Fluent</p>
+            <p><strong>English:</strong> Fluent</p>
+        </div>
+        
+        <div class="section-content education">
+            <h2>Education</h2>
+            <h3>National Diploma of Engineering</h3>
+            <p class="institution">National School of Engineers of Tunis (ENSIT)</p>
+            <p>September 2015 – June 2018</p>
+            <h3>Preparatory Classes for Engineering Studies (MP track)</h3>
+            <p class="institution">Preparatory Institute for Engineering Studies of El Manar (IPEIEM), Tunis</p>
+            <p>2013 – 2015</p>
+            <h3>Tunisian Baccalaureate — Mathematics specialty</h3>
+            <p>2013</p>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <h1>Mohamed Dhia <br>BEN HMIDA</h1>
+        <p class="job-title">Software Development Engineer</p>
+        
+        <div class="section-content">
+            <h2>Professional Experience</h2>
+            <div class="job">
+                <h3>Java and Oracle PL/SQL Developer</h3>
+                <p class="employer">BFI Groupe</p>
+                <span class="date">July 2023 – Present</span>
+                <ul>
+                    <li>Designed and developed robust software solutions for financial institutions, aligning with industry standards and specifications.</li>
+                    <li>Accounting centralizer for BIAT: integration and synchronization with the bank's information systems (core banking and other flows) via the accounting centralizer; orchestration of accounting and transactional flows; integrity and traceability controls; performance optimization (latency, volume).</li>
+                    <li>Regulatory application for banks in the UEMOA region: design and integration of a prudential reporting solution compliant with BCEAO/UEMOA requirements (collection, normalization, controls, generation, and transmission of reports).</li>
+                    <li>Collaborated with cross-functional teams to analyze requirements, architect scalable solutions, and solve complex technical problems throughout the development lifecycle.</li>
+                    <li>Implemented and optimized high-performance Oracle databases, focusing on data integrity and security to support critical transactions.</li>
+                    <li>Developed custom features, including reports, automated workflows, and user access controls tailored to each client's unique needs.</li>
+                    <li>Wrote comprehensive technical documentation, including architecture diagrams, API references, and user manuals.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Development Engineer</h3>
+                <p class="employer">SEGULA Technologies for Stellantis Group</p>
+                <span class="date">October 2018 – June 2023</span>
+                <ul>
+                    <li>Led the analysis and detailed specification of client requirements to ensure the delivery of high-impact solutions.</li>
+                    <li>Architected and developed advanced internal software for the objective calibration of automatic transmission torque converters, leveraging vehicle dynamics with Excel VBA as a foundation.</li>
+                    <li>Designed and implemented a comprehensive benchmarking tool that automatically generates detailed .doc reports based on complex client-defined criteria.</li>
+                    <li>Engineered a robust Excel/Access platform for data navigation, visualization, and updating, with external XML import/export and seamless synchronization with an Access database via optimized SQL queries; later migrated to PostgreSQL while ensuring backward compatibility with existing tools.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-content">
+            <h2>Featured Projects</h2>
+            <div class="project">
+                <h3>SkinAI</h3>
+                <ul>
+                    <li>Developed a full-stack AI-based skin analysis application using React (frontend), Python FastAPI and Spring Boot (backend), and PostgreSQL.</li>
+                    <li>Implemented secure user authentication, analysis history, and AI image analysis using custom machine learning models.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>CADSHIP</h3>
+                <ul>
+                    <li>Developed a full-stack web platform for managing and visualizing CAD files (STL, OBJ).</li>
+                    <li>Node.js/Express backend for file processing and a React frontend for an interactive user interface.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Centralized AI Model Framework</h3>
+                <ul>
+                    <li>Architecture: React (UI), FastAPI/Spring Boot API, model registry with a unified inference interface (adapters), PostgreSQL, Docker.</li>
+                    <li>Features: seamless model swapping, interchangeability in workflows/pipelines without modifying consumer code, versioning and rollback, A/B testing, and change auditing.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-content">
+            <h2>Training & Certifications</h2>
+            <div class="training">
+                <h3>Accelerated VBA Training - Stellantis</h3>
+                <p class="employer">Technical Center, Carrières-sous-Poissy</p>
+                <span class="date">August 2019</span>
+                <ul>
+                    <li>Intensive practical training on advanced VBA development in industrial applications.</li>
+                </ul>
+            </div>
+            <div class="training">
+                <h3>Massinissa Framework Training - BFI</h3>
+                <p class="employer">Proprietary Java MVC Framework</p>
+                <span class="date">4 months</span>
+                <ul>
+                    <li>4-month program on the architecture of the Massinissa framework, based on Java and the MVC architecture.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

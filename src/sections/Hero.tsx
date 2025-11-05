@@ -53,9 +53,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-orange-500/5 z-0" />
 
       {/* Asymmetric Content Layout */}
-      <div className="relative z-10 min-h-screen flex items-center py-8 sm:py-12">
+      <div className="relative z-10 min-h-screen flex items-center py-4 sm:py-6">
         <div className="container-custom w-full my-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-center">
             {/* Left Side - Profile Image with Glassmorphic Card */}
             <motion.div
               initial={{ opacity: 0, x: -100 }}
@@ -66,7 +66,7 @@ export default function Hero() {
               <motion.div
                 whileHover={{ scale: 1.02, y: -5 }}
                 transition={{ duration: 0.3 }}
-                className="relative p-4 sm:p-6 md:p-8 rounded-3xl"
+                className="relative p-3 sm:p-4 md:p-6 rounded-3xl"
                 style={{
                   background: 'rgba(255, 255, 255, 0.05)',
                   backdropFilter: 'blur(20px)',
@@ -87,7 +87,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, type: "spring" }}
-              className="text-left p-4 sm:p-6 md:p-8 rounded-3xl order-1 lg:order-2"
+              className="text-left p-3 sm:p-4 md:p-6 rounded-3xl order-1 lg:order-2"
               style={{
                 background: 'rgba(255, 255, 255, 0.08)',
                 backdropFilter: 'blur(20px)',
@@ -99,7 +99,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.8 }}
-                className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4 text-amber-300"
+                className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-3 text-amber-300"
               >
                 {t('hero.greeting')}
               </motion.p>
@@ -108,7 +108,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-3 sm:mb-4 leading-tight"
               >
                 {t('hero.name').split(' ').map((word, index) => (
                   <motion.span
@@ -127,7 +127,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.8 }}
-                className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-4 sm:mb-6 min-h-[3rem] sm:min-h-[3.5rem] flex items-center"
+                className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-3 sm:mb-4 min-h-[2.5rem] sm:min-h-[3rem] flex items-center"
               >
                 <motion.span
                   key={specialtyIndex}
@@ -148,44 +148,104 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.9, duration: 0.8 }}
-                className="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl leading-relaxed"
+                className="text-base sm:text-lg md:text-xl text-gray-200 mb-4 sm:mb-5 max-w-2xl leading-relaxed"
               >
                 {t('hero.summary')}
               </motion.p>
 
-              <motion.button
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.1, duration: 0.8 }}
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(251, 191, 36, 0.4)" }}
-                whileTap={{ scale: 0.95 }}
-                onClick={scrollToNextSection}
-                className="inline-flex items-center space-x-2 px-6 py-3 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base font-semibold shadow-lg relative overflow-hidden group"
-                style={{
-                  background: 'rgba(251, 191, 36, 0.2)',
-                  backdropFilter: 'blur(10px)',
-                  border: '1px solid rgba(251, 191, 36, 0.3)',
-                  color: 'white',
-                }}
-              >
-                <span className="relative z-10">{t('hero.cta')}</span>
-                <motion.svg
-                  animate={{ y: [0, 5, 0] }}
-                  transition={{ repeat: Infinity, duration: 1.5 }}
-                  className="w-5 h-5 relative z-10"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                </motion.svg>
-                <div 
-                  className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              <div className="flex flex-col sm:flex-row gap-3">
+                <motion.button
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1.1, duration: 0.8 }}
+                  whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(251, 191, 36, 0.4)" }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={scrollToNextSection}
+                  className="inline-flex items-center justify-center space-x-2 px-5 py-2.5 rounded-full text-sm font-semibold shadow-lg relative overflow-hidden group"
                   style={{
-                    background: 'linear-gradient(135deg, rgba(251, 191, 36, 0.4), rgba(245, 158, 11, 0.4))',
+                    background: 'rgba(251, 191, 36, 0.2)',
+                    backdropFilter: 'blur(10px)',
+                    border: '1px solid rgba(251, 191, 36, 0.3)',
+                    color: 'white',
                   }}
-                />
-              </motion.button>
+                >
+                  <span className="relative z-10">{t('hero.cta')}</span>
+                  <motion.svg
+                    animate={{ y: [0, 5, 0] }}
+                    transition={{ repeat: Infinity, duration: 1.5 }}
+                    className="w-4 h-4 relative z-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                  </motion.svg>
+                  <div 
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    style={{
+                      background: 'linear-gradient(135deg, rgba(251, 191, 36, 0.4), rgba(245, 158, 11, 0.4))',
+                    }}
+                  />
+                </motion.button>
+
+                <motion.a
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1.2, duration: 0.8 }}
+                  whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(59, 130, 246, 0.4)" }}
+                  whileTap={{ scale: 0.95 }}
+                  href="/CV_Modern_Layout_en.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center space-x-1.5 px-4 py-2.5 rounded-full text-sm font-semibold shadow-lg relative overflow-hidden group"
+                  style={{
+                    background: 'rgba(59, 130, 246, 0.2)',
+                    backdropFilter: 'blur(10px)',
+                    border: '1px solid rgba(59, 130, 246, 0.3)',
+                    color: 'white',
+                  }}
+                >
+                  <span className="relative z-10">CV (EN)</span>
+                  <svg className="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                  <div 
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    style={{
+                      background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.4), rgba(37, 99, 235, 0.4))',
+                    }}
+                  />
+                </motion.a>
+
+                <motion.a
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1.3, duration: 0.8 }}
+                  whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(59, 130, 246, 0.4)" }}
+                  whileTap={{ scale: 0.95 }}
+                  href="/CV_Modern_Layout.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center space-x-1.5 px-4 py-2.5 rounded-full text-sm font-semibold shadow-lg relative overflow-hidden group"
+                  style={{
+                    background: 'rgba(59, 130, 246, 0.2)',
+                    backdropFilter: 'blur(10px)',
+                    border: '1px solid rgba(59, 130, 246, 0.3)',
+                    color: 'white',
+                  }}
+                >
+                  <span className="relative z-10">CV (FR)</span>
+                  <svg className="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                  <div 
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    style={{
+                      background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.4), rgba(37, 99, 235, 0.4))',
+                    }}
+                  />
+                </motion.a>
+              </div>
             </motion.div>
           </div>
         </div>
