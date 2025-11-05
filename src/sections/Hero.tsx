@@ -25,7 +25,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-800 py-20 sm:py-0">
+    <section id="hero" className="relative min-h-[120vh] lg:min-h-screen overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-800 flex items-center py-20 sm:py-24 md:py-28">
       {/* 3D Background with Floating Shapes - Different color scheme */}
       <div className="absolute inset-0 z-0">
         <Canvas>
@@ -53,9 +53,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-orange-500/5 z-0" />
 
       {/* Asymmetric Content Layout */}
-      <div className="relative z-10 min-h-screen flex items-center py-4 sm:py-6">
-        <div className="container-custom w-full my-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-center">
+      <div className="relative z-10 w-full">
+        <div className="container-custom w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 items-center max-w-7xl mx-auto">
             {/* Left Side - Profile Image with Glassmorphic Card */}
             <motion.div
               initial={{ opacity: 0, x: -100 }}
@@ -66,7 +66,7 @@ export default function Hero() {
               <motion.div
                 whileHover={{ scale: 1.02, y: -5 }}
                 transition={{ duration: 0.3 }}
-                className="relative p-3 sm:p-4 md:p-6 rounded-3xl"
+                className="relative p-2 sm:p-3 md:p-4 lg:p-6 rounded-3xl max-w-md mx-auto"
                 style={{
                   background: 'rgba(255, 255, 255, 0.05)',
                   backdropFilter: 'blur(20px)',
@@ -75,9 +75,10 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="/profile_picture.jpg"
+                  src="/profile_picture.png"
                   alt="Mohamed Dhia BEN HMIDA"
-                  className="relative w-full max-w-sm mx-auto rounded-2xl object-cover"
+                  className="relative w-full rounded-2xl object-cover aspect-[3/4]"
+                  style={{ minHeight: '400px', maxHeight: '600px' }}
                 />
               </motion.div>
             </motion.div>
@@ -87,7 +88,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, type: "spring" }}
-              className="text-left p-3 sm:p-4 md:p-6 rounded-3xl order-1 lg:order-2"
+              className="text-left p-3 sm:p-4 md:p-5 lg:p-6 rounded-3xl order-1 lg:order-2 max-w-2xl mx-auto"
               style={{
                 background: 'rgba(255, 255, 255, 0.08)',
                 backdropFilter: 'blur(20px)',

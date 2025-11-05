@@ -81,10 +81,10 @@ export default function Contact() {
       // Send email directly using EmailJS
       if (formRef.current) {
         const result = await emailjs.sendForm(
-          'Portfolio_Mail', // Service ID
-          'template_qrp5kgh', // Default template
+          import.meta.env.VITE_EMAILJS_SERVICE_ID, 
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
           formRef.current,
-          'XX61t_NLMKLeiFhaI' // Public Key
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY 
         );
         
         console.log('Email sent successfully:', result);
@@ -92,8 +92,13 @@ export default function Contact() {
         setFormData({ name: '', email: '', message: '' });
         setTimeout(() => setStatus('idle'), 5000);
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error('Email send failed:', error);
+      console.error('Error details:', {
+        status: error?.status,
+        text: error?.text,
+        message: error?.message
+      });
       setStatus('error');
       setTimeout(() => setStatus('idle'), 5000);
     }
@@ -125,6 +130,12 @@ export default function Contact() {
       label: t('contact.info.phone'),
       value: '+(216) 27 225 432',
       link: 'tel:+21627225432',
+    },
+    {
+      icon: <PhoneIcon />,
+      label: t('contact.info.phone2'),
+      value: '+(216) 95 410 551',
+      link: 'tel:+21695410551',
     },
     {
       icon: <LocationIcon />,
@@ -191,6 +202,11 @@ export default function Contact() {
               >
                 <form ref={formRef} onSubmit={handleSubmit}>
                   <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+                  {/* Hidden field for email reply */}
+                  <input type="hidden" name="from_name" value={formData.name} />
+                  <input type="hidden" name="from_email" value={formData.email} />
+                  <input type="hidden" name="reply_to" value={formData.email} />
+                  
                   <TextField
                     fullWidth
                     label={t('contact.form.name')}

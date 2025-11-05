@@ -332,12 +332,13 @@
                                  "message":  "Message",
                                  "send":  "Envoyer le message",
                                  "sending":  "Envoi...",
-                                 "success":  "Message envoyé avec succès!",
-                                 "error":  "Échec de l\u0027envoi du message. Veuillez réessayer."
+                                 "success":  "Merci! Votre message a été envoyé avec succès. Je vous répondrai dans les plus brefs délais.",
+                                 "error":  "L\u0027envoi du message a échoué. Veuillez m\u0027envoyer un email directement à m.dhia.b.h@gmail.com"
                              },
                     "info":  {
                                  "email":  "m.dhia.b.h@gmail.com",
                                  "phone":  "+(216) 27 225 432",
+                                 "phone2":  "+(216) 95 410 551",
                                  "location":  "Tunis, Tunisie",
                                  "linkedin":  "Profil LinkedIn"
                              }

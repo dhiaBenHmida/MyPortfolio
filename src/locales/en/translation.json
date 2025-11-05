@@ -326,12 +326,13 @@
                                  "message":  "Message",
                                  "send":  "Send Message",
                                  "sending":  "Sending...",
-                                 "success":  "Message sent successfully!",
-                                 "error":  "Failed to send message. Please try again."
+                                 "success":  "Thank you! Your message has been sent successfully. I'll get back to you as soon as possible.",
+                                 "error":  "Message failed to send. Please email me directly at m.dhia.b.h@gmail.com"
                              },
                     "info":  {
                                  "email":  "m.dhia.b.h@gmail.com",
                                  "phone":  "+(216) 27 225 432",
+                                 "phone2":  "+(216) 95 410 551",
                                  "location":  "Tunis, Tunisia",
                                  "linkedin":  "LinkedIn Profile"
                              }
