@@ -117,8 +117,8 @@ export default function Contact() {
     {
       icon: <EmailIcon />,
       label: t('contact.info.email'),
-      value: 'm.dhia.bh@gmail.com',
-      link: 'mailto:m.dhia.bh@gmail.com',
+      value: 'm.dhia.b.h@gmail.com',
+      link: 'mailto:m.dhia.b.h@gmail.com',
     },
     {
       icon: <PhoneIcon />,

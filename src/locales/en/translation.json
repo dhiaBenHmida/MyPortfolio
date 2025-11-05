@@ -84,8 +84,8 @@
                                                             "Docker",
                                                             "Three.js"
                                                         ],
-                                       "github":  "https://github.com/MohamedDhiaBenHmida/DermaDetectAI",
-                                       "githubTraining":  "https://github.com/MohamedDhiaBenHmida/DermaDetectAI-Training"
+                                       "github":  "https://github.com/dhiaBenHmida/DermaDetectAI",
+                                       "githubTraining":  "https://github.com/dhiaBenHmida/DermaDetectAI-Training"
                                    },
                                    {
                                        "id":  "cadship",
@@ -330,7 +330,7 @@
                                  "error":  "Failed to send message. Please try again."
                              },
                     "info":  {
-                                 "email":  "m.dhia.bh@gmail.com",
+                                 "email":  "m.dhia.b.h@gmail.com",
                                  "phone":  "+(216) 27 225 432",
                                  "location":  "Tunis, Tunisia",
                                  "linkedin":  "LinkedIn Profile"
