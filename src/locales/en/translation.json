@@ -11,23 +11,38 @@
                  "name":  "Mohamed Dhia BEN HMIDA",
                  "title":  "Software Development Engineer",
                  "specialties":  [
+                                     "Regulatory Reporting \u0026 T24",
+                                     "ETL Lakehouse \u0026 GED",
                                      "Java \u0026 Oracle PL/SQL Specialist",
-                                     "Full-Stack Developer",
-                                     "Financial Systems Architect",
-                                     "AI \u0026 ML Enthusiast"
+                                     "Full-Stack Developer"
                                  ],
                  "cta":  "Scroll to explore",
-                 "summary":  "Software engineer with 7 years of experience designing mission-critical systems for the financial sector. Specialized in Java/Spring Boot and Oracle SQL/PL-SQL, with expertise in Python/FastAPI and React."
+                 "summary":  "Software engineer with 8 years of experience designing mission-critical systems for the financial sector. Since March 2026 at ITSS Global: SigmaReports / SigmaGED / ETL Lakehouse for BNH Algeria, NostroRecon, and Temenos Document Output plus T24 regulatory enquiries for L'Archer Banque Congo."
              },
     "experience":  {
                        "title":  "Professional Experience",
                        "current":  "Current",
                        "jobs":  [
                                     {
+                                        "id":  "itss",
+                                        "position":  "Consultant / Project Engineer | Regulatory Reporting, GED & Core Banking",
+                                        "company":  "ITSS Global",
+                                        "period":  "March 2026 – Present",
+                                        "location":  "Client missions (Algeria, Congo)",
+                                        "highlights":  [
+                                                           "BNH Algeria | SigmaReports, SigmaGED, ETL Lakehouse: cadrage, Temenos T24 (JBloader) to Bronze / Silver / Gold to SigmaReports canevas lineage across six domains (Comptabilité, Engagements, Risque, Conformité, COMEX, Exploitation)",
+                                                           "BNH Algeria | PV de cadrage, master and domain data dictionaries, traceability dossiers, RRO and M20R end-to-end POCs (SQL pipeline patterns, SigmaReports configuration, client UI packs)",
+                                                           "BNH Algeria | SigmaGED BPM workshops (COMEX domiciliation pilot): process matrices, flux centralisation catalogue, prerequisite execution tracking",
+                                                           "BNH Algeria | NostroRecon PoC: React, Vite, Ant Design, Spring Boot, Java 21, PostgreSQL, mock T24, MIRRORING matching (opposite Debit/Credit)",
+                                                           "L'Archer Banque Congo | Temenos Transact Document Output: JRXML templates and Document Output configuration (documents, datasets, document types)",
+                                                           "L'Archer Banque Congo | Regulatory reporting GO-LIVE on Temenos Transact R25 (TAFJ): T24 enquiries in the T24 browser, including TELLER-based FX, BEAC retrocession, and cash-position reports"
+                                                       ]
+                                    },
+                                    {
                                         "id":  "bfi",
                                         "position":  "Java and Oracle PL/SQL Developer",
                                         "company":  "BFI Groupe",
-                                        "period":  "July 2023 – Present",
+                                        "period":  "July 2023 – March 2026",
                                         "location":  "Tunisia",
                                         "highlights":  [
                                                            "Designed and developed robust software solutions for financial institutions, aligning with industry standards and specifications",
@@ -245,6 +260,7 @@
                                                                 "FastAPI",
                                                                 "Express (Node.js)",
                                                                 "Spring Boot",
+                                                                "Ant Design",
                                                                 "HTML",
                                                                 "Bootstrap",
                                                                 "Material UI"
@@ -260,6 +276,7 @@
                                                         "title":  "Databases",
                                                         "items":  [
                                                                       "PostgreSQL",
+                                                                      "SQL Server",
                                                                       "MongoDB",
                                                                       "MySQL",
                                                                       "Oracle SQL",
@@ -305,6 +322,19 @@
                                                                           "Agile Scrum"
                                                                       ]
                                                         },
+                                      "banking":  {
+                                                       "title":  "Banking \u0026 Regulatory",
+                                                       "items":  [
+                                                                     "Temenos T24 / Transact",
+                                                                     "T24 Enquiries",
+                                                                     "Regulatory Reporting",
+                                                                     "ETL / Lakehouse (Bronze-Silver-Gold)",
+                                                                     "SigmaReports / SigmaGED",
+                                                                     "Document Output / JRXML",
+                                                                     "Nostro Reconciliation",
+                                                                     "Data Dictionaries \u0026 Lineage"
+                                                                 ]
+                                                   },
                                       "tools":  {
                                                     "title":  "CI/CD \u0026 Tools",
                                                     "items":  [
@@ -313,7 +343,8 @@
                                                                   "Vite",
                                                                   "WebSocket",
                                                                   "WebRTC",
-                                                                  "JWT Authentication"                                                              ]
+                                                                  "JWT Authentication"
+                                                              ]
                                                 }
                                   }
                },
