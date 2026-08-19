@@ -9,15 +9,15 @@
     "hero":  {
                  "greeting":  "Bonjour, je suis",
                  "name":  "Mohamed Dhia BEN HMIDA",
-                 "title":  "Ingénieur en Développement Logiciel",
+                 "title":  "Consultant technique senior",
                  "specialties":  [
-                                     "Reporting réglementaire \u0026 T24",
+                                     "Tech Lead | Reporting réglementaire \u0026 T24",
                                      "ETL Lakehouse \u0026 GED",
                                      "Spécialiste Java \u0026 Oracle PL/SQL",
                                      "Développeur Full-Stack"
                                  ],
                  "cta":  "Défiler pour explorer",
-                 "summary":  "Ingénieur logiciel avec 8 ans d\u0027expérience dans la conception de systèmes critiques pour le secteur financier. Depuis mars 2026 chez ITSS Global : SigmaReports / SigmaGED / ETL Lakehouse pour la BNH Algérie, NostroRecon, et éditique Temenos Document Output plus enquiries T24 de reporting réglementaire pour L'Archer Banque Congo."
+                 "summary":  "Consultant technique senior et tech lead avec 8 ans d\u0027expérience dans la conception de systèmes critiques pour les banques. Tech lead chez ITSS Global depuis mars 2026, responsable de bout en bout des livraisons de reporting réglementaire et de GED en Afrique du Nord et centrale : cadrage fonctionnel, architecture lakehouse Bronze / Silver / Gold, workflows documentaires BPM, et rapprochement Nostro."
              },
     "experience":  {
                        "title":  "Expérience Professionnelle",
@@ -25,17 +25,16 @@
                        "jobs":  [
                                     {
                                         "id":  "itss",
-                                        "position":  "Consultant / Ingénieur de projet | Reporting réglementaire, GED et Core Banking",
+                                        "position":  "Consultant technique senior | Tech Lead",
                                         "company":  "ITSS Global",
                                         "period":  "Mars 2026 – Présent",
-                                        "location":  "Missions client (Algérie, Congo)",
+                                        "location":  "Missions client (Algérie, Congo-Brazzaville)",
                                         "highlights":  [
-                                                           "BNH Algérie | SigmaReports, SigmaGED, ETL Lakehouse : cadrage, lignée Temenos T24 (JBloader) vers Bronze / Silver / Gold vers canevas SigmaReports sur six domaines (Comptabilité, Engagements, Risque, Conformité, COMEX, Exploitation)",
-                                                           "BNH Algérie | PV de cadrage, dictionnaires maître et par domaine, dossiers de traçabilité, POC RRO et M20R (patterns SQL pipeline, configuration SigmaReports, packs UI client)",
-                                                           "BNH Algérie | Ateliers BPM SigmaGED (pilote domiciliation COMEX) : matrices processus, catalogue de centralisation des flux, suivi d'exécution des prérequis",
-                                                           "BNH Algérie | POC NostroRecon : React, Vite, Ant Design, Spring Boot, Java 21, PostgreSQL, T24 mock, matching MIRRORING (sens Debit/Credit opposé)",
-                                                           "L'Archer Banque Congo | Éditique Temenos Transact Document Output : templates JRXML et paramétrage Document Output (documents, datasets, types de documents)",
-                                                           "L'Archer Banque Congo | Reporting réglementaire GO-LIVE sur Temenos Transact R25 (TAFJ) : enquiries T24 dans le navigateur T24, dont états TELLER change, rétrocession BEAC et situation de caisse"
+                                                           "Banque Nationale de l'Habitat (BNH), Algérie - reporting réglementaire et GED : direction du cadrage, lignée T24 (JBloader) vers Bronze / Silver / Gold vers restitution des canevas sur six domaines, dictionnaires, dossiers de traçabilité, packs RRO / M20R sur la plateforme ITSS Sigma (SigmaReports, SigmaGED)",
+                                                           "BNH - workflows documentaires BPM : direction des ateliers BPM (pilote domiciliation COMEX), matrices processus, catalogue de centralisation des flux, suivi d'exécution des prérequis",
+                                                           "Plateforme de rapprochement Nostro (nom interne NostroRecon) - livrée et clôturée : direction de la plateforme de rapprochement Nostro (React, Vite, Ant Design, Spring Boot, Java 21, PostgreSQL, T24) avec matching MIRRORING ; projet livré, pas en cours",
+                                                           "Client bancaire commercial CEMAC, Congo-Brazzaville - éditique Temenos Transact : direction des templates JRXML et du paramétrage Document Output (documents, datasets, types de documents)",
+                                                           "Client bancaire commercial CEMAC, Congo-Brazzaville - reporting réglementaire GO-LIVE sur Temenos Transact R25 (TAFJ) : direction des enquiries T24 dans le navigateur T24, dont états TELLER change, rétrocession BEAC et situation de caisse"
                                                        ]
                                     },
                                     {
@@ -331,13 +330,15 @@
                                                        "title":  "Banque \u0026 Réglementaire",
                                                        "items":  [
                                                                      "Temenos T24 / Transact",
-                                                                     "Enquiries T24",
-                                                                     "Reporting Réglementaire",
-                                                                     "ETL / Lakehouse (Bronze-Silver-Gold)",
-                                                                     "SigmaReports / SigmaGED",
-                                                                     "Document Output / JRXML",
-                                                                     "Rapprochement Nostro",
-                                                                     "Dictionnaires de Données \u0026 Traçabilité"
+                                                                     "Enquiries T24 (STANDARD.SELECTION)",
+                                                                     "Reporting réglementaire (Banque d'Algérie, BEAC / COBAC, BCEAO / UEMOA)",
+                                                                     "Reporting prudentiel",
+                                                                     "ETL et data lakehouse (Bronze / Silver / Gold)",
+                                                                     "Dictionnaires de données et traçabilité",
+                                                                     "Gestion électronique des documents (ECM / GED)",
+                                                                     "Conception de workflows BPM",
+                                                                     "Production documentaire Jasper / JRXML",
+                                                                     "Rapprochement Nostro"
                                                                  ]
                                                    },
                                       "tools":  {
