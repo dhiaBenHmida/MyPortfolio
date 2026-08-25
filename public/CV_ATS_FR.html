@@ -80,15 +80,12 @@ Portfolio: https://mdbh.netlify.app</p>
 
 <h2>Compétences</h2>
 <div class="skills">
-<p><strong>Programmation:</strong> Python, JavaScript, TypeScript, Java, PHP, PL/SQL, VBA</p>
-<p><strong>Développement web:</strong> React, FastAPI, Express (Node.js), Spring Boot, Ant Design, HTML, Bootstrap, Material UI</p>
-<p><strong>Gestion d'état:</strong> Redux Toolkit</p>
-<p><strong>Bases de données:</strong> PostgreSQL, SQL Server, Oracle SQL, MySQL, MongoDB, JPA/Hibernate, Mongoose, Redis, IndexedDB, LocalStorage</p>
-<p><strong>Banque et réglementaire:</strong> Temenos T24 / Transact, enquiries T24 (STANDARD.SELECTION), reporting réglementaire (Banque d'Algérie, BEAC / COBAC, BCEAO / UEMOA), reporting prudentiel, ETL et data lakehouse (Bronze / Silver / Gold), dictionnaires de données et traçabilité, gestion électronique des documents (ECM / GED), conception de workflows BPM, production documentaire Jasper / JRXML, rapprochement Nostro</p>
-<p><strong>Machine learning et IA:</strong> PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, Vision Transformers (ViT), EfficientNet, ConvNext, TIMM, grands modèles de langage (LLM), MediaPipe, OpenCV, TensorBoard</p>
-<p><strong>Graphisme 3D et CAO:</strong> Three.js, React Three Fiber, OpenCASCADE.js, WebAssembly (WASM), modélisation paramétrique, formats CAO (STEP, IGES, STL, OBJ)</p>
-<p><strong>Méthodologies:</strong> Agile Scrum</p>
-<p><strong>CI/CD et outils:</strong> Git, Docker, Vite, WebSocket, WebRTC, authentification JWT</p>
+<p><strong>Banque et réglementaire:</strong> Temenos T24 / Transact, enquiries T24, reporting réglementaire, reporting prudentiel, ETL et data lakehouse (Bronze / Silver / Gold), dictionnaires de données et traçabilité, gestion électronique des documents (ECM / GED), conception de workflows BPM, production documentaire Jasper / JRXML, rapprochement Nostro</p>
+<p><strong>Programmation:</strong> Java, Python, JavaScript, TypeScript, PL/SQL, SQL, PHP, VBA</p>
+<p><strong>Backend et web:</strong> Spring Boot, FastAPI, React, Ant Design, Express (Node.js), API REST, JWT, Redux Toolkit, Vite, HTML, Bootstrap, Material UI</p>
+<p><strong>Bases de données:</strong> Oracle SQL, PostgreSQL, MySQL, SQL Server, MongoDB, Redis, JPA/Hibernate ; packages, jobs, vues matérialisées, partitionnement, indexation, tuning des plans d'exécution</p>
+<p><strong>Machine learning et IA:</strong> PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, Vision Transformers (ViT), OpenCV, MediaPipe</p>
+<p><strong>Outils:</strong> Git, Docker, Agile Scrum, WebSocket, WebRTC</p>
 <p><strong>Langues:</strong> Arabe (langue maternelle), Français (courant), Anglais (courant)</p>
 </div>
 
@@ -96,36 +93,28 @@ Portfolio: https://mdbh.netlify.app</p>
 
 <h3>Consultant technique senior | Tech Lead</h3>
 <p class="meta">ITSS Global | Missions client: Algérie et Congo-Brazzaville | Mars 2026 - Présent</p>
-<p>Tech lead de l'ensemble des livraisons ci-dessous : reporting réglementaire et GED BNH, rapprochement Nostro, éditique client CEMAC, et reporting réglementaire T24 client CEMAC.</p>
+<p>Tech lead de 4 livraisons concurrentes : reporting réglementaire et GED BNH, rapprochement Nostro (achevé), éditique CEMAC, et reporting réglementaire T24 CEMAC.</p>
 <ul>
-    <li>Banque Nationale de l'Habitat (BNH), Algérie - reporting réglementaire et GED : direction du cadrage fonctionnel (PV de cadrage), de l'architecture de données et de l'accompagnement métier pour que la BNH produise les déclarations Banque d'Algérie et opère la GED sur la plateforme ITSS Sigma (SigmaReports, SigmaGED). Pilotage de la lignée Temenos T24 (extraction JBloader) vers Bronze (extrait brut) vers Silver (tables SRC_* curatées et référentiels REF_*) vers Gold (agrégats FACT_*) vers restitution des canevas, sur six domaines : Comptabilité, Engagements, Risque, Conformité, COMEX, Exploitation.</li>
-    <li>BNH - dictionnaires de données et traçabilité : direction du dictionnaire maître et des dictionnaires par domaine, avec colonnes de mapping (REF, colonne schema, table source, source T24, règle / filtre). Direction des guides de lecture et des dossiers de traçabilité bout-en-bout pour que le métier non technique valide une cellule de canevas jusqu'au Gold, Silver, Bronze et T24. Mappings incomplets marqués A COMPLETER ; aucune source T24 ni colonne de schema inventée.</li>
-    <li>BNH - packs reporting RRO et M20R : direction des packs bout-en-bout du canevas vers Bronze, dont données de démonstration cohérentes, patterns SQL pipeline (préfixes entrepôt pa_ paramétrage, ds_ datasources, cs_ rapports), configuration de la plateforme de reporting et packs de paramétrage UI client. Configuration M20R : Bilan et Annexes 1 à 7.</li>
-    <li>BNH - workflows documentaires BPM : direction des ateliers BPM du pilote domiciliation COMEX, matrices processus, catalogue de centralisation des flux et suivi d'exécution des prérequis (catalogue documents, circuits BPM, utilisateurs, scanners, serveur). Branchement par avis en configuration d'étape ; branchement par montant ou condition de champ en Variantes.</li>
-    <li>Plateforme de rapprochement Nostro (nom interne NostroRecon) - livrée et clôturée : direction de la plateforme de rapprochement des comptes Nostro pour la BNH. Stack : React 19, Vite, Ant Design, Spring Boot 4, Java 21, PostgreSQL 16, T24. Profil de matching : MIRRORING (sens Debit/Credit opposé). Les rapprochements automatiques à référence exacte passent VALIDE (SYSTEM) ; la page propositions ne contient que PROPOSE. Limite de matching manuel : 100 USD. Hors de cette livraison : lettrage des comptes internes (phase 2). Projet livré.</li>
-    <li>Client bancaire commercial CEMAC, Congo-Brazzaville - éditique Temenos Transact : direction de l'éditique, templates JRXML (ED-001 à ED-011) et paramétrage Document Output (documents, datasets, types de documents). Types de documents en production : RIB, relevés, reçus versement et retrait, rapatriement, avis de débit, remise documentaire, échelle d'intérêts, tableau d'amortissement. Déploiement des templates Jasper compilés et JRXML Studio.</li>
-    <li>Client bancaire commercial CEMAC, Congo-Brazzaville - reporting réglementaire GO-LIVE sur Temenos Transact R25 (TAFJ) : direction des enquiries T24 créées dans le navigateur T24 (ENQUIRY,INPUT). Enquiries TELLER livrées : achats et ventes de devises à la clientèle (CG.E.FX.CLIENT.REPORTING), rétrocession des devises à la BEAC (LIST.RETROCESSION.BEAC), situation de caisse agence, retraits et dépôts à la BEAC (CG.E.DIS.TXN.AUTH.REPORTING). Conception du chemin enquiry NOFILE pour les avoirs extérieurs et besoins courants DFX (ENQ.NOFILE.AVOIRS.EXT.DFX).</li>
+    <li>Débloqué la production réglementaire auprès de la banque centrale et la GED pour la Banque Nationale de l'Habitat (BNH, Algérie) sur 6 domaines en dirigeant le cadrage, l'architecture T24 vers lakehouse (Bronze / Silver / Gold), la restitution UI des déclarations, les dictionnaires, et les flux BPM scan / indexation / validation.</li>
+    <li>Mis en place des circuits d'approbation de dossiers commerciaux pour un pilote GED en animant des ateliers BPM (matrices processus, catalogue de flux, suivi des prérequis) afin que les agences routent les dossiers sans email ad hoc.</li>
+    <li>Clôturé le rapprochement Nostro (comptes correspondants) pour la trésorerie BNH en livrant une plateforme de matching React / Spring Boot / PostgreSQL face à T24 ; projet achevé, pas en cours.</li>
+    <li>Lancé l'impression de documents clientèle pour une banque commerciale CEMAC (Congo-Brazzaville) en livrant 11 templates JRXML et le paramétrage Document Output (RIB, relevés, reçus de caisse et types associés).</li>
+    <li>Atteint le go-live du reporting réglementaire sur Temenos Transact R25 pour le même client CEMAC en configurant des enquiries T24 (change, situation de caisse, opérations avec la banque centrale).</li>
 </ul>
 
 <h3>Développeur Java et Oracle PL/SQL</h3>
 <p class="meta">BFI Groupe | Tunisie | Juillet 2023 - Mars 2026</p>
 <ul>
-    <li>Conception et développement de solutions logicielles pour des institutions financières, en alignement avec les normes et spécifications de l'industrie.</li>
-    <li>Centralisateur comptable pour la BIAT: intégration et synchronisation avec les systèmes d'information de la banque (core banking et autres flux) via le centralisateur comptable; orchestration des flux comptables et transactionnels; contrôles d'intégrité et de traçabilité; optimisation des performances (latence, volumétrie).</li>
-    <li>Application réglementaire pour les banques de la région UEMOA: conception et intégration d'une solution de reporting prudentiel conforme aux exigences BCEAO / UEMOA (collecte, normalisation, contrôles, génération et transmission des états).</li>
-    <li>Collaboration avec des équipes inter-fonctionnelles pour analyser les exigences, architecturer des solutions évolutives et résoudre des problèmes techniques complexes tout au long du cycle de vie du développement.</li>
-    <li>Implémentation et optimisation de bases de données Oracle haute performance, en se concentrant sur l'intégrité des données et la sécurité pour supporter les transactions critiques (packages, jobs, vues matérialisées, partitionnement, indexation, tuning des plans d'exécution).</li>
-    <li>Développement de fonctionnalités sur mesure, y compris des rapports, des flux de travail automatisés et des contrôles d'accès utilisateur adaptés aux besoins de chaque client.</li>
-    <li>Rédaction de documentation technique, y compris des diagrammes d'architecture, des références d'API et des manuels d'utilisation.</li>
+    <li>Livré la centralisation comptable BIAT en intégrant les flux core banking et satellites avec contrôles d'intégrité et tuning de performance.</li>
+    <li>Permis le reporting prudentiel UEMOA en implémentant collecte, normalisation, contrôles et transmission des états selon les exigences régionales.</li>
+    <li>Renforcé Oracle pour les transactions bancaires critiques en optimisant packages, jobs, vues matérialisées, partitionnement, indexation et plans d'exécution.</li>
 </ul>
 
 <h3>Ingénieur Développeur</h3>
 <p class="meta">SEGULA Technologies pour Groupe Stellantis | France | Octobre 2018 - Juin 2023</p>
 <ul>
-    <li>Pilotage de l'analyse et de la spécification détaillée des exigences clients afin d'assurer la livraison de solutions à fort impact.</li>
-    <li>Architecture et développement de logiciels internes pour la calibration objective de convertisseurs de couple à transmission automatique, en exploitant la dynamique véhicule avec Excel VBA comme socle.</li>
-    <li>Conception et implémentation d'un outil de benchmarking générant automatiquement des rapports .doc détaillés selon des critères complexes définis par le client.</li>
-    <li>Ingénierie d'une plateforme Excel / Access pour la navigation, la visualisation et la mise à jour des données, avec import / export XML externe et synchronisation avec une base Access via requêtes SQL optimisées; migration ultérieure vers PostgreSQL tout en assurant la rétrocompatibilité avec les outils existants.</li>
+    <li>Livré des outils de calibration et de benchmarking pour les programmes de transmission automatique Stellantis en pilotant l'analyse des besoins et en construisant des outils internes avec génération automatisée de rapports .doc.</li>
+    <li>Migré une plateforme de données ingénierie vers PostgreSQL sans casser les clients Excel / Access en refondant l'import / export XML et la synchronisation SQL.</li>
 </ul>
 
 <h2>Projets</h2>

@@ -30,11 +30,11 @@
                                         "period":  "Mars 2026 – Présent",
                                         "location":  "Missions client (Algérie, Congo-Brazzaville)",
                                         "highlights":  [
-                                                           "Banque Nationale de l'Habitat (BNH), Algérie - reporting réglementaire et GED : direction du cadrage, lignée T24 (JBloader) vers Bronze / Silver / Gold vers restitution des canevas sur six domaines, dictionnaires, dossiers de traçabilité, packs RRO / M20R sur la plateforme ITSS Sigma (SigmaReports, SigmaGED)",
-                                                           "BNH - workflows documentaires BPM : direction des ateliers BPM (pilote domiciliation COMEX), matrices processus, catalogue de centralisation des flux, suivi d'exécution des prérequis",
-                                                           "Plateforme de rapprochement Nostro (nom interne NostroRecon) - livrée et clôturée : direction de la plateforme de rapprochement Nostro (React, Vite, Ant Design, Spring Boot, Java 21, PostgreSQL, T24) avec matching MIRRORING ; projet livré, pas en cours",
-                                                           "Client bancaire commercial CEMAC, Congo-Brazzaville - éditique Temenos Transact : direction des templates JRXML et du paramétrage Document Output (documents, datasets, types de documents)",
-                                                           "Client bancaire commercial CEMAC, Congo-Brazzaville - reporting réglementaire GO-LIVE sur Temenos Transact R25 (TAFJ) : direction des enquiries T24 dans le navigateur T24, dont états TELLER change, rétrocession BEAC et situation de caisse"
+                                                           "Débloqué la production réglementaire et la GED pour la Banque Nationale de l'Habitat (BNH, Algérie) sur 6 domaines en dirigeant le cadrage, l'architecture T24 vers lakehouse (Bronze / Silver / Gold), la restitution UI, les dictionnaires, et les flux BPM",
+                                                           "Mis en place des circuits d'approbation de dossiers commerciaux pour un pilote GED via ateliers BPM afin que les agences routent sans email ad hoc",
+                                                           "Clôturé le rapprochement Nostro pour la trésorerie BNH en livrant une plateforme React / Spring Boot / PostgreSQL face à T24 ; projet achevé",
+                                                           "Lancé l'impression de documents clientèle pour une banque commerciale CEMAC (Congo-Brazzaville) en livrant 11 templates JRXML et le paramétrage Document Output",
+                                                           "Atteint le go-live reporting réglementaire sur Temenos Transact R25 pour le même client CEMAC en configurant des enquiries T24 (change, caisse, opérations banque centrale)"
                                                        ]
                                     },
                                     {
@@ -330,8 +330,8 @@
                                                        "title":  "Banque \u0026 Réglementaire",
                                                        "items":  [
                                                                      "Temenos T24 / Transact",
-                                                                     "Enquiries T24 (STANDARD.SELECTION)",
-                                                                     "Reporting réglementaire (Banque d'Algérie, BEAC / COBAC, BCEAO / UEMOA)",
+                                                                     "Enquiries T24",
+                                                                     "Reporting réglementaire",
                                                                      "Reporting prudentiel",
                                                                      "ETL et data lakehouse (Bronze / Silver / Gold)",
                                                                      "Dictionnaires de données et traçabilité",
@@ -405,5 +405,128 @@
                                     "french":  "Français (Courant)",
                                     "english":  "Anglais (Courant)"
                                 }
-                  }
+                  },
+    "second":  {
+                   "nav":  {
+                               "classic":  "Site classique",
+                               "experience":  "Expérience",
+                               "projects":  "Projets",
+                               "skills":  "Compétences",
+                               "contact":  "Contact",
+                               "work":  "Travailler ensemble"
+                           },
+                   "hero":  {
+                                "eyebrow":  "Portfolio — Édition 2026",
+                                "kickerLeft":  "Édition 01 — 2026",
+                                "kickerRight":  "Travail indépendant · Tunisie",
+                                "headlineLead":  "Les systèmes que les banques exigent —",
+                                "headlineMark":  "tenus de bout en bout.",
+                                "ctaPrimary":  "Voir l'expérience",
+                                "ctaSecondary":  "Me contacter"
+                            },
+                   "loader":  {
+                                  "brand":  "Mohamed Dhia BEN HMIDA",
+                                  "status":  "Chargement édition 01"
+                              },
+                   "proof":  {
+                                 "years":  "Années à construire du logiciel",
+                                 "roles":  "Postes professionnels",
+                                 "projects":  "Produits mis en avant",
+                                 "langs":  "Langues de travail"
+                             },
+                   "marquee":  [
+                                   "Java",
+                                   "Spring Boot",
+                                   "React",
+                                   "Python",
+                                   "FastAPI",
+                                   "Oracle",
+                                   "PostgreSQL",
+                                   "ETL Lakehouse",
+                                   "Temenos T24",
+                                   "Computer Vision",
+                                   "PyTorch",
+                                   "Tech Lead"
+                               ],
+                   "chapters":  {
+                                    "experience":  {
+                                                       "index":  "01 — Expérience",
+                                                       "title":  "Là où le travail s'est fait.",
+                                                       "sub":  "Missions client et livraison produit entre finance, industrie et IA."
+                                                   },
+                                    "projects":  {
+                                                     "index":  "02 — Projets",
+                                                     "title":  "Réalisations sélectionnées.",
+                                                     "sub":  "Produits full-stack à périmètre réel — pas des démos."
+                                                 },
+                                    "skills":  {
+                                                   "index":  "03 — Compétences",
+                                                   "title":  "Une stack, plusieurs domaines.",
+                                                   "sub":  "Groupées selon l'usage réel en mission."
+                                               },
+                                    "work":  {
+                                                 "index":  "04 — Travailler ensemble",
+                                                 "title":  "Chaque mission a besoin d'un lead clair.",
+                                                 "sub":  "Je porte le cadrage, l'architecture et la livraison sur des chantiers concurrentiels — des systèmes bancaires réglementés aux produits IA."
+                                             },
+                                    "contact":  {
+                                                    "index":  "05 — Contact",
+                                                    "title":  "Pour une meilleure livraison, démarrez la conversation.",
+                                                    "sub":  "Envoyez un court message. Je réponds directement."
+                                                }
+                                },
+                   "work":  {
+                                "perks":  [
+                                              {
+                                                  "title":  "Ownership tech lead",
+                                                  "body":  "Cadrage, priorisation et handoffs sur plusieurs flux client."
+                                              },
+                                              {
+                                                  "title":  "Full-stack + data",
+                                                  "body":  "Java / Spring, React, APIs Python, et pipelines Bronze / Silver / Gold."
+                                              },
+                                              {
+                                                  "title":  "IA quand ça livre",
+                                                  "body":  "Produits vision et LLM avec auth, tableaux de bord et exploitation."
+                                              },
+                                              {
+                                                  "title":  "CVs ATS prêts",
+                                                  "body":  "Versions ciblées full-stack, data, AI/ML et banque."
+                                              }
+                                          ],
+                                "cvTitle":  "Télécharger un CV",
+                                "cvs":  [
+                                            {
+                                                "label":  "ATS Full-Stack (EN)",
+                                                "href":  "/CV_ATS_FullStack_Mohamed_Dhia_BEN_HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "ATS Backend / Data (EN)",
+                                                "href":  "/CV_ATS_BackendData_Mohamed_Dhia_BEN_HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "ATS AI / ML (EN)",
+                                                "href":  "/CV_ATS_AIML_Mohamed_Dhia_BEN_HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "ATS Banking (EN)",
+                                                "href":  "/CV_ATS_Banking_Mohamed_Dhia_BEN_HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "CV moderne (EN)",
+                                                "href":  "/CV - Mohamed Dhia BEN HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "CV moderne (FR)",
+                                                "href":  "/CV - Mohamed Dhia BEN HMIDA_FR.pdf"
+                                            }
+                                        ],
+                                "cta":  "Ouvrir le contact"
+                            },
+                   "footer":  {
+                                  "explore":  "Explorer",
+                                  "connect":  "Connecter",
+                                  "note":  "Prototype éditorial sur /second — le site classique reste sur /."
+                              }
+               }
 }

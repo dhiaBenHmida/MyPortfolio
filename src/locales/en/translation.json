@@ -30,11 +30,11 @@
                                         "period":  "March 2026 – Present",
                                         "location":  "Client missions (Algeria, Congo-Brazzaville)",
                                         "highlights":  [
-                                                           "Banque Nationale de l'Habitat (BNH), Algeria - regulatory reporting and GED: led cadrage, T24 (JBloader) to Bronze / Silver / Gold to report-canvas restitution across six domains, dictionaries, traceability dossiers, and RRO / M20R packs on the ITSS Sigma platform (SigmaReports, SigmaGED)",
-                                                           "BNH - BPM document workflows: led BPM workshops (COMEX domiciliation pilot), process matrices, flux centralisation catalogue, prerequisite execution tracking",
-                                                           "Nostro reconciliation platform (internally NostroRecon) - delivered and closed: led delivery of the Nostro reconciliation platform (React, Vite, Ant Design, Spring Boot, Java 21, PostgreSQL, T24) with MIRRORING matching; project completed, not ongoing",
-                                                           "CEMAC commercial banking client, Congo-Brazzaville - Temenos Transact document production: led JRXML templates and Document Output configuration (documents, datasets, document types)",
-                                                           "CEMAC commercial banking client, Congo-Brazzaville - regulatory reporting go-live on Temenos Transact R25 (TAFJ): led T24 enquiries in the T24 browser, including TELLER-based FX, BEAC retrocession, and cash-position reports"
+                                                           "Unblocked central-bank regulatory production and GED for Banque Nationale de l'Habitat (BNH, Algeria) across 6 domains by leading cadrage, T24-to-lakehouse (Bronze / Silver / Gold) architecture, report UI restitution, dictionaries, and BPM scan / approve flows",
+                                                           "Stood up trade-dossier approval circuits for a GED pilot by running BPM workshops so branches can route dossiers without ad-hoc email",
+                                                           "Closed Nostro (correspondent-account) reconciliation for BNH treasury by delivering a React / Spring Boot / PostgreSQL matching platform against T24; project completed",
+                                                           "Launched customer document printing for a CEMAC commercial bank (Congo-Brazzaville) by delivering 11 JRXML templates and Document Output configuration",
+                                                           "Reached regulatory reporting go-live on Temenos Transact R25 for the same CEMAC client by configuring T24 enquiries (FX, cash position, central-bank operations)"
                                                        ]
                                     },
                                     {
@@ -325,8 +325,8 @@
                                                        "title":  "Banking \u0026 Regulatory",
                                                        "items":  [
                                                                      "Temenos T24 / Transact",
-                                                                     "T24 enquiries (STANDARD.SELECTION)",
-                                                                     "Regulatory reporting (Banque d'Algerie, BEAC / COBAC, BCEAO / UEMOA)",
+                                                                     "T24 enquiries",
+                                                                     "Regulatory reporting",
                                                                      "Prudential reporting",
                                                                      "ETL and data lakehouse (Bronze / Silver / Gold)",
                                                                      "Data dictionaries and lineage",
@@ -400,5 +400,128 @@
                                     "french":  "French (Fluent)",
                                     "english":  "English (Fluent)"
                                 }
-                  }
+                  },
+    "second":  {
+                   "nav":  {
+                               "classic":  "Classic site",
+                               "experience":  "Experience",
+                               "projects":  "Projects",
+                               "skills":  "Skills",
+                               "contact":  "Contact",
+                               "work":  "Work with me"
+                           },
+                   "hero":  {
+                                "eyebrow":  "Portfolio — Edition 2026",
+                                "kickerLeft":  "Edition 01 — 2026",
+                                "kickerRight":  "Independent work · Tunisia",
+                                "headlineLead":  "The systems banks need —",
+                                "headlineMark":  "owned end to end.",
+                                "ctaPrimary":  "See experience",
+                                "ctaSecondary":  "Get in touch"
+                            },
+                   "loader":  {
+                                  "brand":  "Mohamed Dhia BEN HMIDA",
+                                  "status":  "Loading edition 01"
+                              },
+                   "proof":  {
+                                 "years":  "Years building software",
+                                 "roles":  "Professional roles",
+                                 "projects":  "Featured products shipped",
+                                 "langs":  "Working languages"
+                             },
+                   "marquee":  [
+                                   "Java",
+                                   "Spring Boot",
+                                   "React",
+                                   "Python",
+                                   "FastAPI",
+                                   "Oracle",
+                                   "PostgreSQL",
+                                   "ETL Lakehouse",
+                                   "Temenos T24",
+                                   "Computer Vision",
+                                   "PyTorch",
+                                   "Tech Lead"
+                               ],
+                   "chapters":  {
+                                    "experience":  {
+                                                       "index":  "01 — Experience",
+                                                       "title":  "Where the work happened.",
+                                                       "sub":  "Client missions and product delivery across finance, industry, and AI."
+                                                   },
+                                    "projects":  {
+                                                     "index":  "02 — Projects",
+                                                     "title":  "Selected builds.",
+                                                     "sub":  "Full-stack products with measurable scope — not demos."
+                                                 },
+                                    "skills":  {
+                                                   "index":  "03 — Skills",
+                                                   "title":  "One stack, many domains.",
+                                                   "sub":  "Grouped by how I actually use them on deliveries."
+                                               },
+                                    "work":  {
+                                                 "index":  "04 — Work with me",
+                                                 "title":  "Every engagement needs a clear lead.",
+                                                 "sub":  "I own framing, architecture, and delivery across concurrent workstreams — from regulated banking systems to AI products."
+                                             },
+                                    "contact":  {
+                                                    "index":  "05 — Contact",
+                                                    "title":  "If you want better delivery, start a conversation.",
+                                                    "sub":  "Send a short note. I reply directly."
+                                                }
+                                },
+                   "work":  {
+                                "perks":  [
+                                              {
+                                                  "title":  "Tech lead ownership",
+                                                  "body":  "Cadrage, prioritization, and handoffs across concurrent client streams."
+                                              },
+                                              {
+                                                  "title":  "Full-stack + data",
+                                                  "body":  "Java / Spring, React, Python APIs, and Bronze / Silver / Gold pipelines."
+                                              },
+                                              {
+                                                  "title":  "AI when it ships",
+                                                  "body":  "Vision and LLM products packaged with auth, dashboards, and ops."
+                                              },
+                                              {
+                                                  "title":  "ATS-ready CVs",
+                                                  "body":  "Role-targeted resumes for full-stack, data, AI/ML, and banking applications."
+                                              }
+                                          ],
+                                "cvTitle":  "Download a CV",
+                                "cvs":  [
+                                            {
+                                                "label":  "Full-Stack ATS (EN)",
+                                                "href":  "/CV_ATS_FullStack_Mohamed_Dhia_BEN_HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "Backend / Data ATS (EN)",
+                                                "href":  "/CV_ATS_BackendData_Mohamed_Dhia_BEN_HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "AI / ML ATS (EN)",
+                                                "href":  "/CV_ATS_AIML_Mohamed_Dhia_BEN_HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "Banking ATS (EN)",
+                                                "href":  "/CV_ATS_Banking_Mohamed_Dhia_BEN_HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "Modern CV (EN)",
+                                                "href":  "/CV - Mohamed Dhia BEN HMIDA_EN.pdf"
+                                            },
+                                            {
+                                                "label":  "Modern CV (FR)",
+                                                "href":  "/CV - Mohamed Dhia BEN HMIDA_FR.pdf"
+                                            }
+                                        ],
+                                "cta":  "Open contact"
+                            },
+                   "footer":  {
+                                  "explore":  "Explore",
+                                  "connect":  "Connect",
+                                  "note":  "Editorial prototype at /second — classic site remains at /."
+                              }
+               }
 }
