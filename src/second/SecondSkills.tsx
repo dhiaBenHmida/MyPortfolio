@@ -26,7 +26,7 @@ export default function SecondSkills() {
             return (
               <div className="second-skill-group" key={key}>
                 <h3>
-                  {String(index + 1).padStart(2, '0')} — {group.title}
+                  {String(index + 1).padStart(2, '0')}: {group.title}
                 </h3>
                 <ul className="second-sticker-wall">
                   {group.items.map((item, itemIndex) => (

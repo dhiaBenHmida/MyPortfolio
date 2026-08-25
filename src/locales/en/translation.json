@@ -389,7 +389,7 @@
                                         "period":  "2013 – 2015"
                                     },
                                     {
-                                        "degree":  "Tunisian Baccalaureate — Mathematics Specialty",
+                                        "degree":  "Tunisian Baccalaureate, Mathematics Specialty",
                                         "period":  "2013"
                                     }
                                 ]
@@ -412,10 +412,10 @@
                                "work":  "Work with me"
                            },
                    "hero":  {
-                                "eyebrow":  "Portfolio — Edition 2026",
-                                "kickerLeft":  "Edition 01 — 2026",
+                                "eyebrow":  "Portfolio, Edition 2026",
+                                "kickerLeft":  "Edition 01, 2026",
                                 "kickerRight":  "Independent work · Tunisia",
-                                "headlineLead":  "The systems banks need —",
+                                "headlineLead":  "The systems banks need",
                                 "headlineMark":  "owned end to end.",
                                 "ctaPrimary":  "See experience",
                                 "ctaSecondary":  "Get in touch"
@@ -446,27 +446,27 @@
                                ],
                    "chapters":  {
                                     "experience":  {
-                                                       "index":  "01 — Experience",
+                                                       "index":  "01: Experience",
                                                        "title":  "Where the work happened.",
                                                        "sub":  "Client missions and product delivery across finance, industry, and AI."
                                                    },
                                     "projects":  {
-                                                     "index":  "02 — Projects",
+                                                     "index":  "02: Projects",
                                                      "title":  "Selected builds.",
-                                                     "sub":  "Full-stack products with measurable scope — not demos."
+                                                     "sub":  "Full-stack products with measurable scope, not demos."
                                                  },
                                     "skills":  {
-                                                   "index":  "03 — Skills",
+                                                   "index":  "03: Skills",
                                                    "title":  "One stack, many domains.",
                                                    "sub":  "Grouped by how I actually use them on deliveries."
                                                },
                                     "work":  {
-                                                 "index":  "04 — Work with me",
+                                                 "index":  "04: Work with me",
                                                  "title":  "Every engagement needs a clear lead.",
-                                                 "sub":  "I own framing, architecture, and delivery across concurrent workstreams — from regulated banking systems to AI products."
+                                                 "sub":  "I own framing, architecture, and delivery across concurrent workstreams, from regulated banking systems to AI products."
                                              },
                                     "contact":  {
-                                                    "index":  "05 — Contact",
+                                                    "index":  "05: Contact",
                                                     "title":  "If you want better delivery, start a conversation.",
                                                     "sub":  "Send a short note. I reply directly."
                                                 }
@@ -522,7 +522,7 @@
                    "footer":  {
                                   "explore":  "Explore",
                                   "connect":  "Connect",
-                                  "note":  "Editorial prototype at /second — classic site remains at /."
+                                  "note":  "Editorial prototype at /second; classic site remains at /."
                               }
                }
 }

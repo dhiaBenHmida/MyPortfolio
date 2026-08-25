@@ -394,7 +394,7 @@
                                         "period":  "2013 – 2015"
                                     },
                                     {
-                                        "degree":  "Baccalauréat tunisien — spécialité Mathématiques",
+                                        "degree":  "Baccalauréat tunisien, spécialité Mathématiques",
                                         "period":  "2013"
                                     }
                                 ]
@@ -417,10 +417,10 @@
                                "work":  "Travailler ensemble"
                            },
                    "hero":  {
-                                "eyebrow":  "Portfolio — Édition 2026",
-                                "kickerLeft":  "Édition 01 — 2026",
+                                "eyebrow":  "Portfolio, Édition 2026",
+                                "kickerLeft":  "Édition 01, 2026",
                                 "kickerRight":  "Travail indépendant · Tunisie",
-                                "headlineLead":  "Les systèmes que les banques exigent —",
+                                "headlineLead":  "Les systèmes que les banques exigent",
                                 "headlineMark":  "tenus de bout en bout.",
                                 "ctaPrimary":  "Voir l'expérience",
                                 "ctaSecondary":  "Me contacter"
@@ -451,27 +451,27 @@
                                ],
                    "chapters":  {
                                     "experience":  {
-                                                       "index":  "01 — Expérience",
+                                                       "index":  "01: Expérience",
                                                        "title":  "Là où le travail s'est fait.",
                                                        "sub":  "Missions client et livraison produit entre finance, industrie et IA."
                                                    },
                                     "projects":  {
-                                                     "index":  "02 — Projets",
+                                                     "index":  "02: Projets",
                                                      "title":  "Réalisations sélectionnées.",
-                                                     "sub":  "Produits full-stack à périmètre réel — pas des démos."
+                                                     "sub":  "Produits full-stack à périmètre réel, pas des démos."
                                                  },
                                     "skills":  {
-                                                   "index":  "03 — Compétences",
+                                                   "index":  "03: Compétences",
                                                    "title":  "Une stack, plusieurs domaines.",
                                                    "sub":  "Groupées selon l'usage réel en mission."
                                                },
                                     "work":  {
-                                                 "index":  "04 — Travailler ensemble",
+                                                 "index":  "04: Travailler ensemble",
                                                  "title":  "Chaque mission a besoin d'un lead clair.",
-                                                 "sub":  "Je porte le cadrage, l'architecture et la livraison sur des chantiers concurrentiels — des systèmes bancaires réglementés aux produits IA."
+                                                 "sub":  "Je porte le cadrage, l'architecture et la livraison sur des chantiers concurrentiels, des systèmes bancaires réglementés aux produits IA."
                                              },
                                     "contact":  {
-                                                    "index":  "05 — Contact",
+                                                    "index":  "05: Contact",
                                                     "title":  "Pour une meilleure livraison, démarrez la conversation.",
                                                     "sub":  "Envoyez un court message. Je réponds directement."
                                                 }
@@ -527,7 +527,7 @@
                    "footer":  {
                                   "explore":  "Explorer",
                                   "connect":  "Connecter",
-                                  "note":  "Prototype éditorial sur /second — le site classique reste sur /."
+                                  "note":  "Prototype éditorial sur /second; le site classique reste sur /."
                               }
                }
 }
