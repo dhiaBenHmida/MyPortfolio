@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import LanguageSwitcher from './LanguageSwitcher.tsx';
@@ -77,6 +78,14 @@ export default function Header() {
               {t(`nav.${item.key}`)}
             </motion.button>
           ))}
+          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
+            <Link
+              to="/second"
+              className="text-amber-200 hover:text-amber-300 font-medium transition-colors"
+            >
+              {t('nav.second')}
+            </Link>
+          </motion.div>
           <LanguageSwitcher />
         </nav>
 
@@ -136,6 +145,13 @@ export default function Header() {
                 {t(`nav.${item.key}`)}
               </button>
             ))}
+            <Link
+              to="/second"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-amber-200 hover:text-amber-300 font-medium transition-colors text-left"
+            >
+              {t('nav.second')}
+            </Link>
           </nav>
         </motion.div>
       )}
