@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
-import { useState, type ReactNode } from 'react';
+import { useRef, useState, type ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import SecondBlobCursor from './SecondBlobCursor.tsx';
 import SecondPageLoader from './SecondPageLoader.tsx';
+import { useGyroButtonDepth } from './useGyroButtonDepth.ts';
 
 interface SecondShellProps {
   children: ReactNode;
@@ -11,6 +12,8 @@ interface SecondShellProps {
 export default function SecondShell({ children }: SecondShellProps) {
   const { t, i18n } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const rootRef = useRef<HTMLDivElement>(null);
+  useGyroButtonDepth(rootRef);
 
   const toggleLanguage = () => {
     const next = i18n.language?.startsWith('fr') ? 'en' : 'fr';
@@ -22,7 +25,7 @@ export default function SecondShell({ children }: SecondShellProps) {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <div className="second-root">
+    <div className="second-root" ref={rootRef}>
       <SecondPageLoader />
       <SecondBlobCursor />
       <a className="second-brand" href="#hero">

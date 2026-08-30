@@ -17,6 +17,12 @@
   --second-max: 72rem;
   --second-radius: 1.5rem;
   --blob-color: var(--second-blue);
+  --gyro-rx: 0deg;
+  --gyro-ry: 0deg;
+  --gyro-lx: 50%;
+  --gyro-ly: 18%;
+  --gyro-sx: 0px;
+  --gyro-sy: 10px;
 
   position: relative;
   background: var(--second-paper);
@@ -336,6 +342,7 @@
 
 /* Buttons */
 .second-btn {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -347,6 +354,8 @@
   border: 0;
   cursor: pointer;
   font-family: inherit;
+  overflow: hidden;
+  isolation: isolate;
   transition: color 160ms var(--second-ease), background-color 160ms var(--second-ease), transform 160ms var(--second-ease);
 }
 
@@ -394,6 +403,42 @@
 .second-btn:disabled {
   opacity: 0.5;
   pointer-events: none;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .second-cta-row,
+  .second-nav-actions,
+  .second-form {
+    perspective: 720px;
+  }
+
+  .second-btn {
+    transform-style: preserve-3d;
+    transform: rotateX(var(--gyro-rx)) rotateY(var(--gyro-ry)) translateZ(14px);
+    box-shadow:
+      var(--gyro-sx) var(--gyro-sy) 20px rgba(10, 10, 9, 0.32),
+      0 2px 0 rgba(10, 10, 9, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.34);
+    will-change: transform, box-shadow;
+  }
+
+  .second-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    background: radial-gradient(
+      130% 90% at var(--gyro-lx) var(--gyro-ly),
+      rgba(255, 255, 255, 0.48),
+      transparent 58%
+    );
+    mix-blend-mode: overlay;
+  }
+
+  .second-btn:active {
+    transform: rotateX(var(--gyro-rx)) rotateY(var(--gyro-ry)) translateZ(5px) scale(0.97);
+  }
 }
 
 /* Hero */
@@ -1121,5 +1166,11 @@
 
   .second-btn {
     transition: none;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .second-btn::before {
+    content: none;
   }
 }
