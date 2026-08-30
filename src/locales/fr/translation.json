@@ -12,13 +12,13 @@
                  "name":  "Mohamed Dhia BEN HMIDA",
                  "title":  "Consultant technique senior",
                  "specialties":  [
-                                     "Tech Lead | Reporting réglementaire \u0026 T24",
+                                     "Tech Lead | Livraison \u0026 architecture",
                                      "ETL Lakehouse \u0026 GED",
                                      "Spécialiste Java \u0026 Oracle PL/SQL",
                                      "Développeur full-stack"
                                  ],
                  "cta":  "Découvrir mon parcours",
-                 "summary":  "Consultant technique senior et tech lead, 8 ans à concevoir des systèmes critiques pour les banques. Chez ITSS Global depuis mars 2026, je pilote de bout en bout les livraisons de reporting réglementaire et de GED en Afrique du Nord et centrale : cadrage fonctionnel, architecture lakehouse Bronze / Silver / Gold, workflows documentaires BPM et rapprochement Nostro."
+                 "summary":  "Consultant technique senior et tech lead, 8 ans à concevoir des systèmes critiques. Chez ITSS Global depuis mars 2026, je pilote de bout en bout des livraisons en Afrique du Nord et centrale : cadrage fonctionnel, architecture lakehouse Bronze / Silver / Gold, workflows BPM et intégrations de données complexes."
              },
     "experience":  {
                        "title":  "Expérience Professionnelle",
@@ -355,7 +355,7 @@
                },
     "contact":  {
                     "title":  "Me contacter",
-                    "subtitle":  "Ouvert aux missions, aux produits, ou à un échange direct sur la livraison en banque et en logiciel.",
+                    "subtitle":  "Ouvert aux postes tech lead et ingénierie en CDI. Envoyez un court message si mon profil correspond.",
                     "form":  {
                                  "name":  "Nom",
                                  "email":  "Email",
@@ -412,14 +412,14 @@
                                "projects":  "Projets",
                                "skills":  "Compétences",
                                "contact":  "Contact",
-                               "work":  "Travailler ensemble"
+                               "work":  "Prochain poste"
                            },
                    "hero":  {
                                 "eyebrow":  "Portfolio, Édition 2026",
                                 "kickerLeft":  "Édition 01, 2026",
-                                "kickerRight":  "Travail indépendant · Tunisie",
-                                "headlineLead":  "Les systèmes que les banques exigent",
-                                "headlineMark":  "tenus de bout en bout.",
+                                "kickerRight":  "Basé en Tunisie",
+                                "headlineLead":  "Les systèmes dont les équipes ont besoin",
+                                "headlineMark":  "portés de bout en bout.",
                                 "ctaPrimary":  "Voir l'expérience",
                                 "ctaSecondary":  "Me contacter"
                             },
@@ -451,7 +451,7 @@
                                     "experience":  {
                                                        "index":  "01: Expérience",
                                                        "title":  "Là où le travail s'est fait.",
-                                                       "sub":  "Missions client et livraison produit en banque, industrie et IA."
+                                                       "sub":  "Livraisons client et produits entre entreprise, industrie et IA."
                                                    },
                                     "projects":  {
                                                      "index":  "02: Projets",
@@ -461,24 +461,24 @@
                                     "skills":  {
                                                    "index":  "03: Compétences",
                                                    "title":  "Une stack, plusieurs domaines.",
-                                                   "sub":  "Classées selon l'usage réel en mission."
+                                                   "sub":  "Classées selon l'usage réel en livraison."
                                                },
                                     "work":  {
-                                                 "index":  "04: Travailler ensemble",
-                                                 "title":  "Chaque mission a besoin d'un lead clair.",
-                                                 "sub":  "Je porte le cadrage, l'architecture et la livraison sur des chantiers parallèles, des systèmes bancaires réglementés aux produits IA."
+                                                 "index":  "04: Prochain poste",
+                                                 "title":  "Ce que j'apporte en tech lead.",
+                                                 "sub":  "Je porte le cadrage, l'architecture et la livraison sur des chantiers parallèles, des plateformes d'entreprise aux produits IA."
                                              },
                                     "contact":  {
                                                     "index":  "05: Contact",
-                                                    "title":  "Pour une livraison plus nette, parlons-en.",
-                                                    "sub":  "Envoyez un court message. Je réponds directement."
+                                                    "title":  "À la recherche de la bonne équipe.",
+                                                    "sub":  "Envoyez un court message sur le poste. Je réponds directement."
                                                 }
                                 },
                    "work":  {
                                 "perks":  [
                                               {
                                                   "title":  "Pilotage tech lead",
-                                                  "body":  "Cadrage, priorisation et passations sur plusieurs flux client."
+                                                  "body":  "Cadrage, priorisation et passations sur plusieurs flux de livraison."
                                               },
                                               {
                                                   "title":  "Full-stack + data",
@@ -490,7 +490,7 @@
                                               },
                                               {
                                                   "title":  "CVs prêts ATS",
-                                                  "body":  "Versions ciblées full-stack, data, AI/ML et banque."
+                                                  "body":  "Versions ciblées full-stack, data, AI/ML et domaines métier."
                                               }
                                           ],
                                 "cvTitle":  "Télécharger un CV",

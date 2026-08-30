@@ -12,13 +12,13 @@
                  "name":  "Mohamed Dhia BEN HMIDA",
                  "title":  "Senior Technical Consultant",
                  "specialties":  [
-                                     "Tech Lead | Regulatory Reporting \u0026 T24",
+                                     "Tech Lead | Delivery \u0026 Architecture",
                                      "ETL Lakehouse \u0026 Document Management",
                                      "Java \u0026 Oracle PL/SQL Specialist",
                                      "Full-Stack Developer"
                                  ],
                  "cta":  "Explore my work",
-                 "summary":  "Senior technical consultant and tech lead with 8 years building mission-critical systems for banks. At ITSS Global since March 2026, I lead regulatory reporting and electronic document management deliveries across North and Central Africa: requirements framing, Bronze / Silver / Gold lakehouse architecture, BPM document workflows, and Nostro reconciliation."
+                 "summary":  "Senior technical consultant and tech lead with 8 years building mission-critical systems. At ITSS Global since March 2026, I lead end-to-end deliveries across North and Central Africa: requirements framing, Bronze / Silver / Gold lakehouse architecture, BPM workflows, and complex data integrations."
              },
     "experience":  {
                        "title":  "Professional Experience",
@@ -350,7 +350,7 @@
                },
     "contact":  {
                     "title":  "Get in touch",
-                    "subtitle":  "Open to new missions, product work, or a direct conversation about delivery in banking and software.",
+                    "subtitle":  "Open to full-time tech lead and engineering roles. Send a short note if my profile fits.",
                     "form":  {
                                  "name":  "Name",
                                  "email":  "Email",
@@ -407,13 +407,13 @@
                                "projects":  "Projects",
                                "skills":  "Skills",
                                "contact":  "Contact",
-                               "work":  "Work with me"
+                               "work":  "Next role"
                            },
                    "hero":  {
                                 "eyebrow":  "Portfolio, Edition 2026",
                                 "kickerLeft":  "Edition 01, 2026",
-                                "kickerRight":  "Independent work · Tunisia",
-                                "headlineLead":  "The systems banks need",
+                                "kickerRight":  "Based in Tunisia",
+                                "headlineLead":  "The systems teams need",
                                 "headlineMark":  "owned end to end.",
                                 "ctaPrimary":  "See experience",
                                 "ctaSecondary":  "Get in touch"
@@ -446,7 +446,7 @@
                                     "experience":  {
                                                        "index":  "01: Experience",
                                                        "title":  "Where the work happened.",
-                                                       "sub":  "Client missions and product delivery across banking, industry, and AI."
+                                                       "sub":  "Client deliveries and product work across enterprise, industry, and AI."
                                                    },
                                     "projects":  {
                                                      "index":  "02: Projects",
@@ -459,21 +459,21 @@
                                                    "sub":  "Grouped by how they show up on real deliveries."
                                                },
                                     "work":  {
-                                                 "index":  "04: Work with me",
-                                                 "title":  "Every engagement needs a clear lead.",
-                                                 "sub":  "I own scoping, architecture, and delivery across concurrent workstreams, from regulated banking systems to AI products."
+                                                 "index":  "04: Next role",
+                                                 "title":  "What I bring as a tech lead.",
+                                                 "sub":  "I own scoping, architecture, and delivery across concurrent workstreams, from enterprise platforms to AI products."
                                              },
                                     "contact":  {
                                                     "index":  "05: Contact",
-                                                    "title":  "If you want sharper delivery, start here.",
-                                                    "sub":  "Send a short note. I reply directly."
+                                                    "title":  "Looking for the right team.",
+                                                    "sub":  "Send a short note about the role. I reply directly."
                                                 }
                                 },
                    "work":  {
                                 "perks":  [
                                               {
                                                   "title":  "Tech lead ownership",
-                                                  "body":  "Scoping, prioritization, and handoffs across concurrent client streams."
+                                                  "body":  "Scoping, prioritization, and handoffs across concurrent delivery streams."
                                               },
                                               {
                                                   "title":  "Full-stack + data",
@@ -485,7 +485,7 @@
                                               },
                                               {
                                                   "title":  "ATS-ready CVs",
-                                                  "body":  "Role-targeted resumes for full-stack, data, AI/ML, and banking applications."
+                                                  "body":  "Role-targeted resumes for full-stack, data, AI/ML, and domain-specific applications."
                                               }
                                           ],
                                 "cvTitle":  "Download a CV",
