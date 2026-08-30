@@ -26,10 +26,10 @@ export default function SecondHero() {
             </p>
             <p className="second-lede">{t('hero.summary')}</p>
             <div className="second-cta-row">
-              <a className="second-btn second-btn-primary second-btn-lg" href="#experience">
+              <a className="second-btn second-btn-primary second-btn-lg gyro-near" href="#experience">
                 {t('second.hero.ctaPrimary')} →
               </a>
-              <a className="second-btn second-btn-secondary second-btn-lg" href="#contact">
+              <a className="second-btn second-btn-secondary second-btn-lg gyro-near" href="#contact">
                 {t('second.hero.ctaSecondary')}
               </a>
             </div>
@@ -41,7 +41,7 @@ export default function SecondHero() {
           </div>
 
           <SecondReveal className="second-hero-portrait" delay={120}>
-            <figure className="second-hero-portrait-frame">
+            <figure className="second-hero-portrait-frame gyro-deep">
               <SecondProfilePhoto alt={t('hero.name')} loading="eager" />
               <figcaption className="second-mono">{t('hero.title')}</figcaption>
             </figure>

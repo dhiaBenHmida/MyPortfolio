@@ -33,7 +33,7 @@ function mapTilt(beta: number, gamma: number): { rx: number; ry: number } {
   return { rx, ry };
 }
 
-export function useGyroButtonDepth(rootRef: RefObject<HTMLElement | null>) {
+export function useGyroDepth(rootRef: RefObject<HTMLElement | null>) {
   useEffect(() => {
     const root = rootRef.current;
     if (!root) return;

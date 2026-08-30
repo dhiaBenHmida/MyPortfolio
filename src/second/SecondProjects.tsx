@@ -80,7 +80,7 @@ export default function SecondProjects() {
           {projects.map((project, index) => {
             const tone = TONES[index % TONES.length];
             return (
-              <article className={`second-project second-tone-${tone}`} key={project.id}>
+              <article className={`second-project second-tone-${tone} gyro-mid`} key={project.id}>
                 <div className="second-project-top">
                   <p className="second-mono" style={{ margin: 0 }}>{String(index + 1).padStart(2, '0')}</p>
                   <ProjectMark index={index} tone={tone} />

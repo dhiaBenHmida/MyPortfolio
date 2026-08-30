@@ -246,6 +246,11 @@
   color: var(--second-ink);
 }
 
+.second-nav-pills a.is-active {
+  background: var(--second-ink);
+  color: var(--second-paper);
+}
+
 .second-nav-actions {
   display: flex;
   align-items: center;
@@ -340,6 +345,11 @@
   background: color-mix(in srgb, var(--second-ink) 5%, transparent);
 }
 
+.second-mobile-nav a.is-active {
+  background: var(--second-ink);
+  color: var(--second-paper);
+}
+
 /* Buttons */
 .second-btn {
   position: relative;
@@ -406,23 +416,30 @@
 }
 
 @media (hover: none) and (pointer: coarse) {
+  .second-hero-grid,
+  .second-proof,
+  .second-projects,
+  .second-champions,
+  .second-contact-band,
   .second-cta-row,
   .second-nav-actions,
   .second-form {
     perspective: 720px;
   }
 
-  .second-btn {
+  .gyro-deep,
+  .gyro-mid,
+  .gyro-near {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
     transform-style: preserve-3d;
-    transform: rotateX(var(--gyro-rx)) rotateY(var(--gyro-ry)) translateZ(14px);
-    box-shadow:
-      var(--gyro-sx) var(--gyro-sy) 20px rgba(10, 10, 9, 0.32),
-      0 2px 0 rgba(10, 10, 9, 0.2),
-      inset 0 1px 0 rgba(255, 255, 255, 0.34);
     will-change: transform, box-shadow;
   }
 
-  .second-btn::before {
+  .gyro-deep::before,
+  .gyro-mid::before,
+  .gyro-near::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -436,8 +453,40 @@
     mix-blend-mode: overlay;
   }
 
-  .second-btn:active {
+  .gyro-deep {
+    transform: rotate(-1.6deg) rotateX(calc(var(--gyro-rx) * 0.7)) rotateY(calc(var(--gyro-ry) * 0.7)) translateZ(22px);
+    box-shadow:
+      calc(var(--gyro-sx) * 1.2) calc(var(--gyro-sy) * 1.15) 28px rgba(10, 10, 9, 0.34),
+      0 3px 0 rgba(10, 10, 9, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  }
+
+  .gyro-mid {
+    transform: rotateX(calc(var(--gyro-rx) * 0.55)) rotateY(calc(var(--gyro-ry) * 0.55)) translateZ(10px);
+    box-shadow:
+      calc(var(--gyro-sx) * 0.7) calc(var(--gyro-sy) * 0.75) 18px rgba(10, 10, 9, 0.22),
+      0 2px 0 rgba(10, 10, 9, 0.12),
+      inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  }
+
+  .gyro-near {
+    transform: rotateX(var(--gyro-rx)) rotateY(var(--gyro-ry)) translateZ(14px);
+    box-shadow:
+      var(--gyro-sx) var(--gyro-sy) 20px rgba(10, 10, 9, 0.32),
+      0 2px 0 rgba(10, 10, 9, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.34);
+  }
+
+  .gyro-near:active {
     transform: rotateX(var(--gyro-rx)) rotateY(var(--gyro-ry)) translateZ(5px) scale(0.97);
+  }
+
+  .second-pill {
+    transform: translate3d(calc(var(--gyro-sx) * 0.18), calc(var(--gyro-sy) * 0.08 - 8px), 0);
+  }
+
+  .second-sticker {
+    transform: rotate(var(--rot, 0deg)) translate3d(calc(var(--gyro-sx) * 0.18), calc(var(--gyro-sy) * 0.08 - 8px), 0);
   }
 }
 
@@ -1170,7 +1219,21 @@
     box-shadow: none;
   }
 
-  .second-btn::before {
+  .second-btn::before,
+  .gyro-deep::before,
+  .gyro-mid::before,
+  .gyro-near::before {
     content: none;
+  }
+
+  .gyro-deep,
+  .gyro-mid,
+  .gyro-near {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .second-hero-portrait-frame.gyro-deep {
+    transform: rotate(-1.6deg);
   }
 }
