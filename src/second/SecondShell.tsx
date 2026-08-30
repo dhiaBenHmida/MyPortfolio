@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import SecondBlobCursor from './SecondBlobCursor.tsx';
 import SecondPageLoader from './SecondPageLoader.tsx';
-import { useGyroDepth } from './useGyroDepth.ts';
 
 interface SecondShellProps {
   children: ReactNode;
@@ -15,8 +14,6 @@ export default function SecondShell({ children }: SecondShellProps) {
   const { t, i18n } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeChapter, setActiveChapter] = useState<(typeof CHAPTER_IDS)[number] | null>(null);
-  const rootRef = useRef<HTMLDivElement>(null);
-  useGyroDepth(rootRef);
 
   useEffect(() => {
     const sections = CHAPTER_IDS
@@ -68,7 +65,7 @@ export default function SecondShell({ children }: SecondShellProps) {
     activeChapter === id ? 'is-active' : undefined;
 
   return (
-    <div className="second-root" ref={rootRef}>
+    <div className="second-root">
       <SecondPageLoader />
       <SecondBlobCursor />
       <a className="second-brand" href="#hero">
@@ -116,7 +113,7 @@ export default function SecondShell({ children }: SecondShellProps) {
             <button type="button" className="second-lang" onClick={toggleLanguage}>
               {langLabel}
             </button>
-            <a className="second-btn second-btn-accent second-btn-md gyro-near" href="#contact">
+            <a className="second-btn second-btn-accent second-btn-md" href="#contact">
               {t('second.nav.contact')}
             </a>
             <button

@@ -17,12 +17,6 @@
   --second-max: 72rem;
   --second-radius: 1.5rem;
   --blob-color: var(--second-blue);
-  --gyro-rx: 0deg;
-  --gyro-ry: 0deg;
-  --gyro-lx: 50%;
-  --gyro-ly: 18%;
-  --gyro-sx: 0px;
-  --gyro-sy: 10px;
 
   position: relative;
   background: var(--second-paper);
@@ -352,7 +346,6 @@
 
 /* Buttons */
 .second-btn {
-  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -364,8 +357,6 @@
   border: 0;
   cursor: pointer;
   font-family: inherit;
-  overflow: hidden;
-  isolation: isolate;
   transition: color 160ms var(--second-ease), background-color 160ms var(--second-ease), transform 160ms var(--second-ease);
 }
 
@@ -413,81 +404,6 @@
 .second-btn:disabled {
   opacity: 0.5;
   pointer-events: none;
-}
-
-@media (hover: none) and (pointer: coarse) {
-  .second-hero-grid,
-  .second-proof,
-  .second-projects,
-  .second-champions,
-  .second-contact-band,
-  .second-cta-row,
-  .second-nav-actions,
-  .second-form {
-    perspective: 720px;
-  }
-
-  .gyro-deep,
-  .gyro-mid,
-  .gyro-near {
-    position: relative;
-    overflow: hidden;
-    isolation: isolate;
-    transform-style: preserve-3d;
-    will-change: transform, box-shadow;
-  }
-
-  .gyro-deep::before,
-  .gyro-mid::before,
-  .gyro-near::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    pointer-events: none;
-    background: radial-gradient(
-      130% 90% at var(--gyro-lx) var(--gyro-ly),
-      rgba(255, 255, 255, 0.48),
-      transparent 58%
-    );
-    mix-blend-mode: overlay;
-  }
-
-  .gyro-deep {
-    transform: rotate(-1.6deg) rotateX(calc(var(--gyro-rx) * 0.7)) rotateY(calc(var(--gyro-ry) * 0.7)) translateZ(22px);
-    box-shadow:
-      calc(var(--gyro-sx) * 1.2) calc(var(--gyro-sy) * 1.15) 28px rgba(10, 10, 9, 0.34),
-      0 3px 0 rgba(10, 10, 9, 0.18),
-      inset 0 1px 0 rgba(255, 255, 255, 0.28);
-  }
-
-  .gyro-mid {
-    transform: rotateX(calc(var(--gyro-rx) * 0.55)) rotateY(calc(var(--gyro-ry) * 0.55)) translateZ(10px);
-    box-shadow:
-      calc(var(--gyro-sx) * 0.7) calc(var(--gyro-sy) * 0.75) 18px rgba(10, 10, 9, 0.22),
-      0 2px 0 rgba(10, 10, 9, 0.12),
-      inset 0 1px 0 rgba(255, 255, 255, 0.22);
-  }
-
-  .gyro-near {
-    transform: rotateX(var(--gyro-rx)) rotateY(var(--gyro-ry)) translateZ(14px);
-    box-shadow:
-      var(--gyro-sx) var(--gyro-sy) 20px rgba(10, 10, 9, 0.32),
-      0 2px 0 rgba(10, 10, 9, 0.2),
-      inset 0 1px 0 rgba(255, 255, 255, 0.34);
-  }
-
-  .gyro-near:active {
-    transform: rotateX(var(--gyro-rx)) rotateY(var(--gyro-ry)) translateZ(5px) scale(0.97);
-  }
-
-  .second-pill {
-    transform: translate3d(calc(var(--gyro-sx) * 0.18), calc(var(--gyro-sy) * 0.08 - 8px), 0);
-  }
-
-  .second-sticker {
-    transform: rotate(var(--rot, 0deg)) translate3d(calc(var(--gyro-sx) * 0.18), calc(var(--gyro-sy) * 0.08 - 8px), 0);
-  }
 }
 
 /* Hero */
@@ -1215,25 +1131,5 @@
 
   .second-btn {
     transition: none;
-    transform: none;
-    box-shadow: none;
-  }
-
-  .second-btn::before,
-  .gyro-deep::before,
-  .gyro-mid::before,
-  .gyro-near::before {
-    content: none;
-  }
-
-  .gyro-deep,
-  .gyro-mid,
-  .gyro-near {
-    transform: none;
-    box-shadow: none;
-  }
-
-  .second-hero-portrait-frame.gyro-deep {
-    transform: rotate(-1.6deg);
   }
 }

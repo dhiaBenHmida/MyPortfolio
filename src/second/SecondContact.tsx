@@ -80,7 +80,7 @@ export default function SecondContact() {
         </SecondReveal>
 
         <div className="second-contact-band">
-          <div className="second-contact-card gyro-mid">
+          <div className="second-contact-card">
             <div className="second-contact-grid">
               <div className="second-contact-info">
                 <p>
@@ -150,7 +150,7 @@ export default function SecondContact() {
                 </label>
 
                 <button
-                  className="second-btn second-btn-accent second-btn-lg gyro-near"
+                  className="second-btn second-btn-accent second-btn-lg"
                   type="submit"
                   disabled={status === 'sending'}
                 >

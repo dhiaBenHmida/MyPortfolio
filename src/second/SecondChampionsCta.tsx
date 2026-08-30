@@ -36,7 +36,7 @@ export default function SecondChampionsCta() {
         </SecondReveal>
 
         <div className="second-champions">
-          <div className="second-role-card gyro-mid">
+          <div className="second-role-card">
             <p className="second-mono" style={{ margin: 0 }}>{t('second.nav.work')}</p>
             <h3>{t('second.chapters.work.title')}</h3>
             <ul className="second-perk-list">
@@ -62,13 +62,13 @@ export default function SecondChampionsCta() {
               </div>
             </div>
             <div className="second-cta-row">
-              <a className="second-btn second-btn-accent second-btn-lg gyro-near" href="#contact">
+              <a className="second-btn second-btn-accent second-btn-lg" href="#contact">
                 {t('second.work.cta')} →
               </a>
             </div>
           </div>
 
-          <div className="second-cv-panel gyro-mid">
+          <div className="second-cv-panel">
             <h3>{t('second.work.cvTitle')}</h3>
             <div className="second-cv-links">
               {cvs.map((cv) => (

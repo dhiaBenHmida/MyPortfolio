@@ -13,12 +13,12 @@
                  "title":  "Senior Technical Consultant",
                  "specialties":  [
                                      "Tech Lead | Regulatory Reporting \u0026 T24",
-                                     "ETL Lakehouse \u0026 GED",
+                                     "ETL Lakehouse \u0026 Document Management",
                                      "Java \u0026 Oracle PL/SQL Specialist",
                                      "Full-Stack Developer"
                                  ],
-                 "cta":  "Scroll to explore",
-                 "summary":  "Senior technical consultant and tech lead with 8 years of experience designing mission-critical systems for banks. Tech lead at ITSS Global since March 2026, accountable end to end for regulatory reporting and enterprise document management deliveries in North and Central Africa: functional framing, Bronze / Silver / Gold lakehouse architecture, BPM document workflows, and Nostro reconciliation."
+                 "cta":  "Explore my work",
+                 "summary":  "Senior technical consultant and tech lead with 8 years building mission-critical systems for banks. At ITSS Global since March 2026, I lead regulatory reporting and electronic document management deliveries across North and Central Africa: requirements framing, Bronze / Silver / Gold lakehouse architecture, BPM document workflows, and Nostro reconciliation."
              },
     "experience":  {
                        "title":  "Professional Experience",
@@ -31,11 +31,11 @@
                                         "period":  "March 2026 – Present",
                                         "location":  "Client missions (Algeria, Congo-Brazzaville)",
                                         "highlights":  [
-                                                           "Unblocked central-bank regulatory production and GED for Banque Nationale de l'Habitat (BNH, Algeria) across 6 domains by leading cadrage, T24-to-lakehouse (Bronze / Silver / Gold) architecture, report UI restitution, dictionaries, and BPM scan / approve flows",
-                                                           "Stood up trade-dossier approval circuits for a GED pilot by running BPM workshops so branches can route dossiers without ad-hoc email",
-                                                           "Closed Nostro (correspondent-account) reconciliation for BNH treasury by delivering a React / Spring Boot / PostgreSQL matching platform against T24; project completed",
-                                                           "Launched customer document printing for a CEMAC commercial bank (Congo-Brazzaville) by delivering 11 JRXML templates and Document Output configuration",
-                                                           "Reached regulatory reporting go-live on Temenos Transact R25 for the same CEMAC client by configuring T24 enquiries (FX, cash position, central-bank operations)"
+                                                           "Unblocked central-bank regulatory production and electronic document management for Banque Nationale de l'Habitat (BNH, Algeria) across 6 domains by leading requirements framing, T24-to-lakehouse architecture (Bronze / Silver / Gold), report UI delivery, data dictionaries, and BPM scan / approve workflows",
+                                                           "Stood up trade-dossier approval circuits for a document-management pilot by running BPM workshops so branches can route dossiers without ad-hoc email",
+                                                           "Closed Nostro (correspondent-account) reconciliation for BNH treasury by delivering a React / Spring Boot / PostgreSQL matching platform integrated with T24; project completed",
+                                                           "Launched customer document printing for a CEMAC commercial bank (Congo-Brazzaville) by delivering 11 JRXML templates and Temenos Document Output configuration",
+                                                           "Brought regulatory reporting live on Temenos Transact R25 for the same CEMAC client by configuring T24 Enquiries for FX, cash position, and central-bank operations"
                                                        ]
                                     },
                                     {
@@ -45,13 +45,10 @@
                                         "period":  "July 2023 – March 2026",
                                         "location":  "Tunisia",
                                         "highlights":  [
-                                                           "Designed and developed robust software solutions for financial institutions, aligning with industry standards and specifications",
-                                                           "Accounting centralizer for BIAT: integration and synchronization with the bank\u0027s information systems (core banking and other flows) via the accounting centralizer; orchestration of accounting and transactional flows; integrity and traceability controls; performance optimization (latency, volume)",
-                                                           "Regulatory application for banks in the UEMOA region: design and integration of a prudential reporting solution compliant with BCEAO/UEMOA requirements (collection, normalization, controls, generation, and transmission of reports)",
-                                                           "Collaborated with cross-functional teams to analyze requirements, architect scalable solutions, and solve complex technical problems throughout the development lifecycle",
-                                                           "Implemented and optimized high-performance Oracle databases, focusing on data integrity and security to support critical transactions",
-                                                           "Developed custom features, including reports, automated workflows, and user access controls tailored to each client\u0027s unique needs",
-                                                           "Wrote comprehensive technical documentation, including architecture diagrams, API references, and user manuals"
+                                                           "Delivered BIAT accounting centralization by integrating core-banking and satellite flows through an Oracle PL/SQL and Java centralizer, with integrity and traceability controls plus latency and volume tuning",
+                                                           "Built a dual-country regulatory filing subsystem for the same banking group in Morocco and Algeria by generating XBRL and XML declarations in Oracle PL/SQL and Java services, with parameterized APIs for direct submission to Bank Al-Maghrib and Banque d\u0027Algérie gateways",
+                                                           "Delivered prudential reporting for UEMOA banks by implementing collection, normalization, controls, statement generation, and transmission against BCEAO requirements",
+                                                           "Hardened Oracle for high-volume banking transactions by tuning packages, jobs, materialized views, partitioning, indexing, and execution plans, and documenting APIs and architecture"
                                                        ]
                                     },
                                     {
@@ -61,10 +58,10 @@
                                         "period":  "October 2018 – June 2023",
                                         "location":  "France",
                                         "highlights":  [
-                                                           "Led the analysis and detailed specification of client requirements to ensure delivery of high-impact solutions",
-                                                           "Architected and developed advanced internal software for objective calibration of torque converters for automatic transmission, leveraging vehicle dynamics with Excel VBA as the foundation",
-                                                           "Designed and implemented a comprehensive benchmarking tool automatically generating detailed reports according to complex client-defined criteria",
-                                                           "Engineered a robust Excel/Access platform for data navigation, visualization, and updating, with external XML import/export and seamless synchronization via optimized SQL queries; later migrated to PostgreSQL while ensuring backward compatibility"
+                                                           "Owned requirements analysis and detailed specifications so engineering tools matched Stellantis transmission program needs",
+                                                           "Architected and built Excel VBA software for objective torque-converter calibration on automatic transmissions, grounded in vehicle-dynamics models",
+                                                           "Designed an automated benchmarking tool that produced detailed reports from complex, client-defined criteria",
+                                                           "Built an Excel / Access platform for data navigation, visualization, and updates with XML import / export and optimized SQL sync, then migrated persistence to PostgreSQL without breaking existing tools"
                                                        ]
                                     }
                                 ]
@@ -239,7 +236,7 @@
                                ]
                  },
     "skills":  {
-                   "title":  "Skills \u0026 Expertise",
+                   "title":  "Skills",
                    "categories":  {
                                       "programming":  {
                                                           "title":  "Programming",
@@ -326,9 +323,10 @@
                                                        "title":  "Banking \u0026 Regulatory",
                                                        "items":  [
                                                                      "Temenos T24 / Transact",
-                                                                     "T24 enquiries",
+                                                                     "T24 Enquiries",
                                                                      "Regulatory reporting",
                                                                      "Prudential reporting",
+                                                                     "XBRL / XML regulatory filing",
                                                                      "ETL and data lakehouse (Bronze / Silver / Gold)",
                                                                      "Data dictionaries and lineage",
                                                                      "Electronic document management (ECM / GED)",
@@ -351,8 +349,8 @@
                                   }
                },
     "contact":  {
-                    "title":  "Get In Touch",
-                    "subtitle":  "I\u0027m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+                    "title":  "Get in touch",
+                    "subtitle":  "Open to new missions, product work, or a direct conversation about delivery in banking and software.",
                     "form":  {
                                  "name":  "Name",
                                  "email":  "Email",
@@ -425,9 +423,9 @@
                                   "status":  "Loading edition 01"
                               },
                    "proof":  {
-                                 "years":  "Years building software",
+                                 "years":  "Years in software",
                                  "roles":  "Professional roles",
-                                 "projects":  "Featured products shipped",
+                                 "projects":  "Products shipped",
                                  "langs":  "Working languages"
                              },
                    "marquee":  [
@@ -448,26 +446,26 @@
                                     "experience":  {
                                                        "index":  "01: Experience",
                                                        "title":  "Where the work happened.",
-                                                       "sub":  "Client missions and product delivery across finance, industry, and AI."
+                                                       "sub":  "Client missions and product delivery across banking, industry, and AI."
                                                    },
                                     "projects":  {
                                                      "index":  "02: Projects",
                                                      "title":  "Selected builds.",
-                                                     "sub":  "Full-stack products with measurable scope, not demos."
+                                                     "sub":  "Full-stack products with real scope, not demos."
                                                  },
                                     "skills":  {
                                                    "index":  "03: Skills",
                                                    "title":  "One stack, many domains.",
-                                                   "sub":  "Grouped by how I actually use them on deliveries."
+                                                   "sub":  "Grouped by how they show up on real deliveries."
                                                },
                                     "work":  {
                                                  "index":  "04: Work with me",
                                                  "title":  "Every engagement needs a clear lead.",
-                                                 "sub":  "I own framing, architecture, and delivery across concurrent workstreams, from regulated banking systems to AI products."
+                                                 "sub":  "I own scoping, architecture, and delivery across concurrent workstreams, from regulated banking systems to AI products."
                                              },
                                     "contact":  {
                                                     "index":  "05: Contact",
-                                                    "title":  "If you want better delivery, start a conversation.",
+                                                    "title":  "If you want sharper delivery, start here.",
                                                     "sub":  "Send a short note. I reply directly."
                                                 }
                                 },
@@ -475,7 +473,7 @@
                                 "perks":  [
                                               {
                                                   "title":  "Tech lead ownership",
-                                                  "body":  "Cadrage, prioritization, and handoffs across concurrent client streams."
+                                                  "body":  "Scoping, prioritization, and handoffs across concurrent client streams."
                                               },
                                               {
                                                   "title":  "Full-stack + data",
@@ -483,7 +481,7 @@
                                               },
                                               {
                                                   "title":  "AI when it ships",
-                                                  "body":  "Vision and LLM products packaged with auth, dashboards, and ops."
+                                                  "body":  "Vision and LLM products packaged with auth, dashboards, and operations."
                                               },
                                               {
                                                   "title":  "ATS-ready CVs",

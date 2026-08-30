@@ -15,10 +15,10 @@
                                      "Tech Lead | Reporting réglementaire \u0026 T24",
                                      "ETL Lakehouse \u0026 GED",
                                      "Spécialiste Java \u0026 Oracle PL/SQL",
-                                     "Développeur Full-Stack"
+                                     "Développeur full-stack"
                                  ],
-                 "cta":  "Défiler pour explorer",
-                 "summary":  "Consultant technique senior et tech lead avec 8 ans d\u0027expérience dans la conception de systèmes critiques pour les banques. Tech lead chez ITSS Global depuis mars 2026, responsable de bout en bout des livraisons de reporting réglementaire et de GED en Afrique du Nord et centrale : cadrage fonctionnel, architecture lakehouse Bronze / Silver / Gold, workflows documentaires BPM, et rapprochement Nostro."
+                 "cta":  "Découvrir mon parcours",
+                 "summary":  "Consultant technique senior et tech lead, 8 ans à concevoir des systèmes critiques pour les banques. Chez ITSS Global depuis mars 2026, je pilote de bout en bout les livraisons de reporting réglementaire et de GED en Afrique du Nord et centrale : cadrage fonctionnel, architecture lakehouse Bronze / Silver / Gold, workflows documentaires BPM et rapprochement Nostro."
              },
     "experience":  {
                        "title":  "Expérience Professionnelle",
@@ -31,11 +31,11 @@
                                         "period":  "Mars 2026 – Présent",
                                         "location":  "Missions client (Algérie, Congo-Brazzaville)",
                                         "highlights":  [
-                                                           "Débloqué la production réglementaire et la GED pour la Banque Nationale de l'Habitat (BNH, Algérie) sur 6 domaines en dirigeant le cadrage, l'architecture T24 vers lakehouse (Bronze / Silver / Gold), la restitution UI, les dictionnaires, et les flux BPM",
-                                                           "Mis en place des circuits d'approbation de dossiers commerciaux pour un pilote GED via ateliers BPM afin que les agences routent sans email ad hoc",
-                                                           "Clôturé le rapprochement Nostro pour la trésorerie BNH en livrant une plateforme React / Spring Boot / PostgreSQL face à T24 ; projet achevé",
-                                                           "Lancé l'impression de documents clientèle pour une banque commerciale CEMAC (Congo-Brazzaville) en livrant 11 templates JRXML et le paramétrage Document Output",
-                                                           "Atteint le go-live reporting réglementaire sur Temenos Transact R25 pour le même client CEMAC en configurant des enquiries T24 (change, caisse, opérations banque centrale)"
+                                                           "Débloqué la production réglementaire et la GED pour la Banque Nationale de l'Habitat (BNH, Algérie) sur 6 domaines en pilotant le cadrage, l'architecture T24 vers lakehouse (Bronze / Silver / Gold), la restitution des écrans de reporting, les dictionnaires de données et les circuits BPM de scan / validation",
+                                                           "Mis en place les circuits d'approbation des dossiers de commerce pour un pilote GED en animant des ateliers BPM, afin que les agences routent sans email informel",
+                                                           "Clôturé le rapprochement Nostro pour la trésorerie BNH en livrant une plateforme React / Spring Boot / PostgreSQL intégrée à T24 ; projet achevé",
+                                                           "Lancé l'édition des documents clientèle pour une banque commerciale CEMAC (Congo-Brazzaville) en livrant 11 modèles JRXML et le paramétrage Temenos Document Output",
+                                                           "Mis en production le reporting réglementaire sur Temenos Transact R25 pour le même client CEMAC en configurant les Enquiries T24 (change, position de caisse, opérations banque centrale)"
                                                        ]
                                     },
                                     {
@@ -45,26 +45,23 @@
                                         "period":  "Juillet 2023 – Mars 2026",
                                         "location":  "Tunisie",
                                         "highlights":  [
-                                                           "Conception et développement de solutions logicielles robustes pour des institutions financières, en alignement avec les normes et spécifications de l\u0027industrie",
-                                                           "Centralisateur comptable pour la BIAT: intégration et synchronisation avec les systèmes d\u0027information de la banque (core banking et autres flux) via le centralisateur comptable; orchestration des flux comptables et transactionnels; contrôles d\u0027intégrité et de traçabilité; optimisation des performances (latence, volumétrie)",
-                                                           "Application réglementaire pour les banques de la région UEMOA: conception et intégration d\u0027une solution de reporting prudentiel conforme aux exigences BCEAO/UEMOA (collecte, normalisation, contrôles, génération et transmission des états)",
-                                                           "Collaboration avec des équipes inter-fonctionnelles pour analyser les exigences, architecturer des solutions évolutives et résoudre des problèmes techniques complexes tout au long du cycle de vie du développement",
-                                                           "Implémentation et optimisation de bases de données Oracle haute performance, en se concentrant sur l\u0027intégrité des données et la sécurité pour supporter les transactions critiques",
-                                                           "Développement de fonctionnalités sur mesure, y compris des rapports, des flux de travail automatisés et des contrôles d\u0027accès utilisateur adaptés aux besoins uniques de chaque client",
-                                                           "Rédaction de documentation technique complète, y compris des diagrammes d\u0027architecture, des références d\u0027API et des manuels d\u0027utilisation"
+                                                           "Livré le centralisateur comptable BIAT en intégrant les flux core banking et satellites via Oracle PL/SQL et Java, avec contrôles d'intégrité et de traçabilité, et réglage latence / volumétrie",
+                                                           "Conçu et livré un sous-système de déclaration réglementaire pour le même groupe bancaire au Maroc et en Algérie : génération XBRL et XML en Oracle PL/SQL et services Java, avec des API paramétrables de dépôt direct vers Bank Al-Maghrib et la Banque d'Algérie",
+                                                           "Livré le reporting prudentiel UEMOA en mettant en œuvre collecte, normalisation, contrôles, génération et transmission des états selon les exigences BCEAO",
+                                                           "Renforcé Oracle pour les transactions bancaires à fort volume en optimisant packages, jobs, vues matérialisées, partitionnement, indexation et plans d'exécution, et en documentant APIs et architecture"
                                                        ]
                                     },
                                     {
                                         "id":  "segula",
-                                        "position":  "Ingénieur Développeur",
+                                        "position":  "Ingénieur développeur",
                                         "company":  "SEGULA Technologies pour Groupe Stellantis",
                                         "period":  "Octobre 2018 – Juin 2023",
                                         "location":  "France",
                                         "highlights":  [
-                                                           "Pilotage de l\u0027analyse et de la spécification détaillée des exigences clients afin d\u0027assurer la livraison de solutions à fort impact",
-                                                           "Architecture et développement de logiciels internes avancés pour la calibration objective de convertisseurs de couple à transmission automatique, en exploitant la dynamique véhicule avec Excel VBA comme socle",
-                                                           "Conception et implémentation d\u0027un outil de benchmarking complet générant automatiquement des rapports détaillés selon des critères complexes définis par le client",
-                                                           "Ingénierie d\u0027une plateforme robuste Excel/Access pour la navigation, la visualisation et la mise à jour des données, avec import/export XML externe et synchronisation fluide via requêtes SQL optimisées; migration ultérieure vers PostgreSQL tout en assurant la rétrocompatibilité"
+                                                           "Pris en charge l'analyse du besoin et la spécification détaillée pour aligner les outils d'ingénierie sur les programmes transmission Stellantis",
+                                                           "Architecturé et développé un logiciel Excel VBA de calibration objective des convertisseurs de couple pour boîtes automatiques, appuyé sur la dynamique véhicule",
+                                                           "Conçu un outil de benchmarking automatisé produisant des rapports détaillés à partir de critères complexes définis par le client",
+                                                           "Développé une plateforme Excel / Access de navigation, visualisation et mise à jour des données avec import / export XML et synchronisation SQL, puis migré la persistance vers PostgreSQL sans casser les outils existants"
                                                        ]
                                     }
                                 ]
@@ -244,7 +241,7 @@
                                ]
                  },
     "skills":  {
-                   "title":  "Compétences \u0026 Expertise",
+                   "title":  "Compétences",
                    "categories":  {
                                       "programming":  {
                                                           "title":  "Programmation",
@@ -328,15 +325,16 @@
                                                                       ]
                                                         },
                                       "banking":  {
-                                                       "title":  "Banque \u0026 Réglementaire",
+                                                       "title":  "Banque \u0026 réglementaire",
                                                        "items":  [
                                                                      "Temenos T24 / Transact",
                                                                      "Enquiries T24",
                                                                      "Reporting réglementaire",
                                                                      "Reporting prudentiel",
+                                                                     "Déclarations réglementaires XBRL / XML",
                                                                      "ETL et data lakehouse (Bronze / Silver / Gold)",
                                                                      "Dictionnaires de données et traçabilité",
-                                                                     "Gestion électronique des documents (ECM / GED)",
+                                                                     "Gestion électronique des documents (GED)",
                                                                      "Conception de workflows BPM",
                                                                      "Production documentaire Jasper / JRXML",
                                                                      "Rapprochement Nostro"
@@ -356,8 +354,8 @@
                                   }
                },
     "contact":  {
-                    "title":  "Contactez-moi",
-                    "subtitle":  "Je suis toujours ouvert à discuter de nouveaux projets, d\u0027idées créatives ou d\u0027opportunités de faire partie de votre vision.",
+                    "title":  "Me contacter",
+                    "subtitle":  "Ouvert aux missions, aux produits, ou à un échange direct sur la livraison en banque et en logiciel.",
                     "form":  {
                                  "name":  "Nom",
                                  "email":  "Email",
@@ -381,7 +379,7 @@
                    "and":  "et"
                },
     "education":  {
-                      "title":  "Éducation",
+                      "title":  "Formation",
                       "items":  [
                                     {
                                         "degree":  "Diplôme national d\u0027ingénieur",
@@ -430,9 +428,9 @@
                                   "status":  "Chargement édition 01"
                               },
                    "proof":  {
-                                 "years":  "Années à construire du logiciel",
+                                 "years":  "Années d'ingénierie",
                                  "roles":  "Postes professionnels",
-                                 "projects":  "Produits mis en avant",
+                                 "projects":  "Produits livrés",
                                  "langs":  "Langues de travail"
                              },
                    "marquee":  [
@@ -453,45 +451,45 @@
                                     "experience":  {
                                                        "index":  "01: Expérience",
                                                        "title":  "Là où le travail s'est fait.",
-                                                       "sub":  "Missions client et livraison produit entre finance, industrie et IA."
+                                                       "sub":  "Missions client et livraison produit en banque, industrie et IA."
                                                    },
                                     "projects":  {
                                                      "index":  "02: Projets",
                                                      "title":  "Réalisations sélectionnées.",
-                                                     "sub":  "Produits full-stack à périmètre réel, pas des démos."
+                                                     "sub":  "Produits full-stack à vrai périmètre, pas des démos."
                                                  },
                                     "skills":  {
                                                    "index":  "03: Compétences",
                                                    "title":  "Une stack, plusieurs domaines.",
-                                                   "sub":  "Groupées selon l'usage réel en mission."
+                                                   "sub":  "Classées selon l'usage réel en mission."
                                                },
                                     "work":  {
                                                  "index":  "04: Travailler ensemble",
                                                  "title":  "Chaque mission a besoin d'un lead clair.",
-                                                 "sub":  "Je porte le cadrage, l'architecture et la livraison sur des chantiers concurrentiels, des systèmes bancaires réglementés aux produits IA."
+                                                 "sub":  "Je porte le cadrage, l'architecture et la livraison sur des chantiers parallèles, des systèmes bancaires réglementés aux produits IA."
                                              },
                                     "contact":  {
                                                     "index":  "05: Contact",
-                                                    "title":  "Pour une meilleure livraison, démarrez la conversation.",
+                                                    "title":  "Pour une livraison plus nette, parlons-en.",
                                                     "sub":  "Envoyez un court message. Je réponds directement."
                                                 }
                                 },
                    "work":  {
                                 "perks":  [
                                               {
-                                                  "title":  "Ownership tech lead",
-                                                  "body":  "Cadrage, priorisation et handoffs sur plusieurs flux client."
+                                                  "title":  "Pilotage tech lead",
+                                                  "body":  "Cadrage, priorisation et passations sur plusieurs flux client."
                                               },
                                               {
                                                   "title":  "Full-stack + data",
-                                                  "body":  "Java / Spring, React, APIs Python, et pipelines Bronze / Silver / Gold."
+                                                  "body":  "Java / Spring, React, APIs Python et pipelines Bronze / Silver / Gold."
                                               },
                                               {
                                                   "title":  "IA quand ça livre",
-                                                  "body":  "Produits vision et LLM avec auth, tableaux de bord et exploitation."
+                                                  "body":  "Produits vision et LLM avec authentification, tableaux de bord et exploitation."
                                               },
                                               {
-                                                  "title":  "CVs ATS prêts",
+                                                  "title":  "CVs prêts ATS",
                                                   "body":  "Versions ciblées full-stack, data, AI/ML et banque."
                                               }
                                           ],
@@ -526,8 +524,8 @@
                             },
                    "footer":  {
                                   "explore":  "Explorer",
-                                  "connect":  "Connecter",
-                                  "note":  "Prototype éditorial sur /second; le site classique reste sur /."
+                                  "connect":  "Liens",
+                                  "note":  "Prototype éditorial sur /second ; le site classique reste sur /."
                               }
                }
 }

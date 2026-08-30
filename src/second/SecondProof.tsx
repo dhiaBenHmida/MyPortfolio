@@ -77,7 +77,7 @@ export default function SecondProof() {
     <section aria-label="Proof">
       <div className="second-container second-proof" ref={bandRef}>
         {items.map((item, index) => (
-          <div className={`second-proof-item second-tone-${TONES[index % TONES.length]} gyro-mid`} key={item.label}>
+          <div className={`second-proof-item second-tone-${TONES[index % TONES.length]}`} key={item.label}>
             <strong>{item.value}</strong>
             <span>{item.label}</span>
           </div>
