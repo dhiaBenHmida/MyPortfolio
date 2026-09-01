@@ -18,7 +18,7 @@
                                      "Développeur full-stack"
                                  ],
                  "cta":  "Découvrir mon parcours",
-                 "summary":  "Consultant technique senior et tech lead, 8 ans à concevoir des systèmes critiques. Chez ITSS Global depuis mars 2026, je pilote de bout en bout des livraisons en Afrique du Nord et centrale : cadrage fonctionnel, architecture lakehouse Bronze / Silver / Gold, workflows BPM et intégrations de données complexes."
+                 "summary":  "Consultant technique senior et tech lead, 8 ans en développement full-stack, développement backend, architecture logicielle et ingénierie des données. Chez ITSS Global depuis mars 2026, je pilote 4 livraisons concurrentes en Afrique du Nord et centrale : cadrage fonctionnel, architecture lakehouse Bronze / Silver / Gold, workflows BPM et intégrations de données complexes."
              },
     "experience":  {
                        "title":  "Expérience Professionnelle",
@@ -31,11 +31,11 @@
                                         "period":  "Mars 2026 – Présent",
                                         "location":  "Missions client (Algérie, Congo-Brazzaville)",
                                         "highlights":  [
-                                                           "Débloqué la production réglementaire et la GED pour la Banque Nationale de l'Habitat (BNH, Algérie) sur 6 domaines en pilotant le cadrage, l'architecture T24 vers lakehouse (Bronze / Silver / Gold), la restitution des écrans de reporting, les dictionnaires de données et les circuits BPM de scan / validation",
+                                                           "Débloqué la production réglementaire et la gestion électronique des documents pour la Banque Nationale de l'Habitat (BNH, Algérie) sur 6 domaines en Java 21, Spring Boot et Oracle PL/SQL, en pilotant le cadrage, l'architecture système T24 vers lakehouse (Bronze / Silver / Gold), la restitution des écrans de reporting, les dictionnaires de données et les circuits de gestion des processus métier (BPM) de scan / validation",
                                                            "Mis en place les circuits d'approbation des dossiers de commerce pour un pilote GED en animant des ateliers BPM, afin que les agences routent sans email informel",
-                                                           "Clôturé le rapprochement Nostro pour la trésorerie BNH en livrant une plateforme React / Spring Boot / PostgreSQL intégrée à T24 ; projet achevé",
+                                                           "Clôturé le rapprochement Nostro pour la trésorerie BNH en livrant une plateforme React / Spring Boot / PostgreSQL avec intégration d'entreprise vers T24 ; projet achevé",
                                                            "Lancé l'édition des documents clientèle pour une banque commerciale CEMAC (Congo-Brazzaville) en livrant 11 modèles JRXML et le paramétrage Temenos Document Output",
-                                                           "Mis en production le reporting réglementaire sur Temenos Transact R25 pour le même client CEMAC en configurant les Enquiries T24 (change, position de caisse, opérations banque centrale)"
+                                                           "Mis en production le reporting de conformité réglementaire sur Temenos Transact R25 pour le même client CEMAC en configurant les Enquiries T24 (change, position de caisse, opérations banque centrale)"
                                                        ]
                                     },
                                     {
@@ -45,8 +45,8 @@
                                         "period":  "Juillet 2023 – Mars 2026",
                                         "location":  "Tunisie",
                                         "highlights":  [
-                                                           "Livré le centralisateur comptable BIAT en intégrant les flux core banking et satellites via Oracle PL/SQL et Java, avec contrôles d'intégrité et de traçabilité, et réglage latence / volumétrie",
-                                                           "Conçu et livré un sous-système de déclaration réglementaire pour le même groupe bancaire au Maroc et en Algérie : génération XBRL et XML en Oracle PL/SQL et services Java, avec des API paramétrables de dépôt direct vers Bank Al-Maghrib et la Banque d'Algérie",
+                                                           "Livré le centralisateur comptable BIAT en Java et Oracle PL/SQL par intégration d'entreprise des flux core banking et satellites, avec contrôles d'intégrité et de traçabilité, et réglage latence / volumétrie",
+                                                           "Conçu et livré un sous-système de déclaration réglementaire pour le même groupe bancaire au Maroc et en Algérie en Java et Oracle PL/SQL, taxonomies XBRL et XML pour Bank Al-Maghrib et la Banque d'Algérie (reporting prudentiel de type COREP et reporting financier de type FINREP), avec des API paramétrables d'intégration d'entreprise vers ces passerelles",
                                                            "Livré le reporting prudentiel UEMOA en mettant en œuvre collecte, normalisation, contrôles, génération et transmission des états selon les exigences BCEAO",
                                                            "Renforcé Oracle pour les transactions bancaires à fort volume en optimisant packages, jobs, vues matérialisées, partitionnement, indexation et plans d'exécution, et en documentant APIs et architecture"
                                                        ]
@@ -59,7 +59,7 @@
                                         "location":  "France",
                                         "highlights":  [
                                                            "Pris en charge l'analyse du besoin et la spécification détaillée pour aligner les outils d'ingénierie sur les programmes transmission Stellantis",
-                                                           "Architecturé et développé un logiciel Excel VBA de calibration objective des convertisseurs de couple pour boîtes automatiques, appuyé sur la dynamique véhicule",
+                                                           "Architecturé et développé un logiciel Excel VBA de calibration objective des convertisseurs de couple pour boîtes automatiques sur un engagement Stellantis de 5 ans, appuyé sur la dynamique véhicule",
                                                            "Conçu un outil de benchmarking automatisé produisant des rapports détaillés à partir de critères complexes définis par le client",
                                                            "Développé une plateforme Excel / Access de navigation, visualisation et mise à jour des données avec import / export XML et synchronisation SQL, puis migré la persistance vers PostgreSQL sans casser les outils existants"
                                                        ]
@@ -70,6 +70,38 @@
                      "title":  "Projets Phares",
                      "viewGithub":  "Voir sur GitHub",
                      "items":  [
+                                   {
+                                       "id":  "healthplatform",
+                                       "name":  "Plateforme santé digitale indépendante",
+                                       "description":  "Plateforme santé multi-tenant en production que je livre comme produit startup indépendant (pas un employeur), 2024 à aujourd'hui: questionnaires cliniques, pipeline dermatologique sur GPU, marketplace Stripe, Jitsi et LiveKit auto-hébergés, Docker Compose sur OVHcloud, et GitLab CI/CD.",
+                                       "features":  [
+                                                        "Plateforme santé multi-tenant: SPA React TypeScript, FastAPI, PostgreSQL, arbres de questionnaires cliniques, marketplace partenaires avec Stripe, tableaux de bord professionnels",
+                                                        "Pipeline dermatologique: analyseurs modulaires, fine-tuning LoRA d'un modèle vision-langage, inférence GPU (PyTorch, Hugging Face Transformers, NF4 4 bits). ISIC 2019: F1 0,87 en standalone, 0,94 dans le pipeline; Top-3 97% sur cette campagne",
+                                                        "Production OVHcloud: Docker Compose multi-VPS, PostgreSQL managé, Nginx, Let's Encrypt",
+                                                        "GitLab CI/CD avec hooks de déploiement SSH pour les branches frontend, backend et téléconsultation",
+                                                        "Jitsi Meet auto-hébergé et sidecar WebRTC LiveKit (jetons JWT de salle, FastAPI, isolation de chemins Nginx)",
+                                                        "Atlas POI santé géospatial: FastAPI, pandas, GeoJSON, scores de besoin en choropleth"
+                                                    ],
+                                       "technologies":  [
+                                                            "React",
+                                                            "TypeScript",
+                                                            "Python",
+                                                            "FastAPI",
+                                                            "PostgreSQL",
+                                                            "Docker Compose",
+                                                            "GitLab CI/CD",
+                                                            "Nginx",
+                                                            "OVHcloud",
+                                                            "PyTorch",
+                                                            "Hugging Face Transformers",
+                                                            "LoRA",
+                                                            "Stripe",
+                                                            "Jitsi",
+                                                            "LiveKit",
+                                                            "SQLAlchemy"
+                                                        ],
+                                       "github":  null
+                                   },
                                    {
                                        "id":  "dermadetectai",
                                        "name":  "DermaDetectAI",
@@ -250,6 +282,7 @@
                                                                         "JavaScript",
                                                                         "TypeScript",
                                                                         "PL/SQL",
+                                                                        "Java 21",
                                                                         "Java",
                                                                         "PHP",
                                                                         "VBA"
@@ -262,6 +295,8 @@
                                                                 "FastAPI",
                                                                 "Express (Node.js)",
                                                                 "Spring Boot",
+                                                                "Microservices",
+                                                                "Stripe",
                                                                 "Ant Design",
                                                                 "HTML",
                                                                 "Bootstrap",
@@ -283,6 +318,7 @@
                                                                       "MySQL",
                                                                       "Oracle SQL",
                                                                       "JPA/Hibernate",
+                                                                      "SQLAlchemy",
                                                                       "Mongoose",
                                                                       "GridFS",
                                                                       "Redis",
@@ -301,6 +337,8 @@
                                                                "EfficientNet",
                                                                "ConvNext",
                                                                "TIMM",
+                                                               "LoRA",
+                                                               "Inférence GPU",
                                                                "LLMs",
                                                                "MediaPipe",
                                                                "OpenCV",
@@ -325,17 +363,28 @@
                                                                       ]
                                                         },
                                       "banking":  {
-                                                       "title":  "Banque \u0026 réglementaire",
+                                                       "title":  "Livraison et architecture",
                                                        "items":  [
-                                                                     "Temenos T24 / Transact",
+                                                                     "Temenos T24",
+                                                                     "Core Banking Systems",
+                                                                     "Temenos Transact",
+                                                                     "Temenos Transact R25",
                                                                      "Enquiries T24",
+                                                                     "Architecture d'entreprise",
+                                                                     "Architecture logicielle",
+                                                                     "Architecture système",
+                                                                     "Ingénierie des données",
+                                                                     "Développement full-stack",
+                                                                     "Développement backend",
+                                                                     "Intégration d'entreprise",
                                                                      "Reporting réglementaire",
+                                                                     "Conformité réglementaire",
                                                                      "Reporting prudentiel",
-                                                                     "Déclarations réglementaires XBRL / XML",
+                                                                     "Taxonomies XBRL / XML (type COREP / FINREP)",
                                                                      "ETL et data lakehouse (Bronze / Silver / Gold)",
                                                                      "Dictionnaires de données et traçabilité",
-                                                                     "Gestion électronique des documents (GED)",
-                                                                     "Conception de workflows BPM",
+                                                                     "Gestion électronique des documents (ECM / GED)",
+                                                                     "Gestion des processus métier (BPM)",
                                                                      "Production documentaire Jasper / JRXML",
                                                                      "Rapprochement Nostro"
                                                                  ]
@@ -345,6 +394,10 @@
                                                     "items":  [
                                                                   "Git",
                                                                   "Docker",
+                                                                  "Docker Compose",
+                                                                  "GitLab CI/CD",
+                                                                  "Nginx",
+                                                                  "OVHcloud",
                                                                   "Vite",
                                                                   "WebSocket",
                                                                   "WebRTC",
@@ -355,7 +408,7 @@
                },
     "contact":  {
                     "title":  "Me contacter",
-                    "subtitle":  "Ouvert aux postes tech lead et ingénierie en CDI. Envoyez un court message si mon profil correspond.",
+                    "subtitle":  "Ouvert aux postes tech lead et ingénierie en CDI, avec mobilité vers un hub tech ou un groupe international. Envoyez un court message si mon profil correspond.",
                     "form":  {
                                  "name":  "Nom",
                                  "email":  "Email",
@@ -369,7 +422,7 @@
                                  "email":  "m.dhia.b.h@gmail.com",
                                  "phone":  "+(216) 27 225 432",
                                  "phone2":  "+(216) 95 410 551",
-                                 "location":  "Tunis, Tunisie",
+                                 "location":  "Tunis, Tunisie · Ouvert à la mobilité",
                                  "linkedin":  "Profil LinkedIn"
                              }
                 },
@@ -379,12 +432,12 @@
                    "and":  "et"
                },
     "education":  {
-                      "title":  "Formation",
+                      "title":  "Formation / Education",
                       "items":  [
                                     {
-                                        "degree":  "Diplôme national d\u0027ingénieur",
+                                        "degree":  "Diplôme national d'ingénieur",
                                         "institution":  "École Nationale Supérieure d\u0027Ingénieurs de Tunis (ENSIT)",
-                                        "period":  "Septembre 2015 – Juin 2018"
+                                        "period":  "Diplômé en juin 2018 (septembre 2015 à juin 2018)"
                                     },
                                     {
                                         "degree":  "Classes préparatoires aux études d\u0027ingénieurs (filière MP)",
@@ -417,7 +470,7 @@
                    "hero":  {
                                 "eyebrow":  "Portfolio, Édition 2026",
                                 "kickerLeft":  "Édition 01, 2026",
-                                "kickerRight":  "Basé en Tunisie",
+                                "kickerRight":  "Tunisie · Ouvert à la mobilité",
                                 "headlineLead":  "Les systèmes dont les équipes ont besoin",
                                 "headlineMark":  "portés de bout en bout.",
                                 "ctaPrimary":  "Voir l'expérience",
@@ -442,6 +495,11 @@
                                    "Oracle",
                                    "PostgreSQL",
                                    "ETL Lakehouse",
+                                   "Microservices",
+                                   "Architecture système",
+                                   "Architecture logicielle",
+                                   "Full-stack",
+                                   "Ingénierie des données",
                                    "Temenos T24",
                                    "Computer Vision",
                                    "PyTorch",
@@ -466,12 +524,12 @@
                                     "work":  {
                                                  "index":  "04: Prochain poste",
                                                  "title":  "Ce que j'apporte en tech lead.",
-                                                 "sub":  "Je porte le cadrage, l'architecture et la livraison sur des chantiers parallèles, des plateformes d'entreprise aux produits IA."
+                                                 "sub":  "Je porte le cadrage, l'architecture système et la livraison sur des chantiers parallèles, des plateformes d'entreprise aux produits IA."
                                              },
                                     "contact":  {
                                                     "index":  "05: Contact",
                                                     "title":  "À la recherche de la bonne équipe.",
-                                                    "sub":  "Envoyez un court message sur le poste. Je réponds directement."
+                                                    "sub":  "CDI de préférence. Ouvert à la mobilité. Envoyez un court message sur le poste."
                                                 }
                                 },
                    "work":  {
